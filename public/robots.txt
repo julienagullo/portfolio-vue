@@ -1,0 +1,7 @@
+User-agent: Googlebot-Image
+Disallow: /img/
+
+User-agent: *
+Disallow:
+
+Sitemap: https://jagullo.fr/sitemap.xml

@@ -1,0 +1,42 @@
+/* Color */
+
+.color-gray {
+  color: $color-gray!important;
+}
+
+.color-blue {
+  color: $color-blue!important;
+}
+
+.color-red {
+  color: $color-red!important;
+}
+
+.color-orange {
+  color: $color-orange!important;
+}
+
+/* Border */
+
+.border-gray {
+  border-color: $color-gray!important;
+}
+
+.border-blue {
+  border-color: $color-blue!important;
+}
+
+.border-red {
+  border-color: $color-red!important;
+}
+
+.border-orange {
+  border-color: $color-orange!important;
+}
+
+/* Hr */
+
+.hr-gray {
+  border-top: 1px solid $color-gray!important;
+  border-bottom: 1px solid #fff;
+}
