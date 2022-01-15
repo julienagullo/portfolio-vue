@@ -2,7 +2,7 @@ Options -Indexes
 Options +FollowSymlinks
 
 <IfModule mod_headers.c>
-  Header always set ACCESS-CONTROL-ALLOW-ORIGIN "*"
+  Header always set ACCESS-CONTROL-ALLOW-ORIGIN "https://jagullo.fr/"
   Header always set ACCESS-CONTROL-ALLOW-HEADERS "Origin, X-Requested-With, Content-Type, Accept"
   Header always set X-FRAME-OPTIONS "SAMEORIGIN"
   Header always set X-XSS-Protection "1; mode=block"

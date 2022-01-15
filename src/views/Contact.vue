@@ -140,7 +140,7 @@ export default {
         }
       }
       if (this.valid) {
-        axios.post('http://localhost/portfolio/mail.php', {
+        axios.post('https://jagullo.fr/mail.php', {
             name: this.name,
             society: this.society,
             email: this.email,

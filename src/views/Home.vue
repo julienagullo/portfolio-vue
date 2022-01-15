@@ -379,7 +379,7 @@ export default {
   section.quote {
     padding: 30px;
     color: #fff;
-    background-color: $color-dark;
+    background-color: $color-blue-hover;
     h2 {
       font-size: 1.5rem;
       margin-bottom: 20px;
