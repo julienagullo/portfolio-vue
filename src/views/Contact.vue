@@ -275,4 +275,15 @@ export default {
     }
   }
 }
+/* Responsive */
+@media (max-width: 410px) {
+  .content {
+    section.form form :deep(.captcha) {
+      transform: scale(0.75) !important;
+      -webkit-transform: scale(0.75) !important;
+      transform-origin: 0 0 !important;
+      -webkit-transform-origin: 0 0 !important;
+    }
+  }
+}
 </style>

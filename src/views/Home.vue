@@ -135,7 +135,7 @@
           <Techno name="Github" logo="logo-github.png" desc="Plateforme en ligne d'hébergement et de gestion de développement logiciel" />
           <Techno name="Git" logo="logo-git.png" desc="Logiciel de gestion des versions pour le développement en équipe" />
           <Techno name="Svn" logo="logo-svn.png" desc="Logiciel de gestion des versions pour le développement en équipe" />
-          <Techno name="Vue.js" logo="logo-vuejs.png" desc="Framework Javascript le développement web et les applications mobiles" />
+          <Techno name="Vue.js" logo="logo-vuejs.png" desc="Framework Javascript pour le développement web et les applications mobiles" />
           <Techno name="jQuery" logo="logo-jquery.png" desc="Framework Javascript pour améliorer les interfaces des pages web" />
           <Techno name="Less" logo="logo-less.png" desc="Préprocesseur CSS pour le développement des feuilles de style" />
           <Techno name="Sass / Scss" logo="logo-sass.png" desc="Préprocesseur CSS pour le développement des feuilles de style" />

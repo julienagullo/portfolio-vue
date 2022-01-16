@@ -8,7 +8,7 @@
       class="cv"
       :class="category.color"
     >
-      <h2>{{ category.title }}</h2>
+      <h2 :class="`color-` + category.color">{{ category.title }}</h2>
       <ul>
         <li v-for="item in category.datas" :key="item">
           <div class="date">{{ item.date }}</div>
@@ -52,23 +52,24 @@ export default {
     margin-bottom: 50px;
     h2 {
       text-transform: uppercase;
-      margin: 20px 0 20px 116px;
+      margin: 20px 0 20px 132px;
     }
     ul {
       position: relative;
       list-style: none;
       li {
         display: flex;
+        justify-content: flex-start;
         flex-wrap: nowrap;
         position: relative;
         .date {
-          width: 80px;
+          width: 100px;
           margin-right: 20px;
           text-align: center;
         }
         .details {
           display: flex;
-          width: calc(100% - 80px);
+          width: calc(100% - 100px);
           box-sizing: border-box;
           flex-direction: column;
           padding-left: 20px;
@@ -104,16 +105,14 @@ export default {
           position: absolute;
           content: '\2B22';
           color: #f7f7f7;
-          font-size: 28px;
-          left: 85px;
-          top: -14px;
+          font-size: 30px;
+          top: -15px;
         }
         &:after {
           position: absolute;
           content: '\2B22';
-          font-size: 17px;
-          left: 91px;
-          top: -4px;
+          font-size: 15px;
+          top: -1px;
         }
       }
     }
@@ -159,48 +158,65 @@ export default {
       padding-left: 0;
       li {
         .date {
-          width: 75px;
+          width: 50px;
         }
         .detail {
-          width: calc(100% - 75px);
+          width: calc(100% - 50px);
         }
         &:before {
-          left: 80px !important;
+          left: 57px !important;
         }
         &:after {
-          left: 85px !important;
+          left: 64px !important;
         }
       }
     }
   }
 }
-@media (max-width: 768px) {
+@media (min-width: 577px) and (max-width: 652px) {
   .content section.cv ul li {
     &:before {
-      left: 84px;
+      left: 101px;
     }
     &:after {
-      left: 89px;
+      left: 108px;
     }
   }
 }
-@media (max-width: 992px) {
+@media (min-width: 653px) and (max-width: 767px) {
   .content section.cv ul li {
+    .details {
+      max-width: 300px;
+    }
     &:before {
-      left: 85px;
+      left: 106px;
     }
     &:after {
-      left: 90px;
+      left: 113px;
     }
   }
 }
-@media (min-width: 1399px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .content section.cv ul li {
+    .details {
+      max-width: 300px;
+    }
     &:before {
-      left: 86px;
+      left: 107px;
     }
     &:after {
-      left: 92px;
+      left: 114px;
+    }
+  }
+}
+@media (min-width: 992px) {
+  .content section.cv ul li {
+    &:before {
+      left: 105px;
+    }
+    &:after {
+      left: 112px;
+      top: -2px;
     }
   }
 }

@@ -1,5 +1,10 @@
+User-agent: Slurp
+User-agent: Bingbot
+User-agent: Applebot
+User-agent: Googlebot
 User-agent: Googlebot-Image
 Disallow: /img/
+Disallow: /static/
 
 User-agent: *
 Disallow:

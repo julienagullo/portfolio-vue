@@ -4,22 +4,22 @@ export default {
     color: 'red',
     datas: [
       {
-        date: '2001-2002',
+        date: '2001 - 2002',
         title: 'Baccalauréat SSI - Toulouse',
         detail: "Bac Scientifique Sciences de l'Ingénieur",
       },
       {
-        date: '2002-2004',
+        date: '2002 - 2004',
         title: 'DUT SERECOM - Tarbes',
         detail: 'Services et Réseaux de Communication',
       },
       {
-        date: '2004-2006',
+        date: '2004 - 2006',
         title: 'IUP INGEMEDIA - Toulon',
         detail: 'Sciences de l’Information et de la Communication',
       },
       {
-        date: '2006-2007',
+        date: '2006 - 2007',
         title: 'Master 2 IET - Toulon',
         detail: 'Intelligence Économique et Territoriale',
       },
@@ -30,17 +30,17 @@ export default {
     color: 'orange',
     datas: [
       {
-        date: '2007-2010',
+        date: '2007 - 2010',
         title: 'Virtual-IT - Toulouse <span class="attr">[CDI]</span>',
         detail: 'Chef de projet multimédia',
       },
       {
-        date: '2011-2021',
+        date: '2011 - 2021',
         title: 'Micro-entreprise - Toulouse',
         detail: 'Développement web et programmation informatique',
       },
       {
-        date: '2019-2021',
+        date: '2019 - 2021',
         title: 'DBA - Toulouse <span class="attr">[CDI]</span>',
         detail: 'Développement web',
       },
@@ -83,7 +83,7 @@ export default {
         tasks: [],
       },
       {
-        date: '2011-2012',
+        date: '2011 - 2012',
         title: 'Tigergrip <span class="attr">[Micro]</span>',
         detail:
           'Mise à jour du site Internet <a href="https://www.tigergrip.com" class="title" target="_blank">tigergrip.com</a>',
@@ -91,7 +91,7 @@ export default {
         tasks: [],
       },
       {
-        date: '2011-2013',
+        date: '2011 - 2013',
         title: 'DCNS <span class="attr">[Virtual-it]</span>',
         detail:
           "Réalisation d'applications commerciales pour bornes tactiles<br>Collaboration à la conception d'animations pour support commercial",
@@ -107,7 +107,7 @@ export default {
         tasks: [],
       },
       {
-        date: '2013-2018',
+        date: '2013 - 2018',
         title: 'Thales Avionics <span class="attr">[Virtual-it]</span>',
         detail:
           'Collaboration à la conception de l\'application de salon <span class="title">TopWings Electronic Flight Bag Solution</span>',
@@ -138,7 +138,7 @@ export default {
         tasks: [],
       },
       {
-        date: '2014-2015',
+        date: '2014 - 2015',
         title: 'CNES <span class="attr">[Virtual-it]</span>',
         detail:
           'Collaboration à la conception de l\'application de salon <span class="title">Charte Internationale Espace et Catastrophes Majeures (Charte-MT)</span>',
@@ -178,7 +178,7 @@ export default {
         tasks: [],
       },
       {
-        date: '2016-2017',
+        date: '2016 - 2017',
         title: 'Spherea Test & Services <span class="attr">[Virtual-it]</span>',
         detail:
           'Conception de l\'application de salon <span class="title">U-TEST ®</span>',
@@ -202,7 +202,7 @@ export default {
         tasks: [],
       },
       {
-        date: '2017-2018',
+        date: '2017 - 2018',
         title: 'Enedis <span class="attr">[Virtual-it]</span>',
         detail:
           'Conception du site servant à la gestion des utilisateurs et d\'une API web pour l\'application <span class="title">eBalisage</span>',
@@ -259,7 +259,7 @@ export default {
         tasks: [],
       },
       {
-        date: '2020-2021',
+        date: '2020 - 2021',
         title: 'Armoire Plus <span class="attr">[DBA]</span>',
         detail:
           'Amélioration de la charte graphique de la marque<br>Aide au développement du site Internet <a href="https://www.armoireplus.fr" class="title" target="_blank">armoireplus.fr</a>',
@@ -267,10 +267,10 @@ export default {
         tasks: [],
       },
       {
-        date: '2020-2021',
+        date: '2020 - 2021',
         title: 'Brigade Hocaré <span class="attr">[DBA]</span>',
         detail:
-          'Aide au suivi projet du développement du site Internet<br>Réalisation de la charte graphique de <a href="https://brigade-hocare.com" class="title" target="_blank">brigade-hocare.com</a>',
+          'Suivi projet de la phase développement du site Internet<br>Réalisation de la charte graphique de <a href="https://brigade-hocare.com" class="title" target="_blank">brigade-hocare.com</a>',
         images: [],
         tasks: [],
       },

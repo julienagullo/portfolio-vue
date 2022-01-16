@@ -83,7 +83,7 @@ export default {
       const sidebar = document.getElementById('sidebar')
       const wrapper = document.getElementsByClassName('wrapper')[0]
       if (this.open) {
-        this.image = this.image >= 4 ? 0 : this.image + 1
+        this.image = this.image >= 5 ? 1 : this.image + 1
         wrapper.classList.add('sidebar')
         sidebar.classList.add('open')
       } else {

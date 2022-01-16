@@ -9,11 +9,11 @@
       v-for="(slide, index) in slides"
       :key="index"
       :class="`slide--${index}`">
+      <img :src="slide.url" :alt="slide.alt" />
       <h3>
         {{ slide.title }}<br>
         <span class="copyright">{{ slide.copyright }}</span>
       </h3>
-      <img :src="slide.url" :alt="slide.alt" />
     </div>
   </agile>
   <agile
@@ -126,8 +126,20 @@ export default {
     position: relative;
     margin-bottom: 30px;
     .slide {
-      padding: 20px 0;
-      background-color: $color-dark;
+      flex-direction: column;
+      h3 {
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        padding: 10px;
+        margin: 0;
+        bottom: 0;
+        color: #fff;
+        background-color: $color-dark;
+        .copyright {
+          font-size: 1.2rem;
+        }
+      }
     }
     &::after {
       position: absolute;
@@ -150,22 +162,9 @@ export default {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 500px;
     box-sizing: border-box;
-    height: 450px;
     color: #fff;
-    h3 {
-      position: absolute;
-      text-align: center;
-      width: 100%;
-      padding: 10px;
-      margin: 0;
-      bottom: 0;
-      color: #fff;
-      background-color: rgba(58, 58, 58, 0.9);
-      .copyright {
-        font-size: 1.2rem;
-      }
-    }
     &.slide--thumbniail {
       cursor: pointer;
       height: 100px;
@@ -179,7 +178,7 @@ export default {
       width: 100%;
       height: 100%;
       object-fit: contain;
-      object-position: center;
+      object-position: top center;
     }
   }
 }
@@ -188,6 +187,9 @@ export default {
   .agile.project {
     .slide {
       height: 300px;
+      h3 {
+        font-size: 1.4rem;
+      }
       img {
         object-fit: cover;
         object-position: top center;

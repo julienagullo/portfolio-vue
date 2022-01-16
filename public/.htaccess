@@ -8,9 +8,54 @@ Options +FollowSymlinks
   Header always set X-XSS-Protection "1; mode=block"
   Header always set X-Content-Type-Options "nosniff"
   Header unset Cache-Control
+  <filesmatch "\\.(ico|jpe?g|png|gif|swf|gz|ttf|css|woff|woff2)$">
+      Header set Cache-Control "max-age=31536000, public"
+    </filesmatch>
+    <filesmatch "\\.(js)$">
+      Header set Cache-Control "max-age=2592000, private"
+    </filesmatch>
   <filesmatch "\.(pl|php|cgi|spl|scgi|fcgi)$">
     Header unset Cache-Control
   </filesmatch>
+</IfModule>
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault "access plus 7200 seconds"
+  ExpiresByType image/jpeg "access plus 31536000 seconds"
+  ExpiresByType image/png "access plus 31536000 seconds"
+  ExpiresByType image/gif "access plus 31536000 seconds"
+  ExpiresByType image/ico "access plus 31536000 seconds"
+  ExpiresByType image/icon "access plus 31536000 seconds"
+  ExpiresByType image/x-icon "access plus 31536000 seconds"
+  ExpiresByType image/svg+xml "access plus 31536000 seconds"
+  ExpiresByType image/vnd.microsoft.icon "access plus 31536000 seconds"
+  ExpiresByType text/css "access plus 31536000 seconds"
+  ExpiresByType text/javascript "access plus 31536000 seconds"
+  ExpiresByType text/html "access plus 7200 seconds"
+  ExpiresByType text/xml "access plus 31536000 seconds"
+  ExpiresByType application/xhtml+xml "access plus 7200 seconds"
+  ExpiresByType application/javascript "access plus 31536000 seconds"
+  ExpiresByType application/x-javascript "access plus 31536000 seconds"
+  ExpiresByType application/x-shockwave-flash "access plus 31536000 seconds"
+  ExpiresByType video/x-flv "access plus 31536000 seconds"
+</IfModule>
+
+<ifModule mod_gzip.c>
+  mod_gzip_on Yes
+  mod_gzip_dechunk Yes
+  mod_gzip_item_include file \.(html?|txt|css|js|php|pl)$
+  mod_gzip_item_include handler ^cgi-script$
+  mod_gzip_item_include mime ^text/.*
+  mod_gzip_item_include mime ^application/x-javascript.*
+  mod_gzip_item_exclude mime ^image/.*
+  mod_gzip_item_exclude rspheader ^Content-Encoding:.*gzip.*
+</ifModule>
+
+<IfModule mod_deflate.c>
+  SetOutputFilter DEFLATE
+  AddOutputFilterByType DEFLATE text/html text/xml application/xhtml+xml text/plain text/css text/javascript application/javascript
+  SetEnvIfNoCase Request_URI \.(zip|rar|pdf|mp4|wmv)$ no-gzip Vary Accept-Encoding
 </IfModule>
 
 <files .htaccess>
