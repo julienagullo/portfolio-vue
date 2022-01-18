@@ -62,8 +62,8 @@ export default {
   name: 'Sidebar',
   data() {
     return {
-      image: 0,
       open: false,
+      counter: -1,
       scrollBar: Scrollbar,
     }
   },
@@ -83,7 +83,7 @@ export default {
       const sidebar = document.getElementById('sidebar')
       const wrapper = document.getElementsByClassName('wrapper')[0]
       if (this.open) {
-        this.image = this.image >= 5 ? 1 : this.image + 1
+        this.counter = this.counter >= 5 ? 1 : this.counter + 1
         wrapper.classList.add('sidebar')
         sidebar.classList.add('open')
       } else {
@@ -103,7 +103,9 @@ export default {
       this.scrollBar.update()
     },
     getPhoto() {
-      return require('../assets/img/photo-profil-' + this.image + '.jpg')
+      return this.counter > 0
+        ? require('../assets/img/photo-profil-' + this.counter + '.jpg')
+        : require('../assets/img/photo-profil-1.jpg')
     },
   },
 }

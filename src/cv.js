@@ -178,6 +178,14 @@ export default {
         tasks: [],
       },
       {
+        date: '2016',
+        title: 'Toul Immo Rénovation <span class="attr">[Micro]</span>',
+        detail:
+            'Conception du site Internet <a href="https://www.toulimmo-renovation.fr" class="title" target="_blank">toulimmo-renovation.fr</a>',
+        images: [],
+        tasks: [],
+      },
+      {
         date: '2016 - 2017',
         title: 'Spherea Test & Services <span class="attr">[Virtual-it]</span>',
         detail:
@@ -251,7 +259,7 @@ export default {
         tasks: [],
       },
       {
-        date: '2020',
+        date: '2020 - 2021',
         title: 'DBA Armoires <span class="attr">[DBA]</span>',
         detail:
           'Amélioration de la charte graphique de la marque<br>Conception du site Internet <a href="https://www.dba-armoires.fr" class="title" target="_blank">dba-armoires.fr</a>',
@@ -259,7 +267,7 @@ export default {
         tasks: [],
       },
       {
-        date: '2020 - 2021',
+        date: '2020 - 2022',
         title: 'Armoire Plus <span class="attr">[DBA]</span>',
         detail:
           'Amélioration de la charte graphique de la marque<br>Aide au développement du site Internet <a href="https://www.armoireplus.fr" class="title" target="_blank">armoireplus.fr</a>',
@@ -267,7 +275,7 @@ export default {
         tasks: [],
       },
       {
-        date: '2020 - 2021',
+        date: '2021 - 2022',
         title: 'Brigade Hocaré <span class="attr">[DBA]</span>',
         detail:
           'Suivi projet de la phase développement du site Internet<br>Réalisation de la charte graphique de <a href="https://brigade-hocare.com" class="title" target="_blank">brigade-hocare.com</a>',

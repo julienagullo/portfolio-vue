@@ -68,7 +68,7 @@ export default {
         {
           url: require('../assets/img/interface-armoireplus.jpg'),
           alt: 'Développement du site e-commerce armoireplus.fr avec Woocommerce',
-          title: 'Aide à l\'amélioration graphique et au développement du site Woocommerce armoireplus.fr',
+          title: 'Amélioration graphique et au développement du site Woocommerce armoireplus.fr',
           copyright: 'Copyright : DBA',
         },
         {
@@ -76,6 +76,12 @@ export default {
           alt: 'Développement du site vitrine mecajetdeau.com en PHP',
           title: 'Conception du site Internet vitrine mecajetdeau.com',
           copyright: 'Copyright : Méca Jet d\'Eau | Design : Gabriel Uribe',
+        },
+        {
+          url: require('../assets/img/interface-toulimmo.jpg'),
+          alt: 'Développement du site vitrine toulimmo-renovation.fr en PHP',
+          title: 'Charte graphique et développement du site vitrine toulimmo-renovation.fr',
+          copyright: 'Copyright : ToulImmo Réalisation',
         },
         {
           url: require('../assets/img/interface-textbeans.jpg'),
@@ -105,6 +111,7 @@ export default {
       thumbnails: [
         require('../assets/img/interface-armoireplus_minia.jpg'),
         require('../assets/img/interface-mecajetdeau_minia.jpg'),
+        require('../assets/img/interface-toulimmo_minia.jpg'),
         require('../assets/img/interface-textbeans_minia.jpg'),
         require('../assets/img/interface-topwings_minia.jpg'),
         require('../assets/img/interface-airbusds_minia.jpg'),
