@@ -129,23 +129,23 @@
           <Techno name="PhpStorm" logo="logo-phpstorm.png" desc="Logiciel ou IDE de programmation dédié aux langages du web" />
           <Techno name="Javascript" logo="logo-javascript.png" desc="Langage de programmation pour le développement web" />
           <Techno name="PHP" logo="logo-php.png" desc="Langage de programmation pour le développement web" />
-          <Techno name="Postman" logo="logo-postman.png" desc="Logiciel pour tester et faciliter la conception de services web RESTful" />
-          <Techno name="MySql" logo="logo-mysql.png" desc="Serveur de bases de données pour le web et les applications" />
-          <Techno name="MariaDB" logo="logo-mariadb.png" desc="Serveur de bases de données pour le web et les applications" />
-          <Techno name="Github" logo="logo-github.png" desc="Plateforme en ligne d'hébergement et de gestion de développement logiciel" />
-          <Techno name="Git" logo="logo-git.png" desc="Logiciel de gestion des versions pour le développement en équipe" />
-          <Techno name="Svn" logo="logo-svn.png" desc="Logiciel de gestion des versions pour le développement en équipe" />
-          <Techno name="Vue.js" logo="logo-vuejs.png" desc="Framework Javascript pour développer des sites et des applications mobiles" />
-          <Techno name="jQuery" logo="logo-jquery.png" desc="Framework Javascript pour améliorer les interfaces des pages web" />
-          <Techno name="Less" logo="logo-less.png" desc="Préprocesseur CSS pour le développement des feuilles de style" />
-          <Techno name="Sass / Scss" logo="logo-sass.png" desc="Préprocesseur CSS pour le développement des feuilles de style" />
-          <Techno name="Bootstrap" logo="logo-bootstrap.png" desc="Framework CSS pour faciliter le développement d'interface web" />
-          <Techno name="Tailwind CSS" logo="logo-tailwind_css.png" desc="Framework CSS pour faciliter le développement d'interface web" />
           <Techno name="WordPress" logo="logo-wordpress.png" desc="Système de gestion de contenu pour la création de site Internet" />
           <Techno name="Woocommerce" logo="logo-woocommerce.png" desc="Extension de WordPress pour développer une boutique en ligne" />
-          <Techno name="Google Analytics" logo="logo-google_analytics.png" desc="Outil en ligne d'analyse d'audience pour un site ou une application mobile" />
+          <Techno name="jQuery" logo="logo-jquery.png" desc="Framework Javascript pour améliorer les interfaces des pages web" />
+          <Techno name="Vue.js" logo="logo-vuejs.png" desc="Framework Javascript pour développer des sites et des applications mobiles" />
+          <Techno name="Sass / Scss" logo="logo-sass.png" desc="Préprocesseur CSS pour le développement des feuilles de style" />
+          <Techno name="Less" logo="logo-less.png" desc="Préprocesseur CSS pour le développement des feuilles de style" />
+          <Techno name="Bootstrap" logo="logo-bootstrap.png" desc="Framework CSS pour faciliter le développement d'interface web" />
+          <Techno name="MySql" logo="logo-mysql.png" desc="Serveur de bases de données pour le web et les applications" />
+          <Techno name="MariaDB" logo="logo-mariadb.png" desc="Serveur de bases de données pour le web et les applications" />
+          <Techno name="Git" logo="logo-git.png" desc="Logiciel de gestion des versions pour le développement en équipe" />
+          <Techno name="Svn" logo="logo-svn.png" desc="Logiciel de gestion des versions pour le développement en équipe" />
+          <Techno name="Github" logo="logo-github.png" desc="Plateforme en ligne d'hébergement et de gestion de développement logiciel" />
+          <Techno name="Postman" logo="logo-postman.png" desc="Logiciel pour tester et faciliter le développement de web api" />
           <Techno name="Yourtext Guru" logo="logo-yourtext_guru.png" desc="Outil en ligne pour la rédaction de contenu optimisé au référencement" />
           <Techno name="Screaming Frog" logo="logo-screaming_frog.png" desc="Logiciel d'analyse et d'extraction des données d'un site Internet" />
+          <Techno name="Google Analytics" logo="logo-google_analytics.png" desc="Outil en ligne d'analyse d'audience pour un site ou une application mobile" />
+          <Techno name="Sendinblue" logo="logo-sendinblue.png" desc="Plateforme en ligne de marketing relationnel pour les campagnes d'emails" />
           <Techno name="Ubersuggest" logo="logo-ubersuggest.png" desc="Outil en ligne pour analyser les mots clés recherchés sur Internet" />
         </div>
       </div>
