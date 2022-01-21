@@ -7,9 +7,9 @@
         <div class="row">
           <div class="col-12 col-md-12 col-lg-12 col-xl-6">
             <h2>Création <span class="color-red">de site Internet</span> professionnel</h2>
-            <p>Bienvenue sur mon site Internet / portfolio dédié au développement web pour les entreprises et les professionnels. Spécialisé depuis 15 ans en gestion de projet, communication, design et développement, j'apporte des solutions techniques en étudiant chaque projet afin de répondre au mieux aux besoins de mes clients.</p>
+            <p>Bienvenue sur mon site / portfolio dédié au développement web pour les entreprises et les professionnels. Spécialisé depuis 15 ans en gestion de projet, communication, design et programmation, j'apporte des solutions techniques en étudiant chaque projet afin de répondre au mieux aux besoins de mes clients.</p>
             <hr class="hr-gray">
-            <p>Du cahier des charges à la mise en ligne, je conseille sur chaque étape de votre projet pour déterminer la meilleure approche en terme de communication et de technologie. La création d'un site internet professionnel vous permettra d'augmenter votre visibilité sur les moteurs de recherche et d'améliorer l'image de marque de votre société.</p>
+            <p>Du cahier des charges à la mise en ligne, je conseille sur chaque étape de votre projet pour déterminer la meilleure approche en terme de communication et de technologie. La création d'un site professionnel vous permettra d'augmenter votre visibilité sur les moteurs de recherche et d'améliorer l'image de marque de votre société.</p>
             <a href="/curriculum" class="btn btn-primary" @click.prevent="$emit('navbar-navigate', $event)" data-name="Curriculum" title="Curriculum vitae">Voir mon curriculum</a>
           </div>
           <div class="col-12 col-md-12 col-lg-12 col-xl-6">
@@ -21,24 +21,24 @@
               </div>
               <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="10000">
-                  <img src="~@/assets/img/developpement-web.jpg" class="d-block w-100" alt="Conception de site Internet modulable">
+                  <img src="~@/assets/img/developpement-web.jpg" class="d-block w-100" alt="Conception de site Internet modulable sur Pau">
                   <div class="carousel-caption d-none d-md-block">
-                    <h3>Site Internet modulable</h3>
-                    <p>Développement de site Internet par brique logicielle</p>
+                    <h3>Site entièrement modulable</h3>
+                    <p>Mise en place de site par brique logicielle</p>
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="10000">
-                  <img src="~@/assets/img/arborescence-site.jpg" class="d-block w-100" alt="Étude de l'architecture de site Internet">
+                  <img src="~@/assets/img/arborescence-site.jpg" class="d-block w-100" alt="Étude de l'architecture de votre site sur Orthez">
                   <div class="carousel-caption d-none d-md-block">
-                    <h3>Architecture du site</h3>
-                    <p>Réflexion sur l'arborescence de votre site Internet</p>
+                    <h3>Architecture de votre site</h3>
+                    <p>Réflexion sur l'arborescence de votre site</p>
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="10000">
-                  <img src="~@/assets/img/arborescence-page.jpg" class="d-block w-100" alt="Étude de la mise en page de site Internet">
+                  <img src="~@/assets/img/arborescence-page.jpg" class="d-block w-100" alt="Mise en page pour desktop et mobile sur Tarbes">
                   <div class="carousel-caption d-none d-md-block">
-                    <h3>Architecture des pages</h3>
-                    <p>Organisation du contenu pour mobile et ordinateur</p>
+                    <h3>Mise en page html optimisée</h3>
+                    <p>Organisation du contenu pour desktop et mobile</p>
                   </div>
                 </div>
               </div>
@@ -78,25 +78,25 @@
             <h2>Découvrir <span class="color-orange">les services</span> proposés</h2>
           </div>
           <div class="col-12 col-md-6 col-lg-6 col-xl-3 text-center item-responsive">
-            <img src="~@/assets/img/img-responsive.png" width="320" height="350" class="img-fluid" alt="Design responsive de site Internet">
+            <img src="~@/assets/img/img-responsive.png" width="320" height="350" class="img-fluid" alt="Design responsive de site sur Pau">
             <h3>Responsive design</h3>
-            <p class="align-bottom" @click="closeKnowledge('responsive')">La charte graphique de votre site Internet peut se faire de 2 façons. En utilisant un template gratuit ou payant pour réduire les coûts de développement. Ou bien en élaborant un design original sur-mesure pour présenter le contenu de votre site de façon optimale.</p>
+            <p class="align-bottom" @click="closeKnowledge('responsive')">La charte graphique de votre site peut se faire de 2 façons. En utilisant un template gratuit ou payant pour réduire les coûts de conception. Ou bien en élaborant un design original sur-mesure pour présenter le contenu de votre site de façon optimale.</p>
             <button class="btn btn-primary" @click="openKnowledge('responsive')">Plus d'info</button>
           </div>
           <div class="col-12 col-md-6 col-lg-6 col-xl-3 text-center item-development">
-            <img src="~@/assets/img/img-development.png" width="350" height="350" class="img-fluid" alt="Développement de site Internet">
+            <img src="~@/assets/img/img-development.png" width="350" height="350" class="img-fluid" alt="Développeur professionnel sur Pau">
             <h3>Développement</h3>
             <p class="align-bottom" @click="closeKnowledge('development')">Selon votre budget et vos attentes je peux réaliser un site sous WordPress ou avec le framework Vue.js plus performant et optimisé ou bien un mélange de ces 2 solutions. N'hésitez pas à me contacter pour déterminer la technologie idéale à vos besoins.</p>
             <button class="btn btn-primary" @click="openKnowledge('development')">Plus d'info</button>
           </div>
           <div class="col-12 col-md-6 col-lg-6 col-xl-3 text-center item-writing">
-            <img src="~@/assets/img/img-writing.png" width="350" height="350" class="img-fluid" alt="Rédaction du contenu de site Internet">
+            <img src="~@/assets/img/img-writing.png" width="350" height="350" class="img-fluid" alt="Rédaction de contenu optimisé SEO">
             <h3>Rédaction web</h3>
             <p class="align-bottom" @click="closeKnowledge('writing')">Le contenu de votre site est primordial pour apparaître dans les premières pages des moteurs de recherche. Je propose de vous aider dans la rédaction de vos pages et articles de façon optimisée et de vous conseiller pour réaliser le référencement naturel de votre site.</p>
             <button class="btn btn-primary" @click="openKnowledge('writing')">Plus d'info</button>
           </div>
           <div class="col-12 col-md-6 col-lg-6 col-xl-3 text-center item-optimization">
-            <img src="~@/assets/img/img-optimization.png" width="350" height="350" class="img-fluid" alt="Optimisation technique de site Internet">
+            <img src="~@/assets/img/img-optimization.png" width="350" height="350" class="img-fluid" alt="Optimisation technique de site">
             <h3>Optimisation</h3>
             <p class="align-bottom" @click="closeKnowledge('optimization')">L'optimisation technique et sémantique consiste à améliorer certains facteurs clés d'un site pour augmenter ses positions sur les moteurs de recherche. Vous avez déjà un site ? Utilisez l'outil en ligne Google PageSpeed pour connaître votre score de performance.</p>
             <button class="btn btn-primary" @click="openKnowledge('optimization')">Plus d'info</button>
@@ -118,35 +118,35 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-12">
-            <h2>Maîtrise <span class="color-blue">des technologies</span> du web</h2>
+            <h2>Partage de <span class="color-blue">mes connaissances</span> sur Pau et Orthez</h2>
           </div>
           <Techno name="Adobe Photoshop" logo="logo-adobe_photoshop.png" desc="Logiciel de retouche d'images et de conception graphique" />
-          <Techno name="Adobe Illustrator" logo="logo-adobe_illustrator.png" desc="Logiciel d'édition graphique vectoriel pour le web et le print" />
+          <Techno name="Adobe Illustrator" logo="logo-adobe_illustrator.png" desc="Logiciel d'édition graphique pour un rendu vectoriel" />
           <Techno name="Adobe Animate" logo="logo-adobe_animate.png" desc="Logiciel d'animation vectorielle pour le web et la vidéo" />
           <Techno name="Affinity Photo" logo="logo-affinity_photo.png" desc="Logiciel de retouche d'images et de conception graphique" />
-          <Techno name="Affinity Designer" logo="logo-affinity_designer.png" desc="Logiciel d'édition graphique vectoriel pour le web et le print" />
-          <Techno name="Affinity Publisher" logo="logo-affinity_publisher.png" desc="Logiciel de publication pour l'impression et les documents PDF" />
+          <Techno name="Affinity Designer" logo="logo-affinity_designer.png" desc="Logiciel d'édition graphique pour un rendu vectoriel" />
+          <Techno name="Affinity Publisher" logo="logo-affinity_publisher.png" desc="Logiciel de publication pour l'impression et les documents pdf" />
           <Techno name="PhpStorm" logo="logo-phpstorm.png" desc="Logiciel ou IDE de programmation dédié aux langages du web" />
-          <Techno name="Javascript" logo="logo-javascript.png" desc="Langage de programmation pour le développement web" />
-          <Techno name="PHP" logo="logo-php.png" desc="Langage de programmation pour le développement web" />
+          <Techno name="Javascript" logo="logo-javascript.png" desc="Langage de programmation côté client et serveur pour site et api" />
+          <Techno name="PHP" logo="logo-php.png" desc="Langage de programmation côté serveur pour site et api" />
           <Techno name="WordPress" logo="logo-wordpress.png" desc="Système de gestion de contenu pour la création de site Internet" />
           <Techno name="Woocommerce" logo="logo-woocommerce.png" desc="Extension de WordPress pour développer une boutique en ligne" />
-          <Techno name="jQuery" logo="logo-jquery.png" desc="Framework Javascript pour améliorer les interfaces des pages web" />
+          <Techno name="jQuery" logo="logo-jquery.png" desc="Framework Javascript pour améliorer l’interactivité d’une page html" />
           <Techno name="Vue.js" logo="logo-vuejs.png" desc="Framework Javascript pour développer des sites et des applications mobiles" />
-          <Techno name="Sass / Scss" logo="logo-sass.png" desc="Préprocesseur CSS pour le développement des feuilles de style" />
-          <Techno name="Less" logo="logo-less.png" desc="Préprocesseur CSS pour le développement des feuilles de style" />
-          <Techno name="Bootstrap" logo="logo-bootstrap.png" desc="Framework CSS pour faciliter le développement d'interface web" />
-          <Techno name="MySql" logo="logo-mysql.png" desc="Serveur de bases de données pour le web et les applications" />
-          <Techno name="MariaDB" logo="logo-mariadb.png" desc="Serveur de bases de données pour le web et les applications" />
-          <Techno name="Git" logo="logo-git.png" desc="Logiciel de gestion des versions pour le développement en équipe" />
-          <Techno name="Svn" logo="logo-svn.png" desc="Logiciel de gestion des versions pour le développement en équipe" />
-          <Techno name="Github" logo="logo-github.png" desc="Plateforme en ligne d'hébergement et de gestion de développement logiciel" />
-          <Techno name="Postman" logo="logo-postman.png" desc="Logiciel pour tester et faciliter le développement de web api" />
+          <Techno name="Sass / Scss" logo="logo-sass.png" desc="Préprocesseur CSS pour aider le travail des développeurs" />
+          <Techno name="Less" logo="logo-less.png" desc="Préprocesseur CSS pour aider le travail des intégrateurs" />
+          <Techno name="Bootstrap" logo="logo-bootstrap.png" desc="Framework CSS pour créer des interfaces html tout support" />
+          <Techno name="MySql" logo="logo-mysql.png" desc="Serveur de bases de données pour gérer le contenu dynamique" />
+          <Techno name="MariaDB" logo="logo-mariadb.png" desc="Serveur de bases de données pour gérer le contenu dynamique" />
+          <Techno name="Git" logo="logo-git.png" desc="Logiciel de gestion des versions pour le travail en équipe" />
+          <Techno name="Svn" logo="logo-svn.png" desc="Logiciel de gestion des versions pour le travail en équipe" />
+          <Techno name="Github" logo="logo-github.png" desc="Plateforme en ligne d'hébergement et de partage de code-source" />
+          <Techno name="Postman" logo="logo-postman.png" desc="Logiciel pour aider les développeurs dans la mise en place d'api" />
           <Techno name="Yourtext Guru" logo="logo-yourtext_guru.png" desc="Outil en ligne pour la rédaction de contenu optimisé au référencement" />
-          <Techno name="Screaming Frog" logo="logo-screaming_frog.png" desc="Logiciel d'analyse et d'extraction des données d'un site Internet" />
+          <Techno name="Screaming Frog" logo="logo-screaming_frog.png" desc="Logiciel d'analyse de code-source et d'extraction des données en ligne" />
           <Techno name="Google Analytics" logo="logo-google_analytics.png" desc="Outil en ligne d'analyse d'audience pour un site ou une application mobile" />
           <Techno name="Sendinblue" logo="logo-sendinblue.png" desc="Plateforme en ligne de marketing relationnel pour les campagnes d'emails" />
-          <Techno name="Ubersuggest" logo="logo-ubersuggest.png" desc="Outil en ligne pour analyser les mots clés recherchés sur Internet" />
+          <Techno name="Ubersuggest" logo="logo-ubersuggest.png" desc="Outil en ligne pour analyser les mots clés recherchés sur les moteurs" />
         </div>
       </div>
     </section>

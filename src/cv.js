@@ -40,7 +40,7 @@ export default {
         detail: 'Développement web et programmation informatique',
       },
       {
-        date: '2019 - 2021',
+        date: '2019 - 2022',
         title: 'DBA - Toulouse <span class="attr">[CDI]</span>',
         detail: 'Développement web',
       },
