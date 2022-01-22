@@ -77,7 +77,7 @@
               Tél. : 07.52.63.77.22<br>
               Email : contact@jagullo.fr<br><br>
               <span>Le site <b>jagullo.fr</b> est optimisé pour les navigateurs de génération récente desktop et mobile (Firefox, Edge, Chrome, Safari, Opéra). Le site est hébergé chez l'entreprise <b>OVHcloud</b> (SIREN 424 761 419) domicilié au 2 rue Kellermann 59100 Roubaix.</span><br><br>
-              <span>Le présent site constitue une oeuvre dont <b>J.Agullo</b> est l’auteur au sens des articles L.111.1 et suivants du Code de la propriété intellectuelle. Tout le code source du site est disponible en <b>licence MIT</b> sur la plateforme Github mis à part les images des projets. Les photographies, textes, slogans, dessins, images, séquences animées sonores ou non ainsi que toutes oeuvres intégrées dans le site sont la propriété de l'auteur ou de tiers l’ayant autorisé à les utiliser.</span>
+              <span>Le présent site constitue une oeuvre dont <b>Mr Agullo</b> est l’auteur au sens des articles L.111.1 et suivants du Code de la propriété intellectuelle. Tout le code source du site est disponible en <b>licence MIT</b> sur la plateforme Github mis à part les images du site. Les photographies, textes, slogans, dessins, images, séquences animées sonores ou non ainsi que toutes oeuvres intégrées dans le site sont la propriété de l'auteur ou de tiers l’ayant autorisé à les utiliser.</span>
             </p>
           </div>
         </div>

@@ -72,4 +72,4 @@ Sahih al-Bukhārī 52, Sahih Muslim 1599
 
 Copyright © jagullo.fr
 
-Licensed under the MIT license except for the project images.
+Licensed under the MIT license except for all images.
