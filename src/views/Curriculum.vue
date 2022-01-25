@@ -36,7 +36,6 @@ export default {
     }
   },
   mounted() {
-    document.title = 'Expériences et projets professionnels en développement web | jagullo.fr'
     this.scrollBar = Scrollbar.init(document.querySelector('#curriculum'), {damping: 0.2})
     anime({targets: '.content', opacity: 1, duration: 350, easing: 'easeInOutCirc'})
     document.getElementsByClassName('content')[0].style.height = window.innerHeight + 'px' /* mobile issue */

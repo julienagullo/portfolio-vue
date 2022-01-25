@@ -4,26 +4,46 @@ const routes = [
   {
     path: '/',
     name: 'Home',
+    meta: {
+      title: 'Développeur web sur Pau et Orthez | jagullo.fr',
+      description: 'Bienvenue sur mon site Internet présentant mes travaux dans le domaine du web, du développement, du graphisme et de la communication sur Pau et Orthez.',
+    },
     component: () => import('../views/Home.vue'),
   },
   {
     path: '/curriculum',
     name: 'Curriculum',
+    meta: {
+      title: 'Expériences et projets professionnels | jagullo.fr',
+      description: 'Découvrir mon curriculum et l\'ensemble de mes projets dans le domaine du web, du design et de la programmation sur Pau et Orthez.',
+    },
     component: () => import('../views/Curriculum.vue'),
   },
   {
     path: '/open-source',
     name: 'Source',
+    meta: {
+      title: 'Projets open-sources en développement web | jagullo.fr',
+      description: 'Découvrir tous mes projets open-sources pour le développement web en Vue.js et jQuery.',
+    },
     component: () => import('../views/Source.vue'),
   },
   {
     path: '/contact',
     name: 'Contact',
+    meta: {
+      title: 'Demande de renseignement | jagullo.fr',
+      description: 'Vous pouvez me contacter pour toute demande de renseignement ou de devis en conception de site sous Vue.js et WordPress.',
+    },
     component: () => import('../views/Contact.vue'),
   },
   {
     path: '/:pathMatch(.*)*',
     name: 'NotFound',
+    meta: {
+      title: 'Page non trouvée | jagullo.fr',
+      description: 'Désolé la page demandée n\'existe pas.',
+    },
     component: () => import('../views/NotFound.vue'),
   },
 ]
@@ -31,6 +51,14 @@ const routes = [
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes,
+})
+
+
+const url = 'https://jagullo.fr'
+router.afterEach((to) => {
+  document.title = to.meta['title']
+  document.querySelector('link[rel="canonical"]').href = to.path === '/' ? url : url + to.path
+  document.querySelector('meta[name="description"]').setAttribute("content", to.meta['description'])
 })
 
 export default router

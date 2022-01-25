@@ -1,6 +1,6 @@
 <template>
   <div id="home" class="content">
-    <h1>Développeur web sur Pau, Orthez et Tarbes</h1>
+    <h1>Développeur web sur Pau et Orthez</h1>
     <hr class="hr-gray" />
     <section class="intro">
       <div class="container-fluid">
@@ -35,7 +35,7 @@
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="10000">
-                  <img src="~@/assets/img/arborescence-page.jpg" class="d-block w-100" alt="Mise en page pour desktop et mobile sur Tarbes">
+                  <img src="~@/assets/img/arborescence-page.jpg" class="d-block w-100" alt="Intégration html pour desktop et mobile sur Pau">
                   <div class="carousel-caption d-none d-md-block">
                     <h3>Mise en page html optimisée</h3>
                     <p>Organisation du contenu pour desktop et mobile</p>
@@ -200,7 +200,6 @@ export default {
     }
   },
   mounted() {
-    document.title = 'Développeur web sur Pau, Orthez et Tarbes | jagullo.fr'
     this.scrollBar = Scrollbar.init(document.querySelector('#home'), {damping: 0.2})
     anime({targets: '.content', opacity: 1, duration: 350, easing: 'easeInOutCirc'})
     document.getElementsByClassName('content')[0].style.height = window.innerHeight + 'px' /* mobile issue */
