@@ -103,12 +103,12 @@ export default {
       valid: false,
       error: false,
       send: false,
-      scrollBar: Scrollbar
+      scrollBar: Scrollbar,
     }
   },
   mounted() {
     Scrollbar.init(document.querySelector('#contact'), {damping: 0.2})
-    anime({targets: '.content', opacity: 1, duration: 350, easing: 'easeInOutCirc'})
+    anime({targets: '.content', opacity: 1, duration: 200, easing: 'easeInOutCirc'})
     document.getElementsByClassName('content')[0].style.height = window.innerHeight + 'px' /* mobile issue */
     this.initCaptcha()
   },
@@ -155,8 +155,9 @@ export default {
                 input.value = ''
                 input.disabled = true
                 input.classList.remove('is-valid', 'is-invalid')
-                document.getElementById('g-recaptcha').style.display = 'none'
               }
+              document.getElementById('g-recaptcha').style.display = 'none'
+              window.grecaptcha.reset()
             } else {
               this.send = false
               this.error = true
@@ -177,19 +178,25 @@ export default {
       return false
     },
     initCaptcha() {
-      let self = this
-      setTimeout(function() {
-        if (typeof window.grecaptcha === 'undefined') {
-          self.initCaptcha();
-        } else {
-          window.grecaptcha.render('g-recaptcha', {
-            sitekey: '6LfKTH0dAAAAAFEst_vWSI06N57kS59I-i9si4rQ',
-            size: 'normal',
-            badge: 'inline',
-            callback: self.callCaptcha
-          })
+      document.getElementById('g-recaptcha').style.display = 'block'
+      if (document.getElementById('script-recaptcha') == null) {
+        let script = document.createElement('script')
+        script.id = 'script-recaptcha'
+        script.src = 'https://www.google.com/recaptcha/api.js?onload=onloadCaptcha&render=explicit'
+        document.getElementById('app').append(script)
+        let self = this
+        window.onloadCaptcha = function() {
+          self.renderCaptcha()
         }
-      }, 100);
+      }
+    },
+    renderCaptcha() {
+      window.grecaptcha.render('g-recaptcha', {
+        sitekey: '6LfKTH0dAAAAAFEst_vWSI06N57kS59I-i9si4rQ',
+        size: 'normal',
+        badge: 'inline',
+        callback: self.callCaptcha,
+      })
     },
     callCaptcha() {
       if (window.grecaptcha.getResponse() !== '') {

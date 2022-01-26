@@ -15,6 +15,11 @@ export default {
     Navbar,
     Sidebar,
   },
+  data() {
+    return {
+      firstLoad: undefined,
+    }
+  },
   mounted() {
     document.body.style.height = document.documentElement.style.height = window.innerHeight + 'px' /* mobile issue */
   },

@@ -20,7 +20,7 @@ $html = <<<EOD
         <title>Nouvelle demande sur jagullo.fr</title>
     </head>
     <body style="width:100vw;height:100vh;display:flex;flex-direction:column;justify-content:flex-start;align-items:center;font-size:62.5%;background-color:#f7f7f7;margin:0;padding:0;">
-        <div style="width:500px;font-family:Arial, sans-serif;font-size:.7rem;border:1px solid #d0d0d0;background-color:#f1f1f1;padding:20px;margin-top:30px;">
+        <div style="width:500px;font-family:Arial, sans-serif;font-size:.7rem;border:1px solid #d0d0d0;background-color:#fafafa;padding:20px;margin-top:30px;">
             <h1 style="margin-top:0;">Nouvelle demande sur jagullo.fr</h1>
             <h2>Nom :</h2>
             <p style="font-size:.9rem;">$name</p>

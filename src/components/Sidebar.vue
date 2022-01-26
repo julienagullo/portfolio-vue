@@ -5,7 +5,7 @@
         <button title="Fermer Profil">X</button>
       </div>
       <div class="photo">
-        <img :src="getPhoto()" alt="Développeur web sur Pau, Orthez et Tarbes">
+        <img :src="getPhoto()" alt="Développeur web sur Pau, Orthez et Tarbes" width="300" height="356">
       </div>
     </div>
     <div class="sidebar-content">
@@ -161,6 +161,7 @@ export default {
       float: left;
       img {
         width: 165px;
+        height: auto;
       }
     }
   }

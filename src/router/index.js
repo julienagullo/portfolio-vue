@@ -1,5 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
+const siteUrl = 'https://jagullo.fr'
+
 const routes = [
   {
     path: '/',
@@ -53,11 +55,9 @@ const router = createRouter({
   routes,
 })
 
-
-const url = 'https://jagullo.fr'
 router.afterEach((to) => {
   document.title = to.meta['title']
-  document.querySelector('link[rel="canonical"]').href = to.path === '/' ? url : url + to.path
+  document.querySelector('link[rel="canonical"]').href = siteUrl + to.path
   document.querySelector('meta[name="description"]').setAttribute("content", to.meta['description'])
 })
 

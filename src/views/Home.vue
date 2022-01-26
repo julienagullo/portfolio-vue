@@ -21,21 +21,21 @@
               </div>
               <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="10000">
-                  <img src="~@/assets/img/developpement-web.jpg" class="d-block w-100" alt="Conception de site Internet modulable sur Pau">
+                  <img src="~@/assets/img/developpement-web.jpg" width="720" height="400" class="d-block w-100" alt="Conception de site Internet modulable sur Pau">
                   <div class="carousel-caption d-none d-md-block">
                     <h3>Site entièrement modulable</h3>
                     <p>Mise en place de site par brique logicielle</p>
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="10000">
-                  <img src="~@/assets/img/arborescence-site.jpg" class="d-block w-100" alt="Étude de l'architecture de votre site sur Orthez">
+                  <img src="~@/assets/img/arborescence-site.jpg" width="720" height="400" class="d-block w-100" alt="Étude de l'architecture de votre site sur Orthez">
                   <div class="carousel-caption d-none d-md-block">
                     <h3>Architecture de votre site</h3>
                     <p>Réflexion sur l'arborescence de votre site</p>
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="10000">
-                  <img src="~@/assets/img/arborescence-page.jpg" class="d-block w-100" alt="Intégration html pour desktop et mobile sur Pau">
+                  <img src="~@/assets/img/arborescence-page.jpg" width="720" height="400" class="d-block w-100" alt="Intégration html pour desktop et mobile sur Pau">
                   <div class="carousel-caption d-none d-md-block">
                     <h3>Mise en page html optimisée</h3>
                     <p>Organisation du contenu pour desktop et mobile</p>
@@ -190,10 +190,14 @@ import Scrollbar from 'smooth-scrollbar'
 import anime from 'animejs/lib/anime.es.js'
 import Techno from '@/components/Techno'
 import Project from '@/components/Project'
+import 'bootstrap/js/dist/carousel'
 
 export default {
   name: 'Home',
-  components: {Techno, Project},
+  components: {
+    Techno,
+    Project,
+  },
   data() {
     return {
       scrollBar: Scrollbar,
@@ -201,7 +205,7 @@ export default {
   },
   mounted() {
     this.scrollBar = Scrollbar.init(document.querySelector('#home'), {damping: 0.2})
-    anime({targets: '.content', opacity: 1, duration: 350, easing: 'easeInOutCirc'})
+    anime({targets: '.content', opacity: 1, duration: 200, easing: 'easeInOutCirc'})
     document.getElementsByClassName('content')[0].style.height = window.innerHeight + 'px' /* mobile issue */
   },
   methods: {
@@ -283,6 +287,9 @@ export default {
         .carousel-item {
           border-radius: 3px;
           transition: transform 750ms ease-in-out;
+          img {
+            height: auto;
+          }
           .carousel-caption {
             right: 0;
             left: 0;
