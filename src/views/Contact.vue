@@ -71,7 +71,7 @@
           <div class="accordion-body">
             <p>
               Le site et le nom de domaine <b>jagullo.fr</b> sont la propriété de :<br><br>
-              Mr <img src="~@/assets/img/photo-title.png" style="width:33px;padding-top:2px;"> Agullo<br>
+              Mr <img src="~@/assets/img/photo-title.png" width="115" height="70" class="img-title"> Agullo<br>
               10 Rue Métairie Foch 31330 Grenade<br>
               Siret : 52981304000035<br>
               Tél. : 07.52.63.77.22<br>
@@ -90,6 +90,7 @@
 import axios from 'axios'
 import Scrollbar from 'smooth-scrollbar'
 import anime from 'animejs/lib/anime.es.js'
+import 'bootstrap/js/dist/collapse'
 
 export default {
   name: 'Contact',
@@ -237,6 +238,13 @@ export default {
         .accordion-button:not(.collapsed) {
           background-color: transparent;
           color: inherit;
+        }
+      }
+      .accordion-body {
+        .img-title {
+          width: 33px;
+          height: auto;
+          padding-top: 2px;
         }
       }
     }

@@ -3,6 +3,7 @@
     ref="project"
     class="project"
     :options="options1"
+    :slides-to-show="1"
     :as-nav-for="asNavFor1">
     <div
       class="slide"

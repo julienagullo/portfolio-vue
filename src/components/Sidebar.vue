@@ -11,7 +11,7 @@
     <div class="sidebar-content">
       <h2>Informations</h2>
       <p class="border-blue">
-        <img src="~@/assets/img/photo-title.png" class="title"> AGULLO<br>
+        <img src="~@/assets/img/photo-title.png" width="115" height="70" class="img-title"> AGULLO<br>
         07 52 63 77 22<br>
         contact@jagullo.fr
       </p>
@@ -167,8 +167,9 @@ export default {
   }
   .sidebar-content {
     padding: 15px;
-    .title {
+    .img-title {
       width: 38px;
+      height: auto;
       padding-top: 2px;
     }
     h2 {

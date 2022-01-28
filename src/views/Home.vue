@@ -98,7 +98,7 @@
           <div class="col-12 col-md-6 col-lg-6 col-xl-3 text-center item-optimization">
             <img src="~@/assets/img/img-optimization.png" width="350" height="350" class="img-fluid" alt="Optimisation technique de site">
             <h3>Optimisation</h3>
-            <p class="align-bottom" @click="closeKnowledge('optimization')">L'optimisation technique et sémantique consiste à améliorer certains facteurs clés d'un site pour augmenter ses positions sur les moteurs de recherche. Vous avez déjà un site ? Utilisez l'outil en ligne Google PageSpeed pour connaître votre score de performance.</p>
+            <p class="align-bottom" @click="closeKnowledge('optimization')">L'optimisation technique et sémantique consiste à améliorer certains facteurs clés d'un site pour augmenter ses positions sur les moteurs de recherche. Vous avez déjà un site ? Utilisez un outil en ligne comme PageSpeed ou GTmetrix pour connaître votre score de performance.</p>
             <button class="btn btn-primary" @click="openKnowledge('optimization')">Plus d'info</button>
           </div>
         </div>
