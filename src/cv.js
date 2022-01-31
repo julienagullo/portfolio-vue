@@ -53,232 +53,210 @@ export default {
       {
         date: '2007',
         title: 'Virtual-IT',
-        detail:
-          'Réalisation de la charte graphique de l\'entreprise<br>Conception du site Internet <span class="title">virtual-it.fr</span>',
+        detail: 'Réalisation de la charte graphique de l\'entreprise<br>Conception du site Internet <span class="title">virtual-it.fr</span>',
         images: [],
         tasks: [],
       },
       {
         date: '2008',
         title: 'Force Ouvrière Airbus <span class="attr">[Virtual-it]</span>',
-        detail:
-          'Conception du site Internet <span class="title">foairbus.fr</span><br>Réalisation d\'un CD-Rom interactif pour <span class="title">FO Airbus Toulouse</span>',
+        detail: 'Conception du site Internet <span class="title">foairbus.fr</span><br>Réalisation d\'un CD-Rom interactif pour <span class="title">FO Airbus Toulouse</span>',
         images: [],
         tasks: [],
       },
       {
         date: '2009',
         title: 'Ineo-RHT <span class="attr">[Virtual-it]</span>',
-        detail:
-          'Conception du site Internet <span class="title">ineo-rht.fr</span>',
+        detail: 'Conception du site Internet <span class="title">ineo-rht.fr</span>',
         images: [],
         tasks: [],
       },
       {
         date: '2010',
         title: 'EDF R&D <span class="attr">[Virtual-it]</span>',
-        detail:
-          'Réalisation de documentaires et d\'interviews vidéos sur Paris<br>Conception d\'animations Flash sur <span class="title">le compteur Linky</span>',
+        detail: 'Réalisation de documentaires et d\'interviews vidéos sur Paris<br>Conception d\'animations Flash sur <span class="title">le compteur Linky</span>',
         images: [],
         tasks: [],
       },
       {
         date: '2011 - 2012',
         title: 'Tigergrip <span class="attr">[Micro]</span>',
-        detail:
-          'Mise à jour du site Internet <a href="https://www.tigergrip.com" class="title" target="_blank">tigergrip.com</a>',
+        detail: 'Mise à jour du site Internet <a href="https://www.tigergrip.com" class="title" target="_blank">tigergrip.com</a>',
         images: [],
         tasks: [],
       },
       {
         date: '2011 - 2013',
         title: 'DCNS <span class="attr">[Virtual-it]</span>',
-        detail:
-          "Réalisation d'applications commerciales pour bornes tactiles<br>Collaboration à la conception d'animations pour support commercial",
+        detail: 'Réalisation d\'applications commerciales pour bornes tactiles<br>Collaboration à la conception d\'animations pour support commercial',
         images: [],
         tasks: [],
       },
       {
         date: '2013',
         title: 'ERDF <span class="attr">[Virtual-it]</span>',
-        detail:
-          'Conception de l\'interface pour l\'application de salon <span class="title">Sogrid</span>',
+        detail: 'Conception de l\'interface pour l\'application de salon <span class="title">Sogrid</span>',
         images: [],
         tasks: [],
       },
       {
         date: '2013 - 2018',
         title: 'Thales Avionics <span class="attr">[Virtual-it]</span>',
-        detail:
-          'Collaboration à la conception de l\'application de salon <span class="title">TopWings Electronic Flight Bag Solution</span>',
+        detail: 'Collaboration à la conception de l\'application de salon <span class="title">TopWings Electronic Flight Bag Solution</span>',
         images: [],
         tasks: [],
       },
       {
         date: '2014',
         title: 'DGAC <span class="attr">[Virtual-it]</span>',
-        detail:
-          'Conception d\'un outil de formation pour <span class="title">le Service Technique de l’Aviation Civile (STAC)</span>',
+        detail: 'Conception d\'un outil de formation pour <span class="title">le Service Technique de l’Aviation Civile (STAC)</span>',
         images: [],
         tasks: [],
       },
       {
         date: '2014',
         title: 'Thales Aéroporté <span class="attr">[Virtual-it]</span>',
-        detail:
-          "Réalisation d'une application de salon multimédia pour borne tactile",
+        detail: 'Réalisation d\'une application de salon multimédia pour borne tactile',
         images: [],
         tasks: [],
       },
       {
         date: '2014',
         title: 'ERDF <span class="attr">[Virtual-it]</span>',
-        detail: "Conception d'une visionneuse vidéo et d'animations Flash",
+        detail: 'Conception d\'une visionneuse vidéo et d\'animations Flash',
         images: [],
         tasks: [],
       },
       {
         date: '2014 - 2015',
         title: 'CNES <span class="attr">[Virtual-it]</span>',
-        detail:
-          'Collaboration à la conception de l\'application de salon <span class="title">Charte Internationale Espace et Catastrophes Majeures (Charte-MT)</span>',
+        detail: 'Collaboration à la conception de l\'application de salon <span class="title">Charte Internationale Espace et Catastrophes Majeures (Charte-MT)</span>',
         images: [],
         tasks: [],
       },
       {
         date: '2015',
         title: 'Airbus Defence & Space <span class="attr">[Virtual-it]</span>',
-        detail:
-          'Conception du magazine interactif pour la mission <span class="title">JUICE</span>',
+        detail: 'Conception du magazine interactif pour la mission <span class="title">JUICE</span>',
         images: [],
         tasks: [],
       },
       {
         date: '2015',
         title: 'Toul Immo Réalisation <span class="attr">[Micro]</span>',
-        detail:
-          'Réalisation de la charte graphique de l\'entreprise<br>Conception du site Internet <a href="https://www.toulimmo-realisation.fr" class="title" target="_blank">toulimmo-realisation.fr</a>',
+        detail: 'Réalisation de la charte graphique de l\'entreprise<br>Conception du site Internet <a href="https://www.toulimmo-realisation.fr" class="title" target="_blank">toulimmo-realisation.fr</a>',
         images: [],
         tasks: [],
       },
       {
         date: '2016',
         title: 'Coved <span class="attr">[Virtual-it]</span>',
-        detail:
-          'Conception de l\'application de salon <span class="title">Nodus & Bio Collect</span>',
+        detail: 'Conception de l\'application de salon <span class="title">Nodus & Bio Collect</span>',
         images: [],
         tasks: [],
       },
       {
         date: '2016',
         title: 'Lingocentric <span class="attr">[Micro]</span>',
-        detail:
-          'Intégration CSS de la charte graphique pour la plateforme de traduction <span class="title">TextBeans</span>',
+        detail: 'Intégration CSS de la charte graphique pour la plateforme de traduction <span class="title">TextBeans</span>',
         images: [],
         tasks: [],
       },
       {
         date: '2016',
         title: 'Toul Immo Rénovation <span class="attr">[Micro]</span>',
-        detail:
-            'Conception du site Internet <a href="https://www.toulimmo-renovation.fr" class="title" target="_blank">toulimmo-renovation.fr</a>',
+        detail: 'Conception du site Internet <a href="https://www.toulimmo-renovation.fr" class="title" target="_blank">toulimmo-renovation.fr</a>',
         images: [],
         tasks: [],
       },
       {
         date: '2016 - 2017',
         title: 'Spherea Test & Services <span class="attr">[Virtual-it]</span>',
-        detail:
-          'Conception de l\'application de salon <span class="title">U-TEST ®</span>',
+        detail: 'Conception de l\'application de salon <span class="title">U-TEST ®</span>',
         images: [],
         tasks: [],
       },
       {
         date: '2017',
         title: 'Méca Jet d\'Eau <span class="attr">[Micro]</span>',
-        detail:
-          'Réalisation du site Internet <a href="https://www.mecajetdeau.com" class="title" target="_blank">mecajetdeau.com</a>',
+        detail: 'Réalisation du site Internet <a href="https://www.mecajetdeau.com" class="title" target="_blank">mecajetdeau.com</a>',
         images: [],
         tasks: [],
       },
       {
         date: '2017',
         title: 'Continental <span class="attr">[Virtual-it]</span>',
-        detail:
-          'Conception de l\'application de formation <span class="title">Contact-Geste</span>',
+        detail: 'Conception de l\'application de formation <span class="title">Contact-Geste</span>',
         images: [],
         tasks: [],
       },
       {
         date: '2017 - 2018',
         title: 'Enedis <span class="attr">[Virtual-it]</span>',
-        detail:
-          'Conception du site servant à la gestion des utilisateurs et d\'une API web pour l\'application <span class="title">eBalisage</span>',
+        detail: 'Conception du site servant à la gestion des utilisateurs et d\'une API web pour l\'application <span class="title">eBalisage</span>',
         images: [],
         tasks: [],
       },
       {
         date: '2018',
-        title:
-          'Institut des Sciences Humaines et Spirituelles <span class="attr">[Micro]</span>',
-        detail:
-          'Réalisation du site Internet <a href="https://www.ishes.fr" class="title" target="_blank">ishes.fr</a>',
+        title: 'Institut des Sciences Humaines et Spirituelles <span class="attr">[Micro]</span>',
+        detail: 'Réalisation du site Internet <a href="https://www.ishes.fr" class="title" target="_blank">ishes.fr</a>',
         images: [],
         tasks: [],
       },
       {
         date: '2019',
         title: 'LVS <span class="attr">[DBA]</span>',
-        detail:
-          'Amélioration de la charte graphique de la marque<br>Aide au développement du site Internet <a href="https://www.le-vestiaire-sechant.fr" class="title" target="_blank">le-vestiaire-sechant.fr</a>',
+        detail: 'Amélioration de la charte graphique de la marque<br>Aide au développement du site Internet <a href="https://www.le-vestiaire-sechant.fr" class="title" target="_blank">le-vestiaire-sechant.fr</a>',
         images: [],
         tasks: [],
       },
       {
         date: '2019',
         title: 'Enerbim <span class="attr">[Virtual-it]</span>',
-        detail:
-          "Conception d'un prototype de site Internet pour le métier du BIM",
+        detail: 'Conception d\'un prototype de site Internet pour le métier du BIM',
         images: [],
         tasks: [],
       },
       {
         date: '2019',
         title: 'Angle Droit Avocats <span class="attr">[Eure-K]</span>',
-        detail:
-          'Intégration CSS de la charte graphique pour un site Internet vitrine',
+        detail: 'Intégration CSS de la charte graphique pour un site Internet vitrine',
         images: [],
         tasks: [],
       },
       {
         date: '2020',
         title: 'Mon Atelier Pro <span class="attr">[DBA]</span>',
-        detail:
-          'Réalisation de la charte graphique de la marque<br>Conception du site Internet <a href="https://www.monatelierpro.fr" class="title" target="_blank">monatelierpro.fr</a>',
+        detail: 'Réalisation de la charte graphique de la marque<br>Conception du site Internet <a href="https://www.monatelierpro.fr" class="title" target="_blank">monatelierpro.fr</a>',
         images: [],
         tasks: [],
       },
       {
         date: '2020 - 2021',
         title: 'DBA Armoires <span class="attr">[DBA]</span>',
-        detail:
-          'Amélioration de la charte graphique de la marque<br>Conception du site Internet <a href="https://www.dba-armoires.fr" class="title" target="_blank">dba-armoires.fr</a>',
+        detail: 'Amélioration de la charte graphique de la marque<br>Conception du site Internet <a href="https://www.dba-armoires.fr" class="title" target="_blank">dba-armoires.fr</a>',
         images: [],
         tasks: [],
       },
       {
         date: '2020 - 2022',
         title: 'Armoire Plus <span class="attr">[DBA]</span>',
-        detail:
-          'Amélioration de la charte graphique de la marque<br>Aide au développement du site Internet <a href="https://www.armoireplus.fr" class="title" target="_blank">armoireplus.fr</a>',
+        detail: 'Amélioration de la charte graphique de la marque<br>Aide au développement du site Internet <a href="https://www.armoireplus.fr" class="title" target="_blank">armoireplus.fr</a>',
         images: [],
         tasks: [],
       },
       {
         date: '2021 - 2022',
         title: 'Brigade Hocaré <span class="attr">[DBA]</span>',
-        detail:
-          'Suivi projet de la phase développement du site Internet<br>Réalisation de la charte graphique de <a href="https://brigade-hocare.com" class="title" target="_blank">brigade-hocare.com</a>',
+        detail: 'Suivi projet de la phase développement du site Internet<br>Réalisation de la charte graphique de <a href="https://brigade-hocare.com" class="title" target="_blank">brigade-hocare.com</a>',
+        images: [],
+        tasks: [],
+      },
+      {
+        date: '2022',
+        title: 'Les Jardins de Jordi <span class="attr">[Micro]</span>',
+        detail: 'Aide à la réalisation du site Internet <a href="https://www.lesjardinsdejordi.com" class="title" target="_blank">lesjardinsdejordi.com</a><br>Formation sur l\'utilisation de WordPress et de Sendinblue',
         images: [],
         tasks: [],
       },
