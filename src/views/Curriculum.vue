@@ -120,7 +120,7 @@ export default {
       :deep(li) .details .title {
         color: $color-blue;
       }
-      :deep(li) .details .title:hover {
+      :deep(li) .details a.title:hover {
         color: $color-blue-hover;
       }
     }
@@ -129,7 +129,7 @@ export default {
       :deep(li) .details .title {
         color: $color-orange;
       }
-      :deep(li) .details .title:hover {
+      :deep(li) .details a.title:hover {
         color: $color-orange-hover;
       }
     }
@@ -138,7 +138,7 @@ export default {
       :deep(li) .details .title {
         color: $color-red;
       }
-      :deep(li) .details .title:hover {
+      :deep(li) .details a.title:hover {
         color: $color-red-hover;
       }
     }
