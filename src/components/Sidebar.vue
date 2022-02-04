@@ -171,6 +171,8 @@ export default {
       width: 38px;
       height: auto;
       padding-top: 2px;
+      image-rendering: high-quality;
+      image-rendering: -webkit-optimize-contrast;
     }
     h2 {
       font-size: 1.75rem;

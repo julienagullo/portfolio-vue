@@ -28,13 +28,12 @@ export default {
   methods: {
     navigate(e) {
       const name = e.target.dataset.name
-      //const name = e.target.nodeName === 'LI' ? e.target.dataset.name : e.target.parentNode.dataset.name
       if (this.$router.currentRoute.value.name !== name) {
         this.highlight(name)
         anime({
           targets: '#' + this.$router.currentRoute.value.name.toLowerCase(),
           opacity: 0,
-          duration: 350,
+          duration: 250,
           easing: 'easeInOutCirc',
           complete: () => {
             this.$router.push({ name: name })

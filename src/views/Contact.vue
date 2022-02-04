@@ -240,13 +240,6 @@ export default {
           color: inherit;
         }
       }
-      .accordion-body {
-        .img-title {
-          width: 33px;
-          height: auto;
-          padding-top: 2px;
-        }
-      }
     }
   }
   section.form {
@@ -285,6 +278,17 @@ export default {
       }
       :deep(.captcha).is-invalid > div {
         border: 1px solid $color-red;
+      }
+    }
+  }
+  section.mention {
+    .accordion-item {
+      .img-title {
+        width: 33px;
+        height: auto;
+        padding-top: 2px;
+        image-rendering: high-quality;
+        image-rendering: -webkit-optimize-contrast;
       }
     }
   }

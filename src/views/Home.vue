@@ -5,14 +5,14 @@
     <section class="intro">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-12 col-md-12 col-lg-12 col-xl-6">
+          <div class="col-12 col-md-12 col-lg-12 col-xl-6 intro-description">
             <h2>Création <span class="color-red">de site Internet</span> professionnel</h2>
             <p>Bienvenue sur mon site / portfolio dédié au développement web pour les entreprises et les professionnels. Spécialisé depuis 15 ans en gestion de projet, communication, design et programmation, j'apporte des solutions techniques en étudiant chaque projet afin de répondre au mieux aux besoins de mes clients.</p>
             <hr class="hr-gray">
             <p>Du cahier des charges à la mise en ligne, je conseille sur chaque étape de votre projet pour déterminer la meilleure approche en terme de communication et de technologie. La création d'un site professionnel vous permettra d'augmenter votre visibilité sur les moteurs de recherche et d'améliorer l'image de marque de votre société.</p>
             <a href="/curriculum" class="btn btn-primary" @click.prevent="$emit('navbar-navigate', $event)" data-name="Curriculum" title="Curriculum vitae">Voir mon curriculum</a>
           </div>
-          <div class="col-12 col-md-12 col-lg-12 col-xl-6">
+          <div class="col-12 col-md-12 col-lg-12 col-xl-6 intro-carousel">
             <div id="carouselHome" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselHome" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -80,13 +80,13 @@
           <div class="col-12 col-md-6 col-lg-6 col-xl-3 text-center item-responsive">
             <img src="~@/assets/img/img-responsive.png" width="320" height="350" class="img-fluid" alt="Design responsive de site sur Pau">
             <h3>Responsive design</h3>
-            <p class="align-bottom" @click="closeKnowledge('responsive')">La charte graphique de votre site peut se faire de 2 façons. En utilisant un template gratuit ou payant pour réduire les coûts de conception. Ou bien en élaborant un design original sur-mesure pour présenter le contenu de votre site de façon optimale.</p>
+            <p class="align-bottom" @click="closeKnowledge('responsive')">La charte graphique de votre site peut se faire en utilisant un template gratuit ou payant afin de réduire le budget final. Si vous souhaitez un design plus original et un site web très optimisé, je conçois des interfaces graphiques et les intégre au sein de vos pages.</p>
             <button class="btn btn-primary" @click="openKnowledge('responsive')">Plus d'info</button>
           </div>
           <div class="col-12 col-md-6 col-lg-6 col-xl-3 text-center item-development">
             <img src="~@/assets/img/img-development.png" width="350" height="350" class="img-fluid" alt="Développeur professionnel sur Pau">
             <h3>Développement</h3>
-            <p class="align-bottom" @click="closeKnowledge('development')">Selon votre budget et vos attentes je peux réaliser un site sous WordPress ou avec le framework Vue.js plus performant et optimisé ou bien un mélange de ces 2 solutions. N'hésitez pas à me contacter pour déterminer la technologie idéale à vos besoins.</p>
+            <p class="align-bottom" @click="closeKnowledge('development')">Nous pouvons mettre en place un site vitrine avec WordPress afin d'administrer le contenu. Pour un projet plus complexe comme une application web je propose d'utiliser le framework Vue.js. N'hésitez pas à me contacter pour déterminer la technologie idéale.</p>
             <button class="btn btn-primary" @click="openKnowledge('development')">Plus d'info</button>
           </div>
           <div class="col-12 col-md-6 col-lg-6 col-xl-3 text-center item-writing">
@@ -98,7 +98,7 @@
           <div class="col-12 col-md-6 col-lg-6 col-xl-3 text-center item-optimization">
             <img src="~@/assets/img/img-optimization.png" width="350" height="350" class="img-fluid" alt="Optimisation technique de site">
             <h3>Optimisation</h3>
-            <p class="align-bottom" @click="closeKnowledge('optimization')">L'optimisation technique et sémantique consiste à améliorer certains facteurs clés d'un site pour augmenter ses positions sur les moteurs de recherche. Vous avez déjà un site ? Utilisez un outil en ligne comme PageSpeed ou GTmetrix pour connaître votre score de performance.</p>
+            <p class="align-bottom" @click="closeKnowledge('optimization')">L'optimisation technique et sémantique consiste à améliorer certains facteurs clés pour augmenter ses positions sur les moteurs de recherche. Vous avez déjà un site ? Utilisez un outil en ligne comme PageSpeed ou GTmetrix pour connaître votre score de performance.</p>
             <button class="btn btn-primary" @click="openKnowledge('optimization')">Plus d'info</button>
           </div>
         </div>
@@ -166,8 +166,77 @@
           <div class="col-12">
             <h2>Focus sur <span class="color-orange">quelques projets</span> réalisés</h2>
           </div>
-          <div class="col-12">
-            <Project />
+          <div class="col-12 project-carousel">
+            <div id="carouselProject" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselProject" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Armoire Plus"></button>
+                <button type="button" data-bs-target="#carouselProject" data-bs-slide-to="1" aria-label="Méca Jet d'Eau"></button>
+                <button type="button" data-bs-target="#carouselProject" data-bs-slide-to="2" aria-label="Toul-Immo Rénovation"></button>
+                <button type="button" data-bs-target="#carouselProject" data-bs-slide-to="3" aria-label="TextBeans"></button>
+                <button type="button" data-bs-target="#carouselProject" data-bs-slide-to="4" aria-label="Topwings"></button>
+                <button type="button" data-bs-target="#carouselProject" data-bs-slide-to="5" aria-label="JUICE"></button>
+                <button type="button" data-bs-target="#carouselProject" data-bs-slide-to="6" aria-label="U-TEST"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img src="~@/assets/img/interface-armoireplus.jpg" width="960" height="600" class="d-block w-100" alt="Je propose des offres de boutique e-commerce avec WordPress et Woocommerce">
+                  <div class="carousel-caption">
+                    <h3>Amélioration graphique et des fonctionnalités du site armoireplus.fr</h3>
+                    <p>Copyright : DBA</p>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="10000">
+                  <img src="~@/assets/img/interface-mecajetdeau.jpg" width="960" height="715" class="d-block w-100" alt="Développeur sur Pau de site de qualité avec le framework Bootstrap">
+                  <div class="carousel-caption">
+                    <h3>Conception du site Internet vitrine multi-langues mecajetdeau.com</h3>
+                    <p>Copyright : Méca Jet d'Eau | Design : Gabriel Uribe</p>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="10000">
+                  <img src="~@/assets/img/interface-toulimmo.jpg" width="960" height="800" class="d-block w-100" alt="Développeur indépendant sur Pau en conception de site vitrine">
+                  <div class="carousel-caption">
+                    <h3>Charte graphique et mise en place du site vitrine toulimmo-renovation.fr</h3>
+                    <p>Copyright : Toul-Immo Réalisation</p>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="10000">
+                  <img src="~@/assets/img/interface-textbeans.jpg" width="960" height="700" class="d-block w-100" alt="Intégrateur et développeur CSS pour des interfaces html de qualité">
+                  <div class="carousel-caption">
+                    <h3>Intégration LESS/CSS et optimisation de la plateforme de traduction TextBeans</h3>
+                    <p>Copyright : Lingocentric | Design : Gabriel Uribe</p>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="10000">
+                  <img src="~@/assets/img/interface-topwings.jpg" width="960" height="540" class="d-block w-100" alt="Développeur d'interface tactile sur-mesure pour application de salon">
+                  <div class="carousel-caption">
+                    <h3>Conception graphique et réalisation du menu radial de l'application Topwings</h3>
+                    <p>Copyright : Virtual-IT | Client : Thales Aerospace</p>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="10000">
+                  <img src="~@/assets/img/interface-airbusds.jpg" width="960" height="600" class="d-block w-100" alt="Conseil et service de qualité pour des interfaces interactives en Material Design">
+                  <div class="carousel-caption">
+                    <h3>Conception graphique et réalisation du magazine interactif pour la mission JUICE</h3>
+                    <p>Copyright : Virtual-IT | Client : AIRBUS DS</p>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="10000">
+                  <img src="~@/assets/img/interface-spherea.jpg" width="960" height="540" class="d-block w-100" alt="Développeur d'application tactile dans le domaine événementiel sur Pau">
+                  <div class="carousel-caption">
+                    <h3>Suivi projet et réalisation de l'application de salon interactive U-TEST ®</h3>
+                    <p>Copyright : Virtual-IT | Client : SPHEREA | Design 2D : Gabriel Uribe | Design 3D : Stéphane Agullo</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselProject" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselProject" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -189,14 +258,12 @@
 import Scrollbar from 'smooth-scrollbar'
 import anime from 'animejs/lib/anime.es.js'
 import Techno from '@/components/Techno'
-import Project from '@/components/Project'
 import 'bootstrap/js/dist/carousel'
 
 export default {
   name: 'Home',
   components: {
     Techno,
-    Project,
   },
   data() {
     return {
@@ -205,7 +272,7 @@ export default {
   },
   mounted() {
     this.scrollBar = Scrollbar.init(document.querySelector('#home'), {damping: 0.2})
-    anime({targets: '.content', opacity: 1, duration: 200, easing: 'easeInOutCirc'})
+    anime({targets: '.content', opacity: 1, duration: 150, easing: 'easeInOutCirc'})
     document.getElementsByClassName('content')[0].style.height = window.innerHeight + 'px' /* mobile issue */
   },
   methods: {
@@ -261,7 +328,7 @@ export default {
     }
   }
   section.intro {
-    .row > div:first-child {
+    .intro-description {
       display: flex;
       flex-direction: column;
       align-items: flex-start;
@@ -276,7 +343,7 @@ export default {
         margin-top: 10px;
       }
     }
-    .row > div:last-child {
+    .intro-carousel {
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -302,6 +369,10 @@ export default {
             }
           }
         }
+      }
+      span.carousel-control-prev-icon,
+      span.carousel-control-next-icon {
+        filter: drop-shadow(1px 1px 3px rgba(0,0,0,0.8));
       }
     }
   }
@@ -395,10 +466,40 @@ export default {
     }
   }
   section.project {
-    :deep(.my-gallery) {
+    .project-carousel {
       display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
+      flex-direction: column;
+      justify-content: center;
+      .carousel {
+        .carousel-inner {
+          border-radius: 3px;
+          .carousel-item {
+            border-radius: 3px;
+            transition: transform 750ms ease-in-out;
+            img {
+              width: auto!important;
+              height: 540px;
+              margin: 0 auto;
+            }
+            .carousel-caption {
+              position: relative!important;
+              color: #fff;
+              right: 0;
+              left: 0;
+              bottom: 0;
+              padding-bottom: 2.75rem;
+              background-color: $color-dark;
+              p {
+                text-align: center;
+              }
+            }
+          }
+        }
+        span.carousel-control-prev-icon,
+        span.carousel-control-next-icon {
+          filter: drop-shadow(1px 1px 3px rgba(0,0,0,0.8));
+        }
+      }
     }
   }
 }
@@ -411,6 +512,21 @@ export default {
       }
       .employee {
         border-radius: 0 0 5px 5px;
+      }
+    }
+    section.project {
+      .project-carousel {
+        .carousel.slide .carousel-inner {
+          .carousel-item {
+            img {
+              width: 100%!important;
+              height: auto;
+            }
+            .carousel-caption {
+              padding: 1rem 1rem 2.75rem;
+            }
+          }
+        }
       }
     }
   }

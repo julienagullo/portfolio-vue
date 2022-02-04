@@ -107,7 +107,6 @@ export default {
   align-items: center;
   margin-bottom: 20px;
   border-radius: 3px;
-  cursor: help;
   transition: background-color 200ms ease-in-out, box-shadow 200ms ease-in-out;
   img {
     pointer-events: none;
