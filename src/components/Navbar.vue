@@ -121,7 +121,7 @@ nav.navbar {
     }
     li:not(.break):hover,
     li.actived {
-      background-color: #4b4b4b;
+      background-color: #2b2e48;
       i, span {
         color: $color-orange;
       }

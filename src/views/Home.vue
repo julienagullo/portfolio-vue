@@ -22,21 +22,21 @@
               <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="10000">
                   <img src="~@/assets/img/developpement-web.jpg" width="720" height="400" class="d-block w-100" alt="Conception de site Internet modulable sur Pau">
-                  <div class="carousel-caption d-none d-md-block">
+                  <div class="carousel-caption d-block">
                     <h3>Site entièrement modulable</h3>
                     <p>Mise en place de site par brique logicielle</p>
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="10000">
                   <img src="~@/assets/img/arborescence-site.jpg" width="720" height="400" class="d-block w-100" alt="Étude de l'architecture de votre site sur Orthez">
-                  <div class="carousel-caption d-none d-md-block">
+                  <div class="carousel-caption d-block">
                     <h3>Architecture de votre site</h3>
                     <p>Réflexion sur l'arborescence de votre site</p>
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="10000">
                   <img src="~@/assets/img/arborescence-page.jpg" width="720" height="400" class="d-block w-100" alt="Intégration html pour desktop et mobile sur Pau">
-                  <div class="carousel-caption d-none d-md-block">
+                  <div class="carousel-caption d-block">
                     <h3>Mise en page html optimisée</h3>
                     <p>Organisation du contenu pour desktop et mobile</p>
                   </div>
@@ -363,7 +363,7 @@ export default {
             bottom: 0;
             color: #fff;
             padding-bottom: 2.75rem;
-            background-color: rgba(0, 0, 0, 0.7);
+            background-color: rgba(0, 0, 0, 0.75);
             p {
               text-align: center;
             }
@@ -372,7 +372,7 @@ export default {
       }
       span.carousel-control-prev-icon,
       span.carousel-control-next-icon {
-        filter: drop-shadow(1px 1px 3px rgba(0,0,0,0.8));
+        filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 1));
       }
     }
   }
@@ -445,21 +445,18 @@ export default {
       background-color: $color-dark;
     }
   }
-  section.contact {
+  section.contact,
+  section.quote {
     padding: 30px;
     color: #fff;
-    background-color: $color-blue-hover;
+    background-color: $color-dark;
     h2 {
       margin-bottom: 20px;
     }
   }
   section.quote {
-    padding: 30px;
-    color: #fff;
-    background-color: $color-blue-hover;
     h2 {
-      font-size: 1.5rem;
-      margin-bottom: 20px;
+      font-size: 1.7rem;
     }
     p {
       margin-bottom: 0;
@@ -475,6 +472,7 @@ export default {
           border-radius: 3px;
           .carousel-item {
             border-radius: 3px;
+            background-color: #e3e3e3;
             transition: transform 750ms ease-in-out;
             img {
               width: auto!important;
@@ -488,7 +486,7 @@ export default {
               left: 0;
               bottom: 0;
               padding-bottom: 2.75rem;
-              background-color: $color-dark;
+              background-color: $color-blue-hover;
               p {
                 text-align: center;
               }
@@ -504,6 +502,21 @@ export default {
   }
 }
 /* Responsive */
+@media (max-width: 576px) {
+  .content {
+    section.intro {
+      .intro-carousel {
+        padding: 0;
+        .carousel-caption {
+          position: relative;
+          padding-left: 25px;
+          padding-right: 25px;
+          background-color: $color-dark!important;
+        }
+      }
+    }
+  }
+}
 @media (max-width: 991px) {
   .content {
     section.contract {
@@ -534,7 +547,7 @@ export default {
 @media (max-width: 1201px) {
   .content {
     section.intro {
-      .row > div:last-child {
+      .intro-carousel {
         margin-top: 30px;
       }
     }
