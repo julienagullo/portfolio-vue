@@ -36,7 +36,7 @@ export default {
       },
       {
         date: '2011 - 2021',
-        title: 'Micro-entreprise - Toulouse',
+        title: 'Microentreprise - Toulouse',
         detail: 'Développement web et programmation informatique',
       },
       {

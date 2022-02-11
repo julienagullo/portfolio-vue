@@ -1,33 +1,24 @@
 <template>
   <div id="source" class="content">
-    <h1>Projets open-source</h1>
+    <h1>Projets open source</h1>
     <hr class="hr-gray" />
     <section class="project portfolio-vue">
       <h2>portfolio Vue</h2>
       <img src="~@/assets/img/source-vuejs.png" class="logo" width="65" height="25" alt="Vuejs">
-      <p>
-        Code source de ce portfolio en ligne réalisé avec Vuejs et Bootstrap
-        pour découvrir ce framework javascript.
-      </p>
+      <p>Code source de ce portfolio en ligne réalisé avec Vuejs et Bootstrap pour découvrir ce framework JavaScript.</p>
       <a href="https://github.com/julienagullo/portfolio-vue" target="_blank" class="btn btn-primary" title="Projet rwdKit sur Github"><i class="bi bi-github"></i> Voir le projet</a>
     </section>
     <section class="project rwdkit">
       <h2>rwdKit</h2>
       <img src="~@/assets/img/source-jquery.png" class="logo" width="102" height="25" alt="jQuery write less, do more">
-      <p>
-        Librairie jQuery facilitant le développement d'interface responsive en
-        affichant le nom du breakpoint courant.
-      </p>
+      <p>Librairie jQuery facilitant le développement d'interface responsive en affichant le nom du breakpoint courant.</p>
       <a href="https://github.com/julienagullo/rwdKit" target="_blank" class="btn btn-primary" title="Projet rwdKit sur Github"><i class="bi bi-github"></i> Voir le projet</a>
       <a href="https://jagullo.fr/rwdkit/" target="_blank" class="btn btn-primary" title="Démo de la librairie rwdKit"><i class="bi bi-window"></i> Démo</a>
     </section>
     <section class="project cookiekit">
       <h2>cookieKit</h2>
       <img src="~@/assets/img/source-jquery.png" class="logo" width="102" height="25" alt="jQuery write less, do more">
-      <p>
-        Librairie jQuery servant à charger ou non Google Analytics via un modal
-        de consentement sur son site Internet.
-      </p>
+      <p>Librairie jQuery servant à charger ou non Google Analytics via un modal de consentement sur son site Internet.</p>
       <a href="https://github.com/julienagullo/cookieKit" target="_blank" class="btn btn-primary" title="Projet cookieKit sur Github"><i class="bi bi-github"></i> Voir le projet</a>
       <a href="https://jagullo.fr/cookiekit/" target="_blank" class="btn btn-primary" title="Démo de la librairie cookieKit"><i class="bi bi-window"></i> Démo</a>
     </section>

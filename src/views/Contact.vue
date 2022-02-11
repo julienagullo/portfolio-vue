@@ -64,7 +64,7 @@
       <div class="accordion-item">
         <h2 class="accordion-header" id="headingMention">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMention" aria-expanded="true" aria-controls="collapseOne">
-            Mention légales
+            Mention légale
           </button>
         </h2>
         <div id="collapseMention" class="accordion-collapse collapse" aria-labelledby="headingMention" data-bs-parent="#accordionMention">
@@ -72,12 +72,12 @@
             <p>
               Le site et le nom de domaine <b>jagullo.fr</b> sont la propriété de :<br><br>
               Mr <img src="~@/assets/img/photo-title.png" width="115" height="70" class="img-title"> Agullo<br>
-              10 Rue Métairie Foch 31330 Grenade<br>
+              10 rue Métairie Foch 31330 Grenade<br>
               Siret : 52981304000035<br>
               Tél. : 07.52.63.77.22<br>
               Email : contact@jagullo.fr<br><br>
-              <span>Le site <b>jagullo.fr</b> est optimisé pour les navigateurs de génération récente desktop et mobile (Firefox, Edge, Chrome, Safari, Opéra). Le site est hébergé chez l'entreprise <b>OVHcloud</b> (SIREN 424 761 419) domicilié au 2 rue Kellermann 59100 Roubaix.</span><br><br>
-              <span>Le présent site constitue une oeuvre dont <b>Mr Agullo</b> est l’auteur au sens des articles L.111.1 et suivants du Code de la propriété intellectuelle. Tout le code source du site est disponible en <b>licence MIT</b> sur la plateforme Github mis à part les images du site. Les photographies, textes, slogans, dessins, images, séquences animées sonores ou non ainsi que toutes oeuvres intégrées dans le site sont la propriété de l'auteur ou de tiers l’ayant autorisé à les utiliser.</span>
+              <span>Le site <b>jagullo.fr</b> est optimisé pour les navigateurs de génération récente desktop et mobile (Firefox, Edge, Chrome, Safari, Opéra). Le site est hébergé chez l'entreprise <b>OVHcloud</b> (SIREN 424 761 419) domiciliée au 2 rue Kellermann 59100 Roubaix.</span><br><br>
+              <span>Le présent site constitue une oeuvre dont <b>Mr Agullo</b> est l’auteur au sens des articles L.111.1 et suivant du Code de la propriété intellectuelle. Tout le code source du site est disponible en <b>licence MIT</b> sur la plateforme Github mis à part les images du site. Les photographies, textes, slogans, dessins, images, séquences animées sonores ou non ainsi que toutes oeuvres intégrées dans le site sont la propriété de l'auteur ou de tiers l’ayant autorisé à les utiliser.</span>
             </p>
           </div>
         </div>

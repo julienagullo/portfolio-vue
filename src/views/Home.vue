@@ -6,10 +6,10 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-12 col-md-12 col-lg-12 col-xl-6 intro-description">
-            <h2>Création <span class="color-red">de site Internet</span> professionnel</h2>
+            <h2>Création <span class="color-red">de sites Internet</span> professionnels</h2>
             <p>Bienvenue sur mon site / portfolio dédié au développement web pour les entreprises et les professionnels. Spécialisé depuis 15 ans en gestion de projet, communication, design et programmation, j'apporte des solutions techniques en étudiant chaque projet afin de répondre au mieux aux besoins de mes clients.</p>
             <hr class="hr-gray">
-            <p>Du cahier des charges à la mise en ligne, je conseille sur chaque étape de votre projet pour déterminer la meilleure approche en terme de communication et de technologie. La création d'un site professionnel vous permettra d'augmenter votre visibilité sur les moteurs de recherche et d'améliorer l'image de marque de votre société.</p>
+            <p>Du cahier des charges à la mise en ligne, je conseille sur chaque étape de votre projet pour déterminer la meilleure approche en termes de communication et de technologie. La création d'un site professionnel vous permettra d'augmenter votre visibilité sur les moteurs de recherche et d'améliorer l'image de marque de votre société.</p>
             <a href="/curriculum" class="btn btn-primary" @click.prevent="$emit('navbar-navigate', $event)" data-name="Curriculum" title="Curriculum vitae">Voir mon curriculum</a>
           </div>
           <div class="col-12 col-md-12 col-lg-12 col-xl-6 intro-carousel">
@@ -37,7 +37,7 @@
                 <div class="carousel-item" data-bs-interval="10000">
                   <img src="~@/assets/img/arborescence-page.jpg" width="720" height="400" class="d-block w-100" alt="Intégration html pour desktop et mobile sur Pau">
                   <div class="carousel-caption d-block">
-                    <h3>Mise en page html optimisée</h3>
+                    <h3>Mise en page HTML optimisée</h3>
                     <p>Organisation du contenu pour desktop et mobile</p>
                   </div>
                 </div>
@@ -59,14 +59,14 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-12 col-md-12 col-lg-6 freelance">
-            <h2>Micro-entreprise</h2>
+            <h2>Microentreprise</h2>
             <h3><i class="bi bi-clock-history"></i> Projet sur le court terme</h3>
-            <p>En tant qu'indépendant j'exerce une activité libérale sous le statut de micro-entreprise. Après étude de vos besoins et de la faisabilité, j'élabore un cahier des charges et une proposition commerciale. Le projet se découpe en différentes phases avec des validations aux étapes clés pour réduire les risques et répondre aux mieux à vos attentes.</p>
+            <p>En tant qu'indépendant j'exerce une activité libérale sous le statut de microentreprise. Après étude de vos besoins et de la faisabilité, j'élabore un cahier des charges et une proposition commerciale. Le projet se découpe en différentes phases avec des validations aux étapes clés pour réduire les risques et répondre aux mieux à vos attentes.</p>
           </div>
           <div class="col-12 col-md-12 col-lg-6 employee">
             <h2>Contrat de travail</h2>
             <h3><i class="bi bi-calendar3"></i> Projet sur le moyen et long terme</h3>
-            <p>Pour des projets complexes nécessitant du temps de développement je peux me rendre disponible au sein de votre entreprise sous un contrat de travail. Nous élaborerons un planning suivant vos priorités et mettrons en place une organisation efficace. Je propose de travailler avec une méthodologie agile pour améliorer le travail en équipe.</p>
+            <p>Pour des projets complexes nécessitant du temps de développement, je peux me rendre disponible au sein de votre entreprise sous un contrat de travail. Nous élaborerons un planning suivant vos priorités et mettrons en place une organisation efficace. Je propose de travailler avec une méthodologie agile pour améliorer le travail en équipe.</p>
           </div>
         </div>
       </div>
@@ -80,13 +80,13 @@
           <div class="col-12 col-md-6 col-lg-6 col-xl-3 text-center item-responsive">
             <img src="~@/assets/img/img-responsive.png" width="320" height="350" class="img-fluid" alt="Design responsive de site sur Pau">
             <h3>Responsive design</h3>
-            <p class="align-bottom" @click="closeKnowledge('responsive')">La charte graphique de votre site peut se faire en utilisant un template gratuit ou payant afin de réduire le budget final. Si vous souhaitez un design plus original et un site web très optimisé, je conçois des interfaces graphiques et les intégre au sein de vos pages.</p>
+            <p class="align-bottom" @click="closeKnowledge('responsive')">La charte graphique de votre site peut se faire en utilisant un template gratuit ou payant afin de réduire le budget final. Si vous souhaitez un design plus original et un site web très optimisé, je conçois des interfaces graphiques et les intègre au sein de vos pages.</p>
             <button class="btn btn-primary" @click="openKnowledge('responsive')">Plus d'info</button>
           </div>
           <div class="col-12 col-md-6 col-lg-6 col-xl-3 text-center item-development">
             <img src="~@/assets/img/img-development.png" width="350" height="350" class="img-fluid" alt="Développeur professionnel sur Pau">
             <h3>Développement</h3>
-            <p class="align-bottom" @click="closeKnowledge('development')">Nous pouvons mettre en place un site vitrine avec WordPress afin d'administrer le contenu. Pour un projet plus complexe comme une application web je propose d'utiliser le framework Vue.js. N'hésitez pas à me contacter pour déterminer la technologie idéale.</p>
+            <p class="align-bottom" @click="closeKnowledge('development')">Nous pouvons mettre en place un site vitrine avec WordPress afin d'administrer le contenu. Pour un projet plus complexe comme une application web, je propose d'utiliser le framework Vue.js. N'hésitez pas à me contacter pour déterminer la technologie idéale.</p>
             <button class="btn btn-primary" @click="openKnowledge('development')">Plus d'info</button>
           </div>
           <div class="col-12 col-md-6 col-lg-6 col-xl-3 text-center item-writing">
@@ -125,27 +125,27 @@
           <Techno name="Adobe Animate" logo="logo-adobe_animate.png" desc="Logiciel d'animation vectorielle pour le web et la vidéo" />
           <Techno name="Affinity Photo" logo="logo-affinity_photo.png" desc="Logiciel de retouche d'images et de conception graphique" />
           <Techno name="Affinity Designer" logo="logo-affinity_designer.png" desc="Logiciel d'édition graphique pour un rendu vectoriel" />
-          <Techno name="Affinity Publisher" logo="logo-affinity_publisher.png" desc="Logiciel de publication pour l'impression et les documents pdf" />
+          <Techno name="Affinity Publisher" logo="logo-affinity_publisher.png" desc="Logiciel de publication pour l'impression et les documents PDF" />
           <Techno name="PhpStorm" logo="logo-phpstorm.png" desc="Logiciel ou IDE de programmation dédié aux langages du web" />
-          <Techno name="Javascript" logo="logo-javascript.png" desc="Langage de programmation côté client et serveur pour site et api" />
+          <Techno name="JavaScript" logo="logo-javascript.png" desc="Langage de programmation côté client et serveur pour site et api" />
           <Techno name="PHP" logo="logo-php.png" desc="Langage de programmation côté serveur pour site et api" />
-          <Techno name="WordPress" logo="logo-wordpress.png" desc="Système de gestion de contenu pour la création de site Internet" />
+          <Techno name="WordPress" logo="logo-wordpress.png" desc="Système de gestion de contenu pour la création de sites Internet" />
           <Techno name="Woocommerce" logo="logo-woocommerce.png" desc="Extension de WordPress pour développer une boutique en ligne" />
-          <Techno name="jQuery" logo="logo-jquery.png" desc="Framework Javascript pour améliorer l’interactivité d’une page html" />
-          <Techno name="Vue.js" logo="logo-vuejs.png" desc="Framework Javascript pour développer des sites et des applications mobiles" />
+          <Techno name="jQuery" logo="logo-jquery.png" desc="Framework JavaScript pour améliorer l’interactivité d’une page HTML" />
+          <Techno name="Vue.js" logo="logo-vuejs.png" desc="Framework JavaScript pour développer des sites et des applications mobiles" />
           <Techno name="Sass / Scss" logo="logo-sass.png" desc="Préprocesseur CSS pour aider le travail des développeurs" />
           <Techno name="Less" logo="logo-less.png" desc="Préprocesseur CSS pour aider le travail des intégrateurs" />
-          <Techno name="Bootstrap" logo="logo-bootstrap.png" desc="Framework CSS pour créer des interfaces html tout support" />
+          <Techno name="Bootstrap" logo="logo-bootstrap.png" desc="Framework CSS pour créer des interfaces HTML tout support" />
           <Techno name="MySql" logo="logo-mysql.png" desc="Serveur de bases de données pour gérer le contenu dynamique" />
           <Techno name="MariaDB" logo="logo-mariadb.png" desc="Serveur de bases de données pour gérer le contenu dynamique" />
-          <Techno name="Git" logo="logo-git.png" desc="Logiciel de gestion des versions pour le travail en équipe" />
-          <Techno name="Svn" logo="logo-svn.png" desc="Logiciel de gestion des versions pour le travail en équipe" />
-          <Techno name="Github" logo="logo-github.png" desc="Plateforme en ligne d'hébergement et de partage de code-source" />
+          <Techno name="Git" logo="logo-git.png" desc="Logiciel de versioning pour le travail collaboratif" />
+          <Techno name="Svn" logo="logo-svn.png" desc="Logiciel de versioning pour le travail collaboratif" />
+          <Techno name="Github" logo="logo-github.png" desc="Plateforme en ligne d'hébergement et de partage de code source" />
           <Techno name="Postman" logo="logo-postman.png" desc="Logiciel pour aider les développeurs dans la mise en place d'api" />
           <Techno name="Yourtext Guru" logo="logo-yourtext_guru.png" desc="Outil en ligne pour la rédaction de contenu optimisé au référencement" />
-          <Techno name="Screaming Frog" logo="logo-screaming_frog.png" desc="Logiciel d'analyse de code-source et d'extraction des données en ligne" />
+          <Techno name="Screaming Frog" logo="logo-screaming_frog.png" desc="Logiciel d'analyse de code source et d'extraction des données en ligne" />
           <Techno name="Google Analytics" logo="logo-google_analytics.png" desc="Outil en ligne d'analyse d'audience pour un site ou une application mobile" />
-          <Techno name="Sendinblue" logo="logo-sendinblue.png" desc="Plateforme en ligne de marketing relationnel pour les campagnes d'emails" />
+          <Techno name="Sendinblue" logo="logo-sendinblue.png" desc="Plateforme de marketing relationnel pour les campagnes d'emails" />
           <Techno name="Ubersuggest" logo="logo-ubersuggest.png" desc="Outil en ligne pour analyser les mots clés recherchés sur les moteurs" />
         </div>
       </div>
@@ -188,7 +188,7 @@
                 <div class="carousel-item" data-bs-interval="10000">
                   <img src="~@/assets/img/interface-mecajetdeau.jpg" width="960" height="715" class="d-block w-100" alt="Développeur sur Pau de site de qualité avec le framework Bootstrap">
                   <div class="carousel-caption">
-                    <h3>Conception du site Internet vitrine multi-langues mecajetdeau.com</h3>
+                    <h3>Conception du site Internet vitrine multilingue mecajetdeau.com</h3>
                     <p>Copyright : Méca Jet d'Eau | Design : Gabriel Uribe</p>
                   </div>
                 </div>

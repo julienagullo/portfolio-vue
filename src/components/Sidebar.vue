@@ -38,14 +38,14 @@
         <span class="title">Langue vivante</span><br>
         Anglais intermédiaire
       </p>
-      <h2>Centres d'intérêts</h2>
+      <h2>Centres d'intérêt</h2>
       <p class="border-blue">
         <span class="title">Général</span><br>
         Écologie, Littérature, Cinéma
       </p>
       <p class="border-blue">
         <span class="title">Informatique</span><br>
-        Internet, Programmation, Pao
+        Internet, Programmation, PAO
       </p>
       <p class="border-blue">
         <span class="title">Sport</span><br>
