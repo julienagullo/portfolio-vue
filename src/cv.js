@@ -35,7 +35,7 @@ export default {
         detail: 'Chef de projet multimédia',
       },
       {
-        date: '2011 - 2021',
+        date: '2011 - 2022',
         title: 'Microentreprise - Toulouse',
         detail: 'Développement web et programmation informatique',
       },

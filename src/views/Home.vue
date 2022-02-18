@@ -65,7 +65,7 @@
           </div>
           <div class="col-12 col-md-12 col-lg-6 employee">
             <h2>Contrat de travail</h2>
-            <h3><i class="bi bi-calendar3"></i> Projet sur le moyen et long terme</h3>
+            <h3><i class="bi bi-calendar3"></i> Projet sur le long terme</h3>
             <p>Pour des projets complexes nécessitant du temps de développement, je peux me rendre disponible au sein de votre entreprise sous un contrat de travail. Nous élaborerons un planning suivant vos priorités et mettrons en place une organisation efficace. Je propose de travailler avec une méthodologie agile pour améliorer le travail en équipe.</p>
           </div>
         </div>
@@ -80,13 +80,13 @@
           <div class="col-12 col-md-6 col-lg-6 col-xl-3 text-center item-responsive">
             <img src="~@/assets/img/img-responsive.png" width="320" height="350" class="img-fluid" alt="Design responsive de site sur Pau">
             <h3>Responsive design</h3>
-            <p class="align-bottom" @click="closeKnowledge('responsive')">La charte graphique de votre site peut se faire en utilisant un template gratuit ou payant afin de réduire le budget final. Si vous souhaitez un design plus original et un site web très optimisé, je conçois des interfaces graphiques et les intègre au sein de vos pages.</p>
+            <p class="align-bottom" @click="closeKnowledge('responsive')">La charte graphique de votre site peut se faire en utilisant un template gratuit ou payant afin de réduire le budget final. Si vous souhaitez un design plus original ou un site web très optimisé, je réalise des interfaces graphiques et les intègre au sein de vos pages.</p>
             <button class="btn btn-primary" @click="openKnowledge('responsive')">Plus d'info</button>
           </div>
           <div class="col-12 col-md-6 col-lg-6 col-xl-3 text-center item-development">
             <img src="~@/assets/img/img-development.png" width="350" height="350" class="img-fluid" alt="Développeur professionnel sur Pau">
             <h3>Développement</h3>
-            <p class="align-bottom" @click="closeKnowledge('development')">Nous pouvons mettre en place un site vitrine avec WordPress afin d'administrer le contenu. Pour un projet plus complexe comme une application web, je propose d'utiliser le framework Vue.js. N'hésitez pas à me contacter pour déterminer la technologie idéale.</p>
+            <p class="align-bottom" @click="closeKnowledge('development')">Je conçois des sites avec WordPress et Woocommerce afin de disposer d'un site clé en main administrable. Pour un site non administrable ou sur-mesure comme une application web, j'utilise le framework VueJS. Contactez-moi pour déterminer la technologie idéale.</p>
             <button class="btn btn-primary" @click="openKnowledge('development')">Plus d'info</button>
           </div>
           <div class="col-12 col-md-6 col-lg-6 col-xl-3 text-center item-writing">
@@ -127,19 +127,19 @@
           <Techno name="Affinity Designer" logo="logo-affinity_designer.png" desc="Logiciel d'édition graphique pour un rendu vectoriel" />
           <Techno name="Affinity Publisher" logo="logo-affinity_publisher.png" desc="Logiciel de publication pour l'impression et les documents PDF" />
           <Techno name="PhpStorm" logo="logo-phpstorm.png" desc="Logiciel ou IDE de programmation dédié aux langages du web" />
-          <Techno name="JavaScript" logo="logo-javascript.png" desc="Langage de programmation côté client et serveur pour site et api" />
-          <Techno name="PHP" logo="logo-php.png" desc="Langage de programmation côté serveur pour site et api" />
+          <Techno name="JavaScript" logo="logo-javascript.png" desc="Langage de programmation côté client et serveur pour application, site et api" />
+          <Techno name="PHP" logo="logo-php.png" desc="Langage de programmation côté serveur pour application, site et api" />
           <Techno name="WordPress" logo="logo-wordpress.png" desc="Système de gestion de contenu pour la création de sites Internet" />
           <Techno name="Woocommerce" logo="logo-woocommerce.png" desc="Extension de WordPress pour développer une boutique en ligne" />
           <Techno name="jQuery" logo="logo-jquery.png" desc="Framework JavaScript pour améliorer l’interactivité d’une page HTML" />
           <Techno name="Vue.js" logo="logo-vuejs.png" desc="Framework JavaScript pour développer des sites et des applications mobiles" />
-          <Techno name="Sass / Scss" logo="logo-sass.png" desc="Préprocesseur CSS pour aider le travail des développeurs" />
-          <Techno name="Less" logo="logo-less.png" desc="Préprocesseur CSS pour aider le travail des intégrateurs" />
+          <Techno name="Sass / Scss" logo="logo-sass.png" desc="Préprocesseur CSS pour aider le travail des développeurs web" />
+          <Techno name="Less" logo="logo-less.png" desc="Préprocesseur CSS pour faciliter le travail des intégrateurs web" />
           <Techno name="Bootstrap" logo="logo-bootstrap.png" desc="Framework CSS pour créer des interfaces HTML tout support" />
           <Techno name="MySql" logo="logo-mysql.png" desc="Serveur de bases de données pour gérer le contenu dynamique" />
           <Techno name="MariaDB" logo="logo-mariadb.png" desc="Serveur de bases de données pour gérer le contenu dynamique" />
           <Techno name="Git" logo="logo-git.png" desc="Logiciel de versioning pour le travail collaboratif" />
-          <Techno name="Svn" logo="logo-svn.png" desc="Logiciel de versioning pour le travail collaboratif" />
+          <Techno name="Svn" logo="logo-svn.png" desc="Logiciel de gestion de version pour le travail en équipe" />
           <Techno name="Github" logo="logo-github.png" desc="Plateforme en ligne d'hébergement et de partage de code source" />
           <Techno name="Postman" logo="logo-postman.png" desc="Logiciel pour aider les développeurs dans la mise en place d'api" />
           <Techno name="Yourtext Guru" logo="logo-yourtext_guru.png" desc="Outil en ligne pour la rédaction de contenu optimisé au référencement" />
