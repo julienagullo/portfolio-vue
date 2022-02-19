@@ -69,41 +69,42 @@
         </h2>
         <div id="collapsePrivacy" class="accordion-collapse collapse" aria-labelledby="headingPrivacy" data-bs-parent="#accordionPrivacy">
           <div class="accordion-body">
-            <div id='ppms_cm_privacy_settings' data-editor-centralize='true' data-main-container='true' data-root='true'>
-              <div data-disable-select='true'>
-                <p>
-                  Ce site Internet <b>analyse de façon anonyme</b> le trafic généré par les visiteurs pour améliorer l'expérience utilisateur et détecter des problèmes. Veuillez noter ci-dessous la liste des données utilisateur qui sont enregistrées dans une base de données hébergée en Europe :
-                </p>
-                <ul>
-                  <li>adresse IP masquée (192.168.100.xxx)</li>
-                  <li>région du visiteur</li>
-                  <li>heure de la visite</li>
-                  <li>pages vues par un visiteur</li>
-                  <li>temps passé sur chaque page</li>
-                  <li>site Internet de référence</li>
-                  <li>type d'appareil</li>
-                  <li>type de navigateur</li>
-                  <li>type de système d'exploitation</li>
-                  <li>téléchargements (clics sur des fichiers téléchargeables)</li>
-                  <li>clics sur des liens menant à des sites externes</li>
-                  <li>temps de génération de la page</li>
-                  <li>données de recherche interne</li>
-                </ul>
-                <p>
-                  Pour analyser le trafic et sécuriser le formulaire de contact, <b>nous avons besoin d'enregistrer certains cookies</b> dans votre navigateur :
-                </p>
-                <ul>
-                  <li><b>_pk_ses.[appID].[domainHash] :</b> Montre une session active du visiteur. Si le cookie n'est pas présent, la session s'est terminée il y a plus de 30 minutes.</li>
-                  <li><b>_pk_id.[appID].[domainHash] :</b> Utilisé pour reconnaître les visiteurs et retenir leurs différentes propriétés.</li>
-                  <li><b>_pk_cvar :</b> Contiens les variables personnalisées qui ont été définies lors de l'affichage de la page précédente. Il n'est pas activé par défaut.</li>
-                  <li><b>app_id :</b> Utilisé pour passer un site ou une application ID entre les modules de Piwik PRO : Analytics, Tag Manager, Consent Manager.</li>
-                  <li><b>ppms_privacy_[appID] :</b> Enregistre le consentement du visiteur pour la collecte et l'utilisation de ses données personnelles.</li>
-                  <li><b>_GRECAPTCHA :</b> Exécuté pour fournir une analyse des risques en sécurisant les formulaires de comtact.</li>
-                </ul>
-                <p id='ppms_cm_privacy_settings_form_link_text_id'>
-                  En cliquant sur <b>Paramètres</b> pouvez gérer votre consentement et arrêter l'analyse de votre session de navigation. Nous collectons et utilisons vos données uniquement à des fins d'analyse pour améliorer le site. <b>Vos données ne sont transmises à aucun tiers ni utilisées à des fins marketing.</b>
-                </p>
-                <button class='btn btn-primary' id='ppms_cm_privacy_settings_button'>Paramètres</button>
+            <div class="container-fluid" id='ppms_cm_privacy_settings' data-editor-centralize='true' data-main-container='true' data-root='true'>
+              <div class="row" data-disable-select='true'>
+                <div class="col-12">
+                  <p>Ce site Internet <b>analyse de façon anonyme</b> le trafic généré par les visiteurs pour améliorer l'expérience utilisateur et détecter des problèmes. Veuillez noter ci-dessous la liste des données utilisateur qui sont enregistrées sur un serveur en Europe :</p>
+                </div>
+                <div class="row data-list">
+                  <div class="col-12 col-md-6">Adresse IP masquée (192.168.100.xxx)</div>
+                  <div class="col-12 col-md-6">Heure de la visite</div>
+                  <div class="col-12 col-md-6">Pays du visiteur</div>
+                  <div class="col-12 col-md-6">Région du visiteur</div>
+                  <div class="col-12 col-md-6">Pages vues par un visiteur</div>
+                  <div class="col-12 col-md-6">Temps passé sur chaque page</div>
+                  <div class="col-12 col-md-6">Site Internet de référence</div>
+                  <div class="col-12 col-md-6">Type de système d'exploitation</div>
+                  <div class="col-12 col-md-6">Type d'appareil utilisé</div>
+                  <div class="col-12 col-md-6">Type de navigateur</div>
+                  <div class="col-12 col-md-6">Clics sur des fichiers téléchargeables</div>
+                  <div class="col-12 col-md-6">Clics sur des liens vers des sites externes</div>
+                  <div class="col-12 col-md-6">Temps de génération de la page</div>
+                  <div class="col-12 col-md-6">Données de recherche interne</div>
+                </div>
+                <div class="col-12 mt-4">
+                  <p>Pour analyser le trafic et sécuriser le formulaire de contact, <b>des cookies sont enregistrés</b> dans le navigateur. Veuillez noter ci-dessous la liste des cookies utilisés par le site :</p>
+                </div>
+                <div class="row cookie-list">
+                  <div class="col-12"><b>_pk_ses.[appID].[domainHash] :</b> <span>Montre une session active du visiteur. Si le cookie n'est pas présent, la session s'est terminée il y a plus de 30 minutes.</span></div>
+                  <div class="col-12"><b>_pk_id.[appID].[domainHash] :</b> <span>Utilisé pour reconnaître les visiteurs et retenir leurs différentes propriétés.</span></div>
+                  <div class="col-12"><b>_pk_cvar :</b> <span>Contiens les variables personnalisées qui ont été définies lors de l'affichage de la page précédente. Il n'est pas activé par défaut.</span></div>
+                  <div class="col-12"><b>app_id :</b> <span>Utilisé pour passer un site ou une application ID entre les modules de Piwik PRO : Analytics, Tag Manager, Consent Manager.</span></div>
+                  <div class="col-12"><b>ppms_privacy_[appID] :</b> <span>Enregistre le consentement du visiteur pour la collecte et l'utilisation de ses données personnelles.</span></div>
+                  <div class="col-12"><b>_GRECAPTCHA :</b> <span>Exécuté pour fournir une analyse des risques en sécurisant les formulaires de comtact.</span></div>
+                </div>
+                <div class="col-12 mt-4">
+                  <p id='ppms_cm_privacy_settings_form_link_text_id'>En cliquant sur <b>Paramètres</b>, vous pouvez gérer votre consentement et arrêter l'analyse de votre session de navigation. Nous collectons et utilisons vos données uniquement à des fins d'analyse pour améliorer le site. <b>Vos données ne sont transmises à aucun tiers ni utilisées à des fins marketing.</b></p>
+                  <button class='btn btn-primary' id='ppms_cm_privacy_settings_button'>Paramètres</button>
+                </div>
               </div>
             </div>
           </div>
@@ -343,6 +344,27 @@ export default {
       }
     }
   }
+  section.privacy {
+    .data-list,
+    .cookie-list {
+      display: flex;
+      justify-content: flex-start;
+      color: #545454;
+      background-color: #f7f7f7;
+      border: 1px solid #dddddd;
+      padding: 0;
+      margin: 0;
+    }
+    .data-list,
+    .cookie-list {
+      div {
+        padding: 10px;
+      }
+      div:nth-child(odd) {
+        background-color: #fdfdfd;
+      }
+    }
+  }
 }
 /* Responsive */
 @media (max-width: 410px) {
@@ -352,6 +374,25 @@ export default {
       -webkit-transform: scale(0.75) !important;
       transform-origin: 0 0 !important;
       -webkit-transform-origin: 0 0 !important;
+    }
+  }
+}
+@media (min-width: 768px) {
+  .content {
+    section.privacy {
+      .row.data-list > div {
+        background-color: transparent;
+      }
+      .row.data-list > div:nth-child(1),
+      .row.data-list > div:nth-child(2),
+      .row.data-list > div:nth-child(5),
+      .row.data-list > div:nth-child(6),
+      .row.data-list > div:nth-child(9),
+      .row.data-list > div:nth-child(10),
+      .row.data-list > div:nth-child(13),
+      .row.data-list > div:nth-child(14) {
+        background-color: #fdfdfd;
+      }
     }
   }
 }
