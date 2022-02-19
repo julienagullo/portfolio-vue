@@ -11,7 +11,7 @@
         </h2>
         <div id="collapseContact" class="accordion-collapse collapse show" aria-labelledby="headingContact" data-bs-parent="#accordionContact">
           <div class="accordion-body">
-            <p>Vous pouvez me contacter pour toute demande de renseignement, pour un projet ou un devis.</p>
+            <p>Vous pouvez me contacter pour toute demande de renseignement, pour un projet ou un devis avec le formulaire ci-dessous :</p>
             <transition name="fade" mode="out-in">
               <p v-if="send" class="alert alert-info">Merci, votre email a bien été envoyé.</p>
             </transition>
@@ -56,6 +56,56 @@
                 <button type="submit" id="form-submit" class="btn btn-primary">Envoyer</button>
               </div>
             </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="accordion privacy" id="accordionPrivacy">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingPrivacy">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePrivacy" aria-expanded="true" aria-controls="collapseOne">
+            Politique de confidentialité
+          </button>
+        </h2>
+        <div id="collapsePrivacy" class="accordion-collapse collapse" aria-labelledby="headingPrivacy" data-bs-parent="#accordionPrivacy">
+          <div class="accordion-body">
+            <div id='ppms_cm_privacy_settings' data-editor-centralize='true' data-main-container='true' data-root='true'>
+              <div data-disable-select='true'>
+                <p>
+                  Ce site Internet <b>analyse de façon anonyme</b> le trafic généré par les visiteurs pour améliorer l'expérience utilisateur et détecter des problèmes. Veuillez noter ci-dessous la liste des données utilisateur qui sont enregistrées dans une base de données hébergée en Europe :
+                </p>
+                <ul>
+                  <li>adresse IP masquée (192.168.100.xxx)</li>
+                  <li>région du visiteur</li>
+                  <li>heure de la visite</li>
+                  <li>pages vues par un visiteur</li>
+                  <li>temps passé sur chaque page</li>
+                  <li>site Internet de référence</li>
+                  <li>type d'appareil</li>
+                  <li>type de navigateur</li>
+                  <li>type de système d'exploitation</li>
+                  <li>téléchargements (clics sur des fichiers téléchargeables)</li>
+                  <li>clics sur des liens menant à des sites externes</li>
+                  <li>temps de génération de la page</li>
+                  <li>données de recherche interne</li>
+                </ul>
+                <p>
+                  Pour analyser le trafic et sécuriser le formulaire de contact, <b>nous avons besoin d'enregistrer certains cookies</b> dans votre navigateur :
+                </p>
+                <ul>
+                  <li><b>_pk_ses.[appID].[domainHash] :</b> Montre une session active du visiteur. Si le cookie n'est pas présent, la session s'est terminée il y a plus de 30 minutes.</li>
+                  <li><b>_pk_id.[appID].[domainHash] :</b> Utilisé pour reconnaître les visiteurs et retenir leurs différentes propriétés.</li>
+                  <li><b>_pk_cvar :</b> Contiens les variables personnalisées qui ont été définies lors de l'affichage de la page précédente. Il n'est pas activé par défaut.</li>
+                  <li><b>app_id :</b> Utilisé pour passer un site ou une application ID entre les modules de Piwik PRO : Analytics, Tag Manager, Consent Manager.</li>
+                  <li><b>ppms_privacy_[appID] :</b> Enregistre le consentement du visiteur pour la collecte et l'utilisation de ses données personnelles.</li>
+                  <li><b>_GRECAPTCHA :</b> Exécuté pour fournir une analyse des risques en sécurisant les formulaires de comtact.</li>
+                </ul>
+                <p id='ppms_cm_privacy_settings_form_link_text_id'>
+                  En cliquant sur <b>Paramètres</b> pouvez gérer votre consentement et arrêter l'analyse de votre session de navigation. Nous collectons et utilisons vos données uniquement à des fins d'analyse pour améliorer le site. <b>Vos données ne sont transmises à aucun tiers ni utilisées à des fins marketing.</b>
+                </p>
+                <button class='btn btn-primary' id='ppms_cm_privacy_settings_button'>Paramètres</button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -212,7 +262,8 @@ export default {
 @import "src/assets/scss/variables";
 .content {
   section.form,
-  section.mention {
+  section.mention,
+  section.privacy {
     background-color: #fafafa;
     border: 1px solid #c0c0c0;
     -webkit-box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.08);
