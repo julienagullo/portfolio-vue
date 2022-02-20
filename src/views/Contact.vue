@@ -102,7 +102,7 @@
                   <div class="col-12"><b>_GRECAPTCHA :</b> <span>Exécuté pour fournir une analyse des risques en sécurisant les formulaires de comtact.</span></div>
                 </div>
                 <div class="col-12 mt-4">
-                  <p id='ppms_cm_privacy_settings_form_link_text_id'>En cliquant sur <b>Paramètres</b>, vous pouvez gérer votre consentement et arrêter l'analyse de votre session de navigation. Nous collectons et utilisons vos données uniquement à des fins d'analyse pour améliorer le site. <b>Vos données ne sont transmises à aucun tiers ni utilisées à des fins marketing.</b></p>
+                  <p id='ppms_cm_privacy_settings_form_link_text_id'>En cliquant sur <b>Paramètres</b>, vous pouvez gérer votre consentement et arrêter l'analyse de votre session de navigation sur la base de votre adresse IP masquée. La collecte et l'utilisation de vos données ne se font qu'à des fins d'analyse pour améliorer le site. <b>Vos données ne sont transmises à aucun tiers ni utilisées à des fins marketing.</b></p>
                   <button class='btn btn-primary' id='ppms_cm_privacy_settings_button'>Paramètres</button>
                 </div>
               </div>
