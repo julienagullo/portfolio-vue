@@ -8,19 +8,19 @@
       <p>Code source de ce portfolio en ligne réalisé avec Vuejs et Bootstrap pour découvrir ce framework JavaScript.</p>
       <a href="https://github.com/julienagullo/portfolio-vue" target="_blank" class="btn btn-primary" title="Projet rwdKit sur Github"><i class="bi bi-github"></i> Voir le projet</a>
     </section>
+    <section class="project cookiesconsent">
+      <h2>cookies Consent</h2>
+      <img src="~@/assets/img/source-jquery.png" class="logo" width="102" height="25" alt="jQuery write less, do more">
+      <p>Librairie jQuery servant à charger ou non Google Analytics par un modal de consentement sur son site Internet.</p>
+      <a href="https://github.com/julienagullo/cookies-consent" target="_blank" class="btn btn-primary" title="Projet cookiesConsent sur Github"><i class="bi bi-github"></i> Voir le projet</a>
+      <a href="https://jagullo.fr/cookies-consent/" target="_blank" class="btn btn-primary" title="Démo de la librairie cookiesConsent"><i class="bi bi-window"></i> Démo</a>
+    </section>
     <section class="project rwdkit">
       <h2>rwdKit</h2>
       <img src="~@/assets/img/source-jquery.png" class="logo" width="102" height="25" alt="jQuery write less, do more">
       <p>Librairie jQuery facilitant le développement d'interface responsive en affichant le nom du breakpoint courant.</p>
       <a href="https://github.com/julienagullo/rwdKit" target="_blank" class="btn btn-primary" title="Projet rwdKit sur Github"><i class="bi bi-github"></i> Voir le projet</a>
       <a href="https://jagullo.fr/rwdkit/" target="_blank" class="btn btn-primary" title="Démo de la librairie rwdKit"><i class="bi bi-window"></i> Démo</a>
-    </section>
-    <section class="project cookiekit">
-      <h2>cookieKit</h2>
-      <img src="~@/assets/img/source-jquery.png" class="logo" width="102" height="25" alt="jQuery write less, do more">
-      <p>Librairie jQuery servant à charger ou non Google Analytics via un modal de consentement sur son site Internet.</p>
-      <a href="https://github.com/julienagullo/cookieKit" target="_blank" class="btn btn-primary" title="Projet cookieKit sur Github"><i class="bi bi-github"></i> Voir le projet</a>
-      <a href="https://jagullo.fr/cookiekit/" target="_blank" class="btn btn-primary" title="Démo de la librairie cookieKit"><i class="bi bi-window"></i> Démo</a>
     </section>
   </div>
 </template>
@@ -89,11 +89,11 @@ export default {
   .portfolio-vue {
     background: #fafafa url('~@/assets/img/banner-portfoliovue.jpg') no-repeat right center;
   }
+  .cookiesconsent {
+    background: #fafafa url('~@/assets/img/banner-cookiesconsent.jpg') no-repeat right center;
+  }
   .rwdkit {
     background: #fafafa url('~@/assets/img/banner-rwdkit.jpg') no-repeat right center;
-  }
-  .cookiekit {
-    background: #fafafa url('~@/assets/img/banner-cookiekit.jpg') no-repeat right center;
   }
 }
 /* Responsive */
