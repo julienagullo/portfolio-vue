@@ -23,9 +23,12 @@ export default {
     this.$router.isReady().then(() => {
       this.highlight(this.$route.name)
     })
-    document.getElementsByClassName('navbar')[0].style.height = window.innerHeight + 'px' /* mobile issue */
+    this.init()
   },
   methods: {
+    init() {
+      document.getElementsByClassName('navbar')[0].style.height = window.innerHeight + 'px'
+    },
     navigate(e) {
       const name = e.target.dataset.name
       if (this.$router.currentRoute.value.name !== name) {

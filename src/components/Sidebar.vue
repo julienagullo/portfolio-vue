@@ -69,9 +69,12 @@ export default {
   },
   mounted() {
     this.scrollBar = Scrollbar.init(document.querySelector('#sidebar'), {damping: 0.2})
-    document.getElementById('sidebar').style.height = window.innerHeight + 'px' /* mobile issue */
+    this.init()
   },
   methods: {
+    init() {
+      document.getElementById('sidebar').style.height = window.innerHeight + 'px'
+    },
     close() {
       this.open = false
       document.getElementById('sidebar').classList.remove('open')

@@ -38,7 +38,6 @@ export default {
   mounted() {
     this.scrollBar = Scrollbar.init(document.querySelector('#curriculum'), {damping: 0.2})
     anime({targets: '.content', opacity: 1, duration: 150, easing: 'easeInOutCirc'})
-    document.getElementsByClassName('content')[0].style.height = window.innerHeight + 'px' /* mobile issue */
   },
 }
 </script>

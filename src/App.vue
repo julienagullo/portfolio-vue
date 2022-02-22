@@ -21,7 +21,7 @@ export default {
     }
   },
   mounted() {
-    document.body.style.height = document.documentElement.style.height = window.innerHeight + 'px' /* mobile issue */
+    window.addEventListener('resize', this.resize)
   },
   methods: {
     toogleSidebar() {
@@ -32,6 +32,10 @@ export default {
     },
     navigate(e) {
       this.$refs.navbar.navigate(e)
+    },
+    resize() {
+      this.$refs.sidebar.init()
+      this.$refs.navbar.init()
     },
   },
 }

@@ -161,7 +161,6 @@ export default {
   mounted() {
     Scrollbar.init(document.querySelector('#contact'), {damping: 0.2})
     anime({targets: '.content', opacity: 1, duration: 200, easing: 'easeInOutCirc'})
-    document.getElementsByClassName('content')[0].style.height = window.innerHeight + 'px' /* mobile issue */
     this.initCaptcha()
   },
   methods: {
