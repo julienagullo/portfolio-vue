@@ -1,15 +1,15 @@
 <template>
   <div id="home" class="content">
-    <h1>Développeur web sur Pau et Orthez</h1>
+    <h1>Développeur web sur Pau et Tarbes</h1>
     <hr class="hr-gray" />
     <section class="intro">
       <div class="container-fluid">
         <div class="row">
           <div class="col-12 col-md-12 col-lg-12 col-xl-6 intro-description">
             <h2>Création <span class="color-red">de sites Internet</span> professionnels</h2>
-            <p>Bienvenue sur mon site / portfolio dédié au développement web pour les entreprises et les professionnels. Spécialisé depuis 15 ans en gestion de projet, communication, design et programmation, j'apporte des solutions techniques en étudiant chaque projet afin de répondre au mieux aux besoins de mes clients.</p>
+            <p>Bienvenue sur mon site / portfolio dédié <strong>au développement web</strong> pour les entreprises et les professionnels. Spécialisé depuis 15 ans en gestion de projet, communication, design et programmation, j'apporte des solutions techniques en étudiant chaque projet afin de répondre au mieux aux besoins de mes clients.</p>
             <hr class="hr-gray">
-            <p>Du cahier des charges à la mise en ligne, je conseille sur chaque étape de votre projet pour déterminer la meilleure approche en termes de communication et de technologie. La création d'un site professionnel vous permettra d'augmenter votre visibilité sur les moteurs de recherche et d'améliorer l'image de marque de votre société.</p>
+            <p>Du cahier des charges à la mise en ligne, je conseille sur chaque étape de votre projet pour déterminer la meilleure approche en termes de communication et de technologie. <strong>La création d'un site professionnel</strong> vous permettra d'augmenter votre visibilité sur les moteurs de recherche et d'améliorer l'image de marque de votre société.</p>
             <a href="/curriculum" class="btn btn-primary" @click.prevent="$emit('navbar-navigate', $event)" data-name="Curriculum" title="Curriculum vitae">Voir mon curriculum</a>
           </div>
           <div class="col-12 col-md-12 col-lg-12 col-xl-6 intro-carousel">
@@ -28,7 +28,7 @@
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="10000">
-                  <img src="~@/assets/img/arborescence-site.jpg" width="720" height="400" class="d-block w-100" alt="Étude de l'architecture de votre site sur Orthez">
+                  <img src="~@/assets/img/arborescence-site.jpg" width="720" height="400" class="d-block w-100" alt="Étude de l'architecture de votre site sur Tarbes">
                   <div class="carousel-caption d-block">
                     <h3>Architecture de votre site</h3>
                     <p>Réflexion sur l'arborescence de votre site</p>
@@ -61,7 +61,7 @@
           <div class="col-12 col-md-12 col-lg-6 freelance">
             <h2>Microentreprise</h2>
             <h3><i class="bi bi-clock-history"></i> Projet sur le court terme</h3>
-            <p>En tant qu'indépendant j'exerce une activité libérale sous le statut de microentreprise. Après étude de vos besoins et de la faisabilité, j'élabore un cahier des charges et une proposition commerciale. Le projet se découpe en différentes phases avec des validations aux étapes clés pour réduire les risques et répondre aux mieux à vos attentes.</p>
+            <p>En tant qu'indépendant, j'exerce une activité libérale sous le statut de microentreprise. Après étude de vos besoins et de la faisabilité, j'élabore un cahier des charges et une proposition commerciale. Le projet se découpe en différentes phases avec des validations aux étapes clés pour réduire les risques et répondre aux mieux à vos attentes.</p>
           </div>
           <div class="col-12 col-md-12 col-lg-6 employee">
             <h2>Contrat de travail</h2>
@@ -118,7 +118,7 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-12">
-            <h2>Partage de <span class="color-blue">mes connaissances</span> sur Pau et Orthez</h2>
+            <h2>Partage de <span class="color-blue">mes connaissances</span> sur Pau et Tarbes</h2>
           </div>
           <Techno name="Adobe Photoshop" logo="logo-adobe_photoshop.png" desc="Logiciel de retouche d'images et de conception graphique" />
           <Techno name="Adobe Illustrator" logo="logo-adobe_illustrator.png" desc="Logiciel d'édition graphique pour un rendu vectoriel" />
@@ -179,51 +179,51 @@
               </div>
               <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="10000">
-                  <img src="~@/assets/img/interface-armoireplus.jpg" width="960" height="600" class="d-block w-100" alt="Je propose des offres de boutique e-commerce avec WordPress et Woocommerce">
+                  <img src="~@/assets/img/interface-armoireplus.jpg" width="960" height="600" class="d-block w-100" alt="Boutique e-commerce sur Tarbes avec WordPress et Woocommerce">
                   <div class="carousel-caption">
-                    <h3>Amélioration graphique et des fonctionnalités du site armoireplus.fr</h3>
+                    <h3>Amélioration de la charte graphique et des fonctionnalités du site armoireplus.fr</h3>
                     <p>Copyright : DBA</p>
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="10000">
                   <img src="~@/assets/img/interface-mecajetdeau.jpg" width="960" height="715" class="d-block w-100" alt="Développeur sur Pau de site de qualité avec le framework Bootstrap">
                   <div class="carousel-caption">
-                    <h3>Conception du site Internet vitrine multilingue mecajetdeau.com</h3>
+                    <h3>Conception et référencement du site Internet vitrine multilingue mecajetdeau.com</h3>
                     <p>Copyright : Méca Jet d'Eau | Design : Gabriel Uribe</p>
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="10000">
                   <img src="~@/assets/img/interface-toulimmo.jpg" width="960" height="800" class="d-block w-100" alt="Développeur indépendant sur Pau en conception de site vitrine">
                   <div class="carousel-caption">
-                    <h3>Charte graphique et mise en place du site vitrine toulimmo-renovation.fr</h3>
+                    <h3>Création de la charte graphique de l'entreprise et du site toulimmo-renovation.fr</h3>
                     <p>Copyright : Toul-Immo Réalisation</p>
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="10000">
-                  <img src="~@/assets/img/interface-textbeans.jpg" width="960" height="700" class="d-block w-100" alt="Intégrateur et développeur CSS pour des interfaces html de qualité">
+                  <img src="~@/assets/img/interface-textbeans.jpg" width="960" height="700" class="d-block w-100" alt="Intégrateur et développeur CSS sur Tarbes pour des interfaces web de qualité">
                   <div class="carousel-caption">
-                    <h3>Intégration LESS/CSS et optimisation de la plateforme de traduction TextBeans</h3>
+                    <h3>Intégration LESS/CSS de la maquette et optimisation de la plateforme TextBeans</h3>
                     <p>Copyright : Lingocentric | Design : Gabriel Uribe</p>
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="10000">
-                  <img src="~@/assets/img/interface-topwings.jpg" width="960" height="540" class="d-block w-100" alt="Développeur d'interface tactile sur-mesure pour application de salon">
+                  <img src="~@/assets/img/interface-topwings.jpg" width="960" height="540" class="d-block w-100" alt="Développeur d'interface tactile sur-mesure pour les applications de salon">
                   <div class="carousel-caption">
-                    <h3>Conception graphique et réalisation du menu radial de l'application Topwings</h3>
+                    <h3>Conception graphique et développement du menu radial de l'application Topwings</h3>
                     <p>Copyright : Virtual-IT | Client : Thales Aerospace</p>
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="10000">
                   <img src="~@/assets/img/interface-airbusds.jpg" width="960" height="600" class="d-block w-100" alt="Conseil et service de qualité pour des interfaces interactives en Material Design">
                   <div class="carousel-caption">
-                    <h3>Conception graphique et réalisation du magazine interactif pour la mission JUICE</h3>
+                    <h3>Réalisation graphique et développement du magazine interactif pour la mission JUICE</h3>
                     <p>Copyright : Virtual-IT | Client : AIRBUS DS</p>
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="10000">
                   <img src="~@/assets/img/interface-spherea.jpg" width="960" height="540" class="d-block w-100" alt="Développeur d'application tactile dans le domaine événementiel sur Pau">
                   <div class="carousel-caption">
-                    <h3>Suivi projet et réalisation de l'application de salon interactive U-TEST ®</h3>
+                    <h3>Suivi projet et conception de l'application de salon interactive U-TEST ®</h3>
                     <p>Copyright : Virtual-IT | Client : SPHEREA | Design 2D : Gabriel Uribe | Design 3D : Stéphane Agullo</p>
                   </div>
                 </div>
@@ -246,7 +246,7 @@
         <div class="row">
           <div class="col-12 d-flex flex-column align-items-center">
             <h2 class="text-center">Besoin d'un conseil pour vous aider dans votre projet ?</h2>
-            <a href="/contact" class="btn btn-primary" @click.prevent="$emit('navbar-navigate', $event)" data-name="Contact" title="Demande de renseignement">Contactez-moi</a>
+            <a href="/contact" class="btn btn-primary" @click.prevent="$emit('navbar-navigate', $event)" data-name="Contact" title="Demande de renseignement dans le domaine du web">Contactez-moi</a>
           </div>
         </div>
       </div>
@@ -371,7 +371,9 @@ export default {
       }
       span.carousel-control-prev-icon,
       span.carousel-control-next-icon {
-        filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 1));
+        border-radius: 3px;
+        background-size: 70%;
+        background-color: $color-dark;
       }
     }
   }
@@ -494,7 +496,9 @@ export default {
         }
         span.carousel-control-prev-icon,
         span.carousel-control-next-icon {
-          filter: drop-shadow(1px 1px 3px rgba(0,0,0,0.8));
+          border-radius: 3px;
+          background-size: 70%;
+          background-color: $color-blue-hover;
         }
       }
     }

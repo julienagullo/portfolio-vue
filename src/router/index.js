@@ -7,8 +7,8 @@ const routes = [
     path: '/',
     name: 'Home',
     meta: {
-      title: 'Développeur web sur Pau et Orthez | jagullo.fr',
-      description: 'Bienvenue sur mon site Internet présentant mes travaux dans le domaine du web, du développement, du graphisme et de la communication sur Pau et Orthez.',
+      title: 'Développeur web sur Pau et Tarbes | jagullo.fr',
+      description: 'Bienvenue sur mon site Internet présentant mes travaux dans le domaine du web, du développement, du graphisme et de la communication sur Pau et Tarbes.',
     },
     component: () => import('../views/Home.vue'),
   },
@@ -17,7 +17,7 @@ const routes = [
     name: 'Curriculum',
     meta: {
       title: 'Expériences et projets professionnels | jagullo.fr',
-      description: 'Découvrir mon curriculum et l\'ensemble de mes projets dans le domaine du web, du design et de la programmation sur Pau et Orthez.',
+      description: 'Découvrir mon curriculum et l\'ensemble de mes projets dans le domaine du web, du design et de la programmation sur Pau et Tarbes.',
     },
     component: () => import('../views/Curriculum.vue'),
   },
@@ -26,7 +26,7 @@ const routes = [
     name: 'Source',
     meta: {
       title: 'Projets open-sources en développement web | jagullo.fr',
-      description: 'Découvrir tous mes projets open-sources pour le développement web en Vue.js et jQuery.',
+      description: 'Découvrir tous mes projets open sources pour le développement web et particulièrement avec les frameworks Vue.js et jQuery.',
     },
     component: () => import('../views/Source.vue'),
   },
@@ -34,8 +34,8 @@ const routes = [
     path: '/contact',
     name: 'Contact',
     meta: {
-      title: 'Demande de renseignement | jagullo.fr',
-      description: 'Vous pouvez me contacter pour toute demande de renseignement ou de devis en conception de site sous Vue.js et WordPress.',
+      title: 'Renseignement en développement web | jagullo.fr',
+      description: 'Contactez-moi pour toute demande de renseignements, de conseils ou de devis en conception de site Internet sur Pau et Tarbes.',
     },
     component: () => import('../views/Contact.vue'),
   },

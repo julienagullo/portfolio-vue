@@ -11,7 +11,7 @@
         </h2>
         <div id="collapseContact" class="accordion-collapse collapse show" aria-labelledby="headingContact" data-bs-parent="#accordionContact">
           <div class="accordion-body">
-            <p>Vous pouvez me contacter pour toute demande de renseignement, pour un projet ou un devis avec le formulaire ci-dessous :</p>
+            <p>N'hésitez pas à me contacter <strong>pour toute demande de renseignements, de conseils ou un devis gratuit</strong> sur Pau, Tarbes et les villes adjacentes :</p>
             <transition name="fade" mode="out-in">
               <p v-if="send" class="alert alert-info">Merci, votre email a bien été envoyé.</p>
             </transition>
@@ -51,7 +51,7 @@
                 <div id="g-recaptcha" class="captcha"></div>
                 <div class="invalid-tooltip">Veuillez renseigner le captcha</div>
               </div>
-              <p><i>Les informations transmises seront utilisées seulement pour répondre à votre demande.</i></p>
+              <p class="info-rgpd"><i>Les informations envoyées par ce formulaire seront utilisées seulement pour répondre à votre demande et ne seront pas transmises à des tiers.</i></p>
               <div class="mb-3">
                 <button type="submit" id="form-submit" class="btn btn-primary">Envoyer</button>
               </div>
@@ -323,6 +323,11 @@ export default {
         font-size: 1.2rem;
         font-weight: bold;
         top: auto;
+      }
+      .info-rgpd {
+        color: #565656;
+        padding-left: 5px;
+        border-left: 2px solid $color-blue;
       }
       .mb-3 {
         position: relative;

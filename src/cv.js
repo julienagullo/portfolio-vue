@@ -88,7 +88,7 @@ export default {
       {
         date: '2011 - 2013',
         title: 'DCNS <span class="attr">[Virtual-it]</span>',
-        detail: 'Réalisation d\'applications commerciales pour bornes tactiles<br>Collaboration à la conception d\'animations pour support commercial',
+        detail: 'Gestion projet et réalisation d\'applications commerciales sur bornes tactiles<br>Installation des applications dans le showroom du Mourillon et au salon <span class="title">Euronaval</span>',
         images: [],
         tasks: [],
       },
@@ -102,14 +102,14 @@ export default {
       {
         date: '2013 - 2018',
         title: 'Thales Avionics <span class="attr">[Virtual-it]</span>',
-        detail: 'Collaboration à la conception de l\'application de salon <span class="title">TopWings Electronic Flight Bag Solution</span>',
+        detail: 'Conception graphique et aide au développement de l\'application de salon <span class="title">TopWings Electronic Flight Bag solution</span>',
         images: [],
         tasks: [],
       },
       {
         date: '2014',
         title: 'DGAC <span class="attr">[Virtual-it]</span>',
-        detail: 'Conception d\'un outil de formation pour <span class="title">le Service Technique de l’Aviation Civile (STAC)</span>',
+        detail: 'Conception d\'un outil interactif de formation pour <span class="title">le Service Technique de l’Aviation Civile (STAC)</span>',
         images: [],
         tasks: [],
       },
@@ -137,7 +137,7 @@ export default {
       {
         date: '2015',
         title: 'Airbus Defence & Space <span class="attr">[Virtual-it]</span>',
-        detail: 'Conception du magazine interactif pour la mission <span class="title">JUICE</span>',
+        detail: 'Conception du magazine interactif à usage de communication interne pour la mission <span class="title">JUICE</span>',
         images: [],
         tasks: [],
       },
@@ -158,7 +158,7 @@ export default {
       {
         date: '2016',
         title: 'Lingocentric <span class="attr">[Micro]</span>',
-        detail: 'Intégration CSS de la charte graphique pour la plateforme de traduction <span class="title">TextBeans</span>',
+        detail: 'Intégration LESS/CSS de la charte graphique pour la plateforme de traduction <span class="title">TextBeans</span>',
         images: [],
         tasks: [],
       },
@@ -179,7 +179,7 @@ export default {
       {
         date: '2017',
         title: 'Méca Jet d\'Eau <span class="attr">[Micro]</span>',
-        detail: 'Réalisation du site Internet <a href="https://www.mecajetdeau.com" class="title" rel="nofollow noreferrer" target="_blank">mecajetdeau.com</a>',
+        detail: 'Réalisation et référencement du site Internet <a href="https://www.mecajetdeau.com" class="title" rel="nofollow noreferrer" target="_blank">mecajetdeau.com</a>',
         images: [],
         tasks: [],
       },
@@ -221,7 +221,7 @@ export default {
       {
         date: '2019',
         title: 'Angle Droit Avocats <span class="attr">[Eure-K]</span>',
-        detail: 'Intégration CSS de la charte graphique pour un site Internet vitrine',
+        detail: 'Intégration LESS/CSS de la charte graphique pour un site vitrine',
         images: [],
         tasks: [],
       },
