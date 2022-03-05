@@ -240,6 +240,13 @@ export default {
         tasks: [],
       },
       {
+        date: '2021',
+        title: 'Les Jardins de Jordi <span class="attr">[Micro]</span>',
+        detail: 'Aide à la réalisation du site Internet <a href="https://www.lesjardinsdejordi.com" class="title" rel="nofollow noreferrer" target="_blank">lesjardinsdejordi.com</a><br>Formation sur l\'utilisation de WordPress et de Sendinblue',
+        images: [],
+        tasks: [],
+      },
+      {
         date: '2020 - 2022',
         title: 'Armoire Plus <span class="attr">[DBA]</span>',
         detail: 'Amélioration de la charte graphique de la marque<br>Aide au développement du site Internet <a href="https://www.armoireplus.fr" class="title" rel="nofollow noreferrer" target="_blank">armoireplus.fr</a>',
@@ -250,13 +257,6 @@ export default {
         date: '2021 - 2022',
         title: 'Brigade Hocaré <span class="attr">[DBA]</span>',
         detail: 'Suivi projet de la phase développement du site Internet<br>Réalisation de la charte graphique de <a href="https://brigade-hocare.com" class="title" rel="nofollow noreferrer" target="_blank">brigade-hocare.com</a>',
-        images: [],
-        tasks: [],
-      },
-      {
-        date: '2022',
-        title: 'Les Jardins de Jordi <span class="attr">[Micro]</span>',
-        detail: 'Aide à la réalisation du site Internet <a href="https://www.lesjardinsdejordi.com" class="title" rel="nofollow noreferrer" target="_blank">lesjardinsdejordi.com</a><br>Formation sur l\'utilisation de WordPress et de Sendinblue',
         images: [],
         tasks: [],
       },
