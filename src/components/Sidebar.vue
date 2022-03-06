@@ -63,7 +63,7 @@ export default {
   data() {
     return {
       open: false,
-      counter: -1,
+      counter: 0,
       scrollBar: Scrollbar,
     }
   },
