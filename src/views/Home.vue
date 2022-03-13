@@ -120,33 +120,39 @@
           <div class="col-12">
             <h2>Partage de <span class="color-blue">mes connaissances</span> sur Pau et Tarbes</h2>
           </div>
+          <h3><i class="bi bi-brush"></i> Graphisme</h3>
           <Techno name="Adobe Photoshop" logo="logo-adobe_photoshop.png" desc="Logiciel de retouche d'images et de conception graphique" />
           <Techno name="Adobe Illustrator" logo="logo-adobe_illustrator.png" desc="Logiciel d'édition graphique pour un rendu vectoriel" />
           <Techno name="Adobe Animate" logo="logo-adobe_animate.png" desc="Logiciel d'animation vectorielle pour le web et la vidéo" />
           <Techno name="Affinity Photo" logo="logo-affinity_photo.png" desc="Logiciel de retouche d'images et de conception graphique" />
           <Techno name="Affinity Designer" logo="logo-affinity_designer.png" desc="Logiciel d'édition graphique pour un rendu vectoriel" />
           <Techno name="Affinity Publisher" logo="logo-affinity_publisher.png" desc="Logiciel de publication pour l'impression et les documents PDF" />
+          <h3><i class="bi bi-window"></i> Développement</h3>
           <Techno name="PhpStorm" logo="logo-phpstorm.png" desc="Logiciel ou IDE de programmation dédié aux langages du web" />
-          <Techno name="JavaScript" logo="logo-javascript.png" desc="Langage de programmation côté client et serveur pour application, site et api" />
           <Techno name="PHP" logo="logo-php.png" desc="Langage de programmation côté serveur pour application, site et api" />
-          <Techno name="WordPress" logo="logo-wordpress.png" desc="Système de gestion de contenu pour la création de sites Internet" />
-          <Techno name="Woocommerce" logo="logo-woocommerce.png" desc="Extension de WordPress pour développer une boutique en ligne" />
-          <Techno name="jQuery" logo="logo-jquery.png" desc="Framework JavaScript pour améliorer l’interactivité d’une page HTML" />
-          <Techno name="Vue.js" logo="logo-vuejs.png" desc="Framework JavaScript pour développer des sites et des applications mobiles" />
+          <Techno name="JavaScript" logo="logo-javascript.png" desc="Langage de programmation côté client et serveur pour application, site et api" />
+          <Techno name="HTML" logo="logo-html.png" desc="Langage de balises pour la structure des pages Internet" />
           <Techno name="Sass / Scss" logo="logo-sass.png" desc="Préprocesseur CSS pour aider le travail des développeurs web" />
           <Techno name="Less" logo="logo-less.png" desc="Préprocesseur CSS pour faciliter le travail des intégrateurs web" />
+          <Techno name="WordPress" logo="logo-wordpress.png" desc="Système de gestion de contenu pour la création de sites Internet" />
+          <Techno name="Woocommerce" logo="logo-woocommerce.png" desc="Extension de WordPress pour développer une boutique en ligne" />
+          <Techno name="Slim" logo="logo-slim.png" desc="Framework PHP pour le développement backend et de web API" />
+          <Techno name="jQuery" logo="logo-jquery.png" desc="Framework JavaScript pour améliorer l’interactivité d’une page HTML" />
+          <Techno name="Vue.js" logo="logo-vuejs.png" desc="Framework JavaScript pour développer des sites et des applications mobiles" />
           <Techno name="Bootstrap" logo="logo-bootstrap.png" desc="Framework CSS pour créer des interfaces HTML tout support" />
           <Techno name="MySql" logo="logo-mysql.png" desc="Serveur de bases de données pour gérer le contenu dynamique" />
           <Techno name="MariaDB" logo="logo-mariadb.png" desc="Serveur de bases de données pour gérer le contenu dynamique" />
+          <Techno name="Github" logo="logo-github.png" desc="Plateforme en ligne d'hébergement et de partage de code source" />
           <Techno name="Git" logo="logo-git.png" desc="Logiciel de versioning pour le travail collaboratif" />
           <Techno name="Svn" logo="logo-svn.png" desc="Logiciel de gestion de version pour le travail en équipe" />
-          <Techno name="Github" logo="logo-github.png" desc="Plateforme en ligne d'hébergement et de partage de code source" />
           <Techno name="Postman" logo="logo-postman.png" desc="Logiciel pour aider les développeurs dans la mise en place d'api" />
+          <h3><i class="bi bi-globe"></i> Référencement et marketing</h3>
           <Techno name="Yourtext Guru" logo="logo-yourtext_guru.png" desc="Outil en ligne pour la rédaction de contenu optimisé au référencement" />
           <Techno name="Screaming Frog" logo="logo-screaming_frog.png" desc="Logiciel d'analyse de code source et d'extraction des données en ligne" />
-          <Techno name="Google Analytics" logo="logo-google_analytics.png" desc="Outil en ligne d'analyse d'audience pour un site ou une application mobile" />
-          <Techno name="Sendinblue" logo="logo-sendinblue.png" desc="Plateforme de marketing relationnel pour les campagnes d'emails" />
           <Techno name="Ubersuggest" logo="logo-ubersuggest.png" desc="Outil en ligne pour analyser les mots clés recherchés sur les moteurs" />
+          <Techno name="Google Analytics" logo="logo-google_analytics.png" desc="Outil en ligne d'analyse d'audience pour un site ou une application mobile" />
+          <Techno name="Piwik Pro" logo="logo-piwik_pro.png" desc="Outil en ligne d'analyse d'audience pour un site ou une application mobile" />
+          <Techno name="Sendinblue" logo="logo-sendinblue.png" desc="Plateforme de marketing relationnel pour les campagnes d'emails" />
         </div>
       </div>
     </section>
@@ -444,6 +450,28 @@ export default {
     }
     .item-optimization p {
       background-color: $color-dark;
+    }
+  }
+  section.techno {
+    h3 {
+      position: relative;
+      padding: 10px 15px 10px 50px;
+      margin-bottom: 20px;
+      border-radius: 3px;
+      background-color: #e9e9e9;
+      i.bi {
+        position: absolute;
+        width: 40px;
+        height: 100%;
+        left: 0;
+        top: 0;
+        color: white;
+        font-size: 1.5em;
+        text-align: center;
+        padding-top: 5px;
+        border-radius: 3px 0 0 3px;
+        background-color: $color-orange;
+      }
     }
   }
   section.contact,

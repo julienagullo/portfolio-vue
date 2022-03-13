@@ -1,6 +1,6 @@
 {
   "name": "portofolio-vue",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -17,7 +17,7 @@
     "smooth-scrollbar": "^8.7.4",
     "vue": "^3.2.31",
     "vue-agile": "^2.0.0",
-    "vue-router": "^4.0.12"
+    "vue-router": "^4.0.14"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.5.15",
