@@ -13,7 +13,7 @@
       <img src="~@/assets/img/source-jquery.png" class="logo" width="102" height="25" alt="jQuery write less, do more">
       <p>Librairie jQuery servant à charger ou non Google Analytics par un modal de consentement sur son site Internet.</p>
       <a href="https://github.com/julienagullo/cookies-consent" target="_blank" class="btn btn-primary" title="Projet cookiesConsent sur Github"><i class="bi bi-github"></i> Voir le projet</a>
-      <a href="https://jagullo.fr/cookies-consent/" target="_blank" class="btn btn-primary" title="Démo de la librairie cookiesConsent"><i class="bi bi-window"></i> Démo</a>
+      <a href="https://jagullo.fr/cookies/" target="_blank" class="btn btn-primary" title="Démo de la librairie cookiesConsent"><i class="bi bi-window"></i> Démo</a>
     </section>
     <section class="project rwdkit">
       <h2>rwdKit</h2>
