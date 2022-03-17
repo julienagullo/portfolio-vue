@@ -20,12 +20,18 @@
     <div id="app"></div>
     <script type="text/javascript">
         const mode = '<%= process.env.NODE_ENV %>';
-        if (mode === 'production') {
-            window.addEventListener('load', () => {
-                setTimeout(() => {
+        const mutationObserver = new MutationObserver(piwikInit)
+        window.addEventListener('load', function() {
+            let scrollbar = document.querySelector('.content .scrollbar-track-y');
+            mutationObserver.observe(scrollbar, { attributes: true });
+        });
+        function piwikInit(mutationsList, observer) {
+            mutationsList.forEach(mutation => {
+                if (mutation.attributeName === 'class' && mode === 'production') {
                     piwikLayer(window, document, 'dataLayer', 'd94cf922-bb27-4a20-ae85-f81c524e7975');
-                }, 3000);
-            });
+                }
+                mutationObserver.disconnect();
+            })
         }
         function piwikLayer(window, document, dataLayerName, id) {
             window[dataLayerName]=window[dataLayerName]||[],window[dataLayerName].push({start:(new Date).getTime(),event:"stg.start"});var scripts=document.getElementsByTagName('script')[0],tags=document.createElement('script');

@@ -120,6 +120,8 @@
           <div class="col-12">
             <h2>Partage de <span class="color-blue">mes connaissances</span> sur Pau et Tarbes</h2>
           </div>
+        </div>
+        <div class="row techno-content">
           <h3><i class="bi bi-brush"></i> Graphisme</h3>
           <Techno name="Adobe Photoshop" logo="logo-adobe_photoshop.png" desc="Logiciel de retouche d'images et de conception graphique" />
           <Techno name="Adobe Illustrator" logo="logo-adobe_illustrator.png" desc="Logiciel d'édition graphique pour un rendu vectoriel" />
@@ -127,6 +129,8 @@
           <Techno name="Affinity Photo" logo="logo-affinity_photo.png" desc="Logiciel de retouche d'images et de conception graphique" />
           <Techno name="Affinity Designer" logo="logo-affinity_designer.png" desc="Logiciel d'édition graphique pour un rendu vectoriel" />
           <Techno name="Affinity Publisher" logo="logo-affinity_publisher.png" desc="Logiciel de publication pour l'impression et les documents PDF" />
+        </div>
+        <div class="row techno-content">
           <h3><i class="bi bi-window"></i> Développement</h3>
           <Techno name="PhpStorm" logo="logo-phpstorm.png" desc="Logiciel ou IDE de programmation dédié aux langages du web" />
           <Techno name="PHP" logo="logo-php.png" desc="Langage de programmation côté serveur pour application, site et api" />
@@ -146,7 +150,9 @@
           <Techno name="Git" logo="logo-git.png" desc="Logiciel de versioning pour le travail collaboratif" />
           <Techno name="Svn" logo="logo-svn.png" desc="Logiciel de gestion de version pour le travail en équipe" />
           <Techno name="Postman" logo="logo-postman.png" desc="Logiciel pour aider les développeurs dans la mise en place d'api" />
-          <h3><i class="bi bi-globe"></i> Référencement et marketing</h3>
+        </div>
+        <div class="row techno-content">
+          <h3><i class="bi bi-globe"></i> Référencement / marketing</h3>
           <Techno name="Yourtext Guru" logo="logo-yourtext_guru.png" desc="Outil en ligne pour la rédaction de contenu optimisé au référencement" />
           <Techno name="Screaming Frog" logo="logo-screaming_frog.png" desc="Logiciel d'analyse de code source et d'extraction des données en ligne" />
           <Techno name="Ubersuggest" logo="logo-ubersuggest.png" desc="Outil en ligne pour analyser les mots clés recherchés sur les moteurs" />
@@ -453,24 +459,30 @@ export default {
     }
   }
   section.techno {
-    h3 {
-      position: relative;
-      padding: 10px 15px 10px 50px;
-      margin-bottom: 20px;
-      border-radius: 3px;
-      background-color: #e9e9e9;
-      i.bi {
-        position: absolute;
-        width: 40px;
-        height: 100%;
-        left: 0;
-        top: 0;
-        color: white;
-        font-size: 1.5em;
-        text-align: center;
-        padding-top: 5px;
-        border-radius: 3px 0 0 3px;
-        background-color: $color-orange;
+    .techno-content {
+      h3 {
+        position: relative;
+        padding: 10px 15px 10px 50px;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #d5d5d5;
+        i.bi {
+          position: absolute;
+          width: 40px;
+          height: 100%;
+          left: 0;
+          top: 0;
+          color: #818181;
+          font-size: 1.5em;
+          text-align: center;
+          padding-top: 5px;
+          border-radius: 3px 0 0 3px;
+          transition: color 150ms ease-in-out;
+        }
+      }
+      &:hover {
+        i.bi {
+          color: $color-orange;
+        }
       }
     }
   }

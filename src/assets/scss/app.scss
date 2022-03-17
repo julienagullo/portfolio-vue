@@ -85,6 +85,9 @@ h3 {
   .btn:hover {
     background-color: $color-blue-hover;
   }
+  .scrollbar-track.scrollbar-track-y {
+    position: fixed;
+  }
 }
 
 @media (max-width: 576px) {
