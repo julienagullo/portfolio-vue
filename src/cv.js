@@ -186,7 +186,7 @@ export default {
       {
         date: '2017 - 2018',
         title: 'Enedis',
-        detail: 'Conception du site servant à la gestion des utilisateurs et d\'une API web pour l\'application <span class="title">eBalisage</span>',
+        detail: 'Conception du site servant à la gestion des utilisateurs et d\'une API Rest pour l\'application <span class="title">eBalisage</span>',
         images: [],
         tasks: [],
       },
@@ -212,7 +212,7 @@ export default {
         tasks: [],
       },
       {
-        date: '2019',
+        date: '2020',
         title: 'LVS',
         detail: 'Amélioration de la charte graphique de la marque<br>Aide au développement du site Internet <a href="https://www.le-vestiaire-sechant.fr" class="title" rel="nofollow noreferrer" target="_blank">le-vestiaire-sechant.fr</a>',
         images: [],
@@ -233,14 +233,14 @@ export default {
         tasks: [],
       },
       {
-        date: '2021',
+        date: '2020-2022',
         title: 'DBA Armoires',
         detail: 'Amélioration de la charte graphique de la marque<br>Refonte du site sous Woocommerce <a href="https://www.dba-armoires.fr" class="title" rel="nofollow noreferrer" target="_blank">dba-armoires.fr</a>',
         images: [],
         tasks: [],
       },
       {
-        date: '2021',
+        date: '2020-2022',
         title: 'Armoire Plus',
         detail: 'Amélioration de la charte graphique de la marque<br>Amélioration du site Woocommerce <a href="https://www.armoireplus.fr" class="title" rel="nofollow noreferrer" target="_blank">armoireplus.fr</a>',
         images: [],

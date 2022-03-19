@@ -27,11 +27,10 @@ export default {
   methods: {
     toogleDarkmode() {
       this.darkmode = !this.darkmode
-      const wrapper = document.getElementsByClassName('wrapper')[0]
       if (this.darkmode) {
-        wrapper.classList.add('dark')
+        document.body.classList.add('dark')
       } else {
-        wrapper.classList.remove('dark')
+        document.body.classList.remove('dark')
       }
     },
     toogleSidebar() {

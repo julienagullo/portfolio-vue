@@ -2,9 +2,13 @@
 
 /* Main */
 
-.wrapper.dark .content {
-  color: $color-dark-font;
+body.dark {
   background-color: $color-dark-background;
+  transition: background-color $delay-dark ease-in-out;
+}
+
+body.dark .content {
+  color: $color-dark-font;
   transition: color $delay-dark ease-in-out, background-color $delay-dark ease-in-out;
   h1 {
     color: $color-dark-title;
@@ -14,26 +18,32 @@
 
 /* Sidebar */
 
-.wrapper.dark #sidebar {
+body.dark #sidebar {
   color: $color-dark-font;
   background: $color-dark-background;
   transition: color $delay-dark ease-in-out, background-color $delay-dark ease-in-out, transform $delay-anim ease-in-out;
-  h2,
-  .close button,
-  span.title {
-    color: $color-dark-title;
+  .sidebar-header {
+    .close button {
+      color: $color-dark-title;
+    }
   }
-  span.attr {
-    color: $color-orange;
-  }
-  .img-title {
-    filter: invert(1);
+  .sidebar-content {
+    h2,
+    span.title {
+      color: $color-dark-title;
+    }
+    span.attr {
+      color: $color-orange;
+    }
+    .img-title {
+      filter: invert(1);
+    }
   }
 }
 
 /* Home */
 
-.wrapper.dark .content#home {
+body.dark .content#home {
   section.techno {
     .item-soft {
       img {
@@ -56,24 +66,68 @@
 
 /* Curriculum */
 
-.wrapper.dark .content#curriculum {
-  .details p {
-    color: $color-dark-title;
-    transition: color $delay-dark ease-in-out;
+body.dark .content#curriculum {
+  $color-border-cv: #2d3052;
+  section.cv {
+    ul li {
+      &:before {
+        color: $color-dark-background;
+        transition: color $delay-dark ease-in-out;
+      }
+      .details {
+        border-color: $color-border-cv;
+        transition: border-color $delay-dark ease-in-out, border-image $delay-dark ease-in-out;
+        p {
+          color: $color-dark-title;
+          transition: color $delay-dark ease-in-out;
+        }
+      }
+    }
+    ul li:last-child {
+      .details {
+        border-image: linear-gradient(to bottom, $color-border-cv, rgba($color-border-cv, 0)) 1 100%;
+      }
+    }
   }
 }
 
 /* Source */
 
-.wrapper.dark .content#source {
+body.dark .content#source {
   section.project {
-    color: $color-font;
+    color: $color-dark-font;
+    border-color: #343556;
+    transition: color $delay-dark ease-in-out, border-color $delay-dark ease-in-out;
+    p {
+      text-shadow: none;
+    }
+    .logo {
+      display: none;
+      &.dark {
+        display: block;
+      }
+    }
+    &.portfolio-vue {
+      background: #202135 url('~@/assets/img/banner-portfoliovue.jpg') no-repeat right center;
+    }
+    &.cookiesconsent {
+      background: #202135 url('~@/assets/img/banner-cookiesconsent.jpg') no-repeat right center;
+    }
+    &.rwdkit {
+      background: #202135 url('~@/assets/img/banner-rwdkit.jpg') no-repeat right center;
+    }
+    &.portfolio-vue,
+    &.cookiesconsent,
+    &.rwdkit {
+      background-blend-mode: multiply;
+      transition: background $delay-dark ease-in-out;
+    }
   }
 }
 
 /* Contact */
 
-.wrapper.dark .content#contact {
+body.dark .content#contact {
   section.accordion {
     color: $color-dark-font;
     border-color: #343556;
@@ -81,6 +135,10 @@
     transition: color $delay-dark ease-in-out, background-color $delay-dark ease-in-out, border-color $delay-dark ease-in-out;
     .info-rgpd i {
       color: $color-dark-font;
+    }
+    .accordion-header .accordion-button {
+      box-shadow: inset 0 -1px 0 #343556;
+      transition: box-shadow $delay-dark ease-in-out;
     }
   }
   section.accordion.privacy {
@@ -107,7 +165,7 @@
 }
 
 @media (min-width: 768px) {
-  .wrapper.dark .content#contact {
+  body.dark .content#contact {
     section.accordion.privacy {
       .row .row.data-list {
         & > div {

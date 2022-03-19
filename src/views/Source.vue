@@ -5,12 +5,14 @@
     <section class="project portfolio-vue">
       <h2>portfolio Vue</h2>
       <img src="~@/assets/img/source-vuejs.png" class="logo" width="65" height="25" alt="Vuejs">
+      <img src="~@/assets/img/source-vuejs.dark.png" class="logo dark" width="65" height="25" alt="Vuejs">
       <p>Code source de ce portfolio en ligne réalisé avec Vuejs et Bootstrap pour découvrir ce framework JavaScript.</p>
       <a href="https://github.com/julienagullo/portfolio-vue" target="_blank" class="btn btn-primary" title="Projet rwdKit sur Github"><i class="bi bi-github"></i> Voir le projet</a>
     </section>
     <section class="project cookiesconsent">
       <h2>cookies Consent</h2>
       <img src="~@/assets/img/source-jquery.png" class="logo" width="102" height="25" alt="jQuery write less, do more">
+      <img src="~@/assets/img/source-jquery.dark.png" class="logo dark" width="102" height="25" alt="jQuery write less, do more">
       <p>Librairie jQuery servant à charger ou non Google Analytics par un modal de consentement sur son site Internet.</p>
       <a href="https://github.com/julienagullo/cookies-consent" target="_blank" class="btn btn-primary" title="Projet cookiesConsent sur Github"><i class="bi bi-github"></i> Voir le projet</a>
       <a href="https://jagullo.fr/cookies/" target="_blank" class="btn btn-primary" title="Démo de la librairie cookiesConsent"><i class="bi bi-window"></i> Démo</a>
@@ -18,6 +20,7 @@
     <section class="project rwdkit">
       <h2>rwdKit</h2>
       <img src="~@/assets/img/source-jquery.png" class="logo" width="102" height="25" alt="jQuery write less, do more">
+      <img src="~@/assets/img/source-jquery.dark.png" class="logo dark" width="102" height="25" alt="jQuery write less, do more">
       <p>Librairie jQuery facilitant le développement d'interface responsive en affichant le nom du breakpoint courant.</p>
       <a href="https://github.com/julienagullo/rwdKit" target="_blank" class="btn btn-primary" title="Projet rwdKit sur Github"><i class="bi bi-github"></i> Voir le projet</a>
       <a href="https://jagullo.fr/rwdkit/" target="_blank" class="btn btn-primary" title="Démo de la librairie rwdKit"><i class="bi bi-window"></i> Démo</a>
@@ -59,6 +62,9 @@ export default {
     }
     .logo {
       margin: 2px 0 0 15px;
+      &.dark {
+        display: none;
+      }
     }
     p {
       clear: both;
@@ -81,18 +87,18 @@ export default {
         margin-left: 20px;
       }
     }
-  }
-  section.project.portfolio-vue .btn {
-    margin-left: 0;
-  }
-  .portfolio-vue {
-    background: #fafafa url('~@/assets/img/banner-portfoliovue.jpg') no-repeat right center;
-  }
-  .cookiesconsent {
-    background: #fafafa url('~@/assets/img/banner-cookiesconsent.jpg') no-repeat right center;
-  }
-  .rwdkit {
-    background: #fafafa url('~@/assets/img/banner-rwdkit.jpg') no-repeat right center;
+    &.portfolio-vue {
+      background: #fafafa url('~@/assets/img/banner-portfoliovue.jpg') no-repeat right center;
+      .btn {
+        margin-left: 0;
+      }
+    }
+    &.cookiesconsent {
+      background: #fafafa url('~@/assets/img/banner-cookiesconsent.jpg') no-repeat right center;
+    }
+    &.rwdkit {
+      background: #fafafa url('~@/assets/img/banner-rwdkit.jpg') no-repeat right center;
+    }
   }
 }
 /* Responsive */
