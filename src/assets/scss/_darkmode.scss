@@ -1,0 +1,129 @@
+@import 'variables';
+
+/* Main */
+
+.wrapper.dark .content {
+  color: $color-dark-font;
+  background-color: $color-dark-background;
+  transition: color $delay-dark ease-in-out, background-color $delay-dark ease-in-out;
+  h1 {
+    color: $color-dark-title;
+    transition: color $delay-dark ease-in-out;
+  }
+}
+
+/* Sidebar */
+
+.wrapper.dark #sidebar {
+  color: $color-dark-font;
+  background: $color-dark-background;
+  transition: color $delay-dark ease-in-out, background-color $delay-dark ease-in-out, transform $delay-anim ease-in-out;
+  h2,
+  .close button,
+  span.title {
+    color: $color-dark-title;
+  }
+  span.attr {
+    color: $color-orange;
+  }
+  .img-title {
+    filter: invert(1);
+  }
+}
+
+/* Home */
+
+.wrapper.dark .content#home {
+  section.techno {
+    .item-soft {
+      img {
+        padding: 5px;
+        border-radius: 3px;
+        background-color: #fafafa;
+        transition: background-color $delay-dark ease-in-out;
+      }
+      &:hover {
+        color: $color-font;
+      }
+    }
+  }
+  section.project {
+    .carousel-item {
+      background-color: #202135;
+    }
+  }
+}
+
+/* Curriculum */
+
+.wrapper.dark .content#curriculum {
+  .details p {
+    color: $color-dark-title;
+    transition: color $delay-dark ease-in-out;
+  }
+}
+
+/* Source */
+
+.wrapper.dark .content#source {
+  section.project {
+    color: $color-font;
+  }
+}
+
+/* Contact */
+
+.wrapper.dark .content#contact {
+  section.accordion {
+    color: $color-dark-font;
+    border-color: #343556;
+    background-color: #202135;
+    transition: color $delay-dark ease-in-out, background-color $delay-dark ease-in-out, border-color $delay-dark ease-in-out;
+    .info-rgpd i {
+      color: $color-dark-font;
+    }
+  }
+  section.accordion.privacy {
+    .row.data-list,
+    .row.cookie-list {
+      color: $color-dark-font;
+      border-color: #343556;
+      background-color: #202135;
+      transition: color $delay-dark ease-in-out, background-color $delay-dark ease-in-out, border-color $delay-dark ease-in-out;
+      & > div {
+        background-color: transparent;
+        transition: background-color $delay-dark ease-in-out,;
+      }
+      & > div:nth-child(odd) {
+        background-color: #2b2d48;
+      }
+    }
+  }
+  section.accordion.mention {
+    .img-title {
+      filter: invert(1);
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .wrapper.dark .content#contact {
+    section.accordion.privacy {
+      .row .row.data-list {
+        & > div {
+          background-color: transparent;
+        }
+        & > div:nth-child(1),
+        & > div:nth-child(2),
+        & > div:nth-child(5),
+        & > div:nth-child(6),
+        & > div:nth-child(9),
+        & > div:nth-child(10),
+        & > div:nth-child(13),
+        & > div:nth-child(14) {
+          background-color: #2b2d48;
+        }
+      }
+    }
+  }
+}
