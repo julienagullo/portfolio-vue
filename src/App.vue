@@ -1,6 +1,6 @@
 <template>
   <div class="wrapper">
-    <Navbar ref="navbar" @toogle-sidebar="toogleSidebar" />
+    <Navbar ref="navbar" @toogle-sidebar="toogleSidebar" @toggle-darkmode="toogleDarkmode" />
     <Sidebar ref="sidebar" @open-sidebar="sidebarIcon" />
     <router-view ref="content" @navbar-navigate="navigate" />
   </div>
@@ -17,6 +17,7 @@ export default {
   },
   data() {
     return {
+      darkmode: false,
       firstLoad: undefined,
     }
   },
@@ -24,6 +25,15 @@ export default {
     window.addEventListener('resize', this.resize)
   },
   methods: {
+    toogleDarkmode() {
+      this.darkmode = !this.darkmode
+      const wrapper = document.getElementsByClassName('wrapper')[0]
+      if (this.darkmode) {
+        wrapper.classList.add('dark')
+      } else {
+        wrapper.classList.remove('dark')
+      }
+    },
     toogleSidebar() {
       this.$refs.sidebar.toogle()
     },

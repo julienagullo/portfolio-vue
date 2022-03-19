@@ -1,5 +1,5 @@
 @import 'node_modules/bootstrap/scss/bootstrap';
-@import 'variables', 'colors';
+@import 'variables', 'colors', 'components', 'darkmode';
 
 /*
 BS5
@@ -19,8 +19,8 @@ html, body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   font-size: 62.5%;
-  color: #181818;
-  background-color: #f7f7f7;
+  color: $color-font;
+  background-color: $color-background;
   overflow: hidden;
 }
 

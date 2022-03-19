@@ -214,7 +214,7 @@ export default {
     }
     &:after {
       left: 112px;
-      top: -2px;
+      top: -1px;
     }
   }
 }

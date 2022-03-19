@@ -10,6 +10,10 @@
       <li><a href="https://jagullo.fr/blog/"><i class="bi bi-stickies"></i> <span>Blog</span></a></li>
       <li><a href="https://github.com/julienagullo" target="_blank"><i class="bi bi-github"></i> <span>Github</span></a></li>
     </ul>
+    <div class="form-check form-control-lg form-switch">
+      <input type="checkbox" class="form-check-input" id="darkMode" @change="$emit('toggle-darkmode')">
+      <label class="form-check-label" for="darkMode"><i class="bi bi-moon-fill"></i></label>
+    </div>
     <p class="brand">jagullo.fr</p>
   </nav>
 </template>
@@ -73,7 +77,6 @@ export default {
 nav.navbar {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   width: 175px;
   height: 100vh;
   top: 0;
@@ -130,10 +133,21 @@ nav.navbar {
       }
     }
   }
-  p.brand {
-    font-size: 1.65rem;
-    color: #9d9d9d;
+  .form-switch {
     margin-top: auto;
+    justify-self: flex-end;
+    .form-check-input {
+      display: inline-block;
+      margin: 5px 10px 0 0;
+    }
+    .form-check-label i {
+      color: #fff;
+    }
+  }
+  p.brand {
+    color: #9d9d9d;
+    font-size: 1.65rem;
+    justify-self: flex-end;
   }
 }
 /* Responsive */
@@ -152,6 +166,17 @@ nav.navbar {
         span {
           display: none;
         }
+      }
+    }
+    .form-switch {
+      display: flex;
+      flex-direction: column-reverse;
+      margin-bottom: 10px;
+      .form-check-input {
+        margin-right: 0;
+      }
+      .form-check-label {
+        padding-left: 2px;
       }
     }
     p {

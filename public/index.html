@@ -18,6 +18,19 @@
       <strong>Désolé mais <%= htmlWebpackPlugin.options.title %> ne fonctionne pas correctement sans Javascript. Veuillez activer le Javascript dans votre navigateur pour continuer.</strong>
     </noscript>
     <div id="app"></div>
+    <script type="application/ld+json">
+      {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "name": "jagullo.fr",
+          "url": "https://jagullo.fr/",
+          "abstract": "Freelance web developer for website creation and web application development",
+          "keywords": "website creation, web application development, web developer, webmaster, wordpress, woocommerce, vuejs",
+          "license": "https://github.com/julienagullo/portfolio-vue/blob/master/LICENSE.md",
+          "usageInfo": "https://github.com/julienagullo/portfolio-vue/blob/master/README.md",
+          "version": "1.2"
+      }
+    </script>
     <script type="text/javascript">
         const mode = '<%= process.env.NODE_ENV %>';
         const mutationObserver = new MutationObserver(piwikInit)
