@@ -108,8 +108,8 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-12 d-flex flex-column align-items-center">
-            <h2 class="text-center">Pour toute demande d'information ou une estimation gratuite</h2>
-            <a href="/contact" class="btn btn-primary" @click.prevent="$emit('navbar-navigate', $event)" data-name="Contact" title="Demande de renseignement">Contactez-moi</a>
+            <h2 class="text-center">Pour du conseil, une demande d'information ou un devis pour un site Internet</h2>
+            <a href="/contact" class="btn btn-primary" @click.prevent="$emit('navbar-navigate', $event)" data-name="Contact" title="Devis pour la création d'un site Internet">Contactez-moi</a>
           </div>
         </div>
       </div>
@@ -205,14 +205,14 @@
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="10000">
-                  <img src="~@/assets/img/interface-toulimmo.jpg" width="960" height="800" class="d-block w-100" alt="Développeur indépendant sur Pau en conception de site vitrine">
+                  <img src="~@/assets/img/interface-toulimmo.jpg" width="960" height="800" class="d-block w-100" alt="Développeur indépendant et webmaster sur Pau en conception de site vitrine">
                   <div class="carousel-caption">
                     <h3>Création de la charte graphique de l'entreprise et du site toulimmo-renovation.fr</h3>
                     <p>Copyright : Toul-Immo Réalisation</p>
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="10000">
-                  <img src="~@/assets/img/interface-textbeans.jpg" width="960" height="700" class="d-block w-100" alt="Intégrateur et développeur CSS sur Tarbes pour des interfaces web de qualité">
+                  <img src="~@/assets/img/interface-textbeans.jpg" width="960" height="700" class="d-block w-100" alt="Intégration CSS et développement web sur Tarbes par un webmaster freelance">
                   <div class="carousel-caption">
                     <h3>Intégration LESS/CSS de la maquette et optimisation de la plateforme TextBeans</h3>
                     <p>Copyright : Lingocentric | Design : Gabriel Uribe</p>
@@ -226,14 +226,14 @@
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="10000">
-                  <img src="~@/assets/img/interface-airbusds.jpg" width="960" height="600" class="d-block w-100" alt="Conseil et service de qualité pour des interfaces interactives en Material Design">
+                  <img src="~@/assets/img/interface-airbusds.jpg" width="960" height="600" class="d-block w-100" alt="Création d'interface interactive en Material Design et Vuejs">
                   <div class="carousel-caption">
                     <h3>Réalisation graphique et développement du magazine interactif pour la mission JUICE</h3>
                     <p>Copyright : Virtual-IT | Client : AIRBUS DS</p>
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="10000">
-                  <img src="~@/assets/img/interface-spherea.jpg" width="960" height="540" class="d-block w-100" alt="Développeur d'application tactile dans le domaine événementiel sur Pau">
+                  <img src="~@/assets/img/interface-spherea.jpg" width="960" height="540" class="d-block w-100" alt="Développeur d'application tactile et webmaster sur Pau">
                   <div class="carousel-caption">
                     <h3>Suivi projet et conception de l'application de salon interactive U-TEST ®</h3>
                     <p>Copyright : Virtual-IT | Client : SPHEREA | Design 2D : Gabriel Uribe | Design 3D : Stéphane Agullo</p>
@@ -257,8 +257,8 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-12 d-flex flex-column align-items-center">
-            <h2 class="text-center">Besoin d'un conseil pour vous aider dans votre projet ?</h2>
-            <a href="/contact" class="btn btn-primary" @click.prevent="$emit('navbar-navigate', $event)" data-name="Contact" title="Demande de renseignement dans le domaine du web">Contactez-moi</a>
+            <h2 class="text-center">Besoin d'un webmaster freelance ou sous contrat pour vous aider dans votre projet ?</h2>
+            <a href="/contact" class="btn btn-primary" @click.prevent="$emit('navbar-navigate', $event)" data-name="Contact" title="Demande de renseignement pour un webmaster">Contactez-moi</a>
           </div>
         </div>
       </div>
