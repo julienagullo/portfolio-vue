@@ -14,7 +14,7 @@ $sitemap = [
     ],
     [
         'loc' => 'https://jagullo.fr/',
-        'lastmod' => '2022-03-22',
+        'lastmod' => '2022-04-08',
     ]
 ];
 

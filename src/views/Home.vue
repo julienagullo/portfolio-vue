@@ -253,6 +253,23 @@
         </div>
       </div>
     </section>
+    <section class="blog">
+      <div class="container-fluid">
+        <div class="row list-posts">
+          <div class="col-12">
+            <h2>Derniers <span class="color-blue">articles publiés</span> sur le blog</h2>
+          </div>
+          <div v-for="post in this.posts" :key="post.id" class="col-12 col-md-6 col-lg-6 col-xl-3 post">
+            <div class="post-content">
+              <h3>{{ post.title.rendered }}</h3>
+              <h4 class="color-orange">{{ new Date(post.date).toLocaleDateString('fr-fr') }}</h4>
+              <p v-html="post.excerpt.rendered"></p>
+              <a class="btn btn-primary" :href="post.link">Voir l'article</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="contact">
       <div class="container-fluid">
         <div class="row">
@@ -267,6 +284,7 @@
 </template>
 
 <script>
+import axios from 'axios';
 import Scrollbar from 'smooth-scrollbar'
 import anime from 'animejs/lib/anime.es.js'
 import Techno from '@/components/Techno'
@@ -279,12 +297,14 @@ export default {
   },
   data() {
     return {
+      posts: [],
       scrollBar: Scrollbar,
     }
   },
   mounted() {
     this.scrollBar = Scrollbar.init(document.querySelector('#home'), {damping: 0.2})
     anime({targets: '.content', opacity: 1, duration: 150, easing: 'easeInOutCirc'})
+    this.loadPosts()
   },
   methods: {
     openKnowledge(target) {
@@ -311,6 +331,18 @@ export default {
           element.style.top = 0
         },
       })
+    },
+    loadPosts() {
+      axios
+        .get('https://jagullo.fr/blog/wp-json/wp/v2/posts', {
+          params: {
+            per_page: 4,
+            page: 1,
+          }
+        })
+        .then(response => {
+          this.posts = response.data
+        })
     },
   },
 }
@@ -539,6 +571,20 @@ export default {
           border-radius: 3px;
           background-size: 70%;
           background-color: $color-blue-hover;
+        }
+      }
+    }
+  }
+  section.blog {
+    .list-posts {
+      .post {
+        padding: 0 10px 20px;
+        .post-content {
+          height: 100%;
+          padding: 15px;
+          border-radius: 3px;
+          border: 1px solid #d7d7d7;
+          background-color: #fafafa;
         }
       }
     }
