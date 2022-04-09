@@ -20,18 +20,23 @@ export default {
     }
   },
   mounted() {
-    const title = this.$el.getElementsByTagName('h3')[0]
-    title.innerHTML = title.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
-    const paragraph = this.$el.getElementsByTagName('p')[0]
-    paragraph.innerHTML = paragraph.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
     const image = this.$el.getElementsByTagName('img')[0]
     image.style.transform = 'scale(0.7)'
   },
   methods: {
+    initTechno() {
+      const title = this.$el.getElementsByTagName('h3')[0]
+      title.innerHTML = title.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+      const paragraph = this.$el.getElementsByTagName('p')[0]
+      paragraph.innerHTML = paragraph.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+    },
     showTechno() {
       const title = this.$el.getElementsByTagName('h3')[0]
       const image = this.$el.getElementsByTagName('img')[0]
       const paragraph = this.$el.getElementsByTagName('p')[0]
+      if (title.getElementsByTagName('span').length == 0) {
+        this.initTechno()
+      }
       this.animation({
         targets: image,
         scale: 0.8,
