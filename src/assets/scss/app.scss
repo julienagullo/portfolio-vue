@@ -53,6 +53,25 @@ h3 {
   font-weight: normal;
 }
 
+/* Cookie consent */
+
+.cookie {
+  .cookie__floating__content,
+  .cookie__floating__buttons button {
+    font-size: 1.4em;
+  }
+  .cookie__floating__content {
+    max-height: none;
+    img {
+      margin: 0 auto 10px;
+      clear: both;
+    }
+  }
+  .cookie__floating__buttons button {
+    text-transform: uppercase;
+  }
+}
+
 /* Content */
 
 .content {

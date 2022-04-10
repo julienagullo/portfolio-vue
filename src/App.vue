@@ -1,4 +1,25 @@
 <template>
+  <vue-cookie-accept-decline
+    :debug="false"
+    :forceCookies="true"
+    @clicked-accept="cookieClickedAccept"
+    elementId="cookieConsent"
+    position="bottom-left"
+    ref="cookieConsent"
+    transitionName="slideFromBottom"
+    type="floating"
+  >
+    <!-- Optional -->
+    <template #message>
+      <img src="~@/assets/img/cookie-consent.jpg" width="100" height="100" alt="Consentement des cookies">
+      <p>De savoureux cookies sont utilisés pour analyser le trafic du site et l'améliorer.</p>
+      <a href="/contact" @click.prevent="navigate($event)" data-name="Contact">Plus d'informations</a>
+    </template>
+    <!-- Optional -->
+    <template #declineContent>Refuser</template>
+    <!-- Optional -->
+    <template #acceptContent>Accepter</template>
+  </vue-cookie-accept-decline>
   <div class="wrapper">
     <Navbar ref="navbar" @toogle-sidebar="toogleSidebar" @toggle-darkmode="toogleDarkmode" />
     <Sidebar ref="sidebar" @open-sidebar="sidebarIcon" />
@@ -25,6 +46,11 @@ export default {
     window.addEventListener('resize', this.resize)
   },
   methods: {
+    cookieClickedAccept() {
+      let script = document.createElement('script')
+      script.src = 'https://www.googletagmanager.com/gtag/js?id=G-JLQLPG8D93'
+      document.head.append(script)
+    },
     toogleDarkmode() {
       this.darkmode = !this.darkmode
       if (this.darkmode) {

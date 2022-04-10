@@ -12,6 +12,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Open+Sans:wght@400;600&display=swap">
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-JLQLPG8D93');
+    </script>
   </head>
   <body>
     <noscript>
@@ -20,40 +26,15 @@
     <div id="app"></div>
     <script type="application/ld+json">
       {
-          "@context": "https://schema.org",
-          "@type": "WebSite",
-          "name": "jagullo.fr",
-          "url": "https://jagullo.fr/",
-          "abstract": "Développeur web freelance et webmaster sur Pau et Tarbes",
-          "keywords": "développeur web, développeur freelance, webmaster, site Internet, application web",
-          "license": "https://github.com/julienagullo/portfolio-vue/blob/master/LICENSE.md",
-          "usageInfo": "https://github.com/julienagullo/portfolio-vue/blob/master/README.md",
-          "version": "1.2"
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "jagullo.fr",
+        "url": "https://jagullo.fr/",
+        "abstract": "Développeur web freelance et webmaster sur Pau et Tarbes",
+        "keywords": "développeur web, développeur freelance, webmaster, site Internet, application web",
+        "license": "https://github.com/julienagullo/portfolio-vue/blob/master/LICENSE.md",
+        "usageInfo": "https://github.com/julienagullo/portfolio-vue/blob/master/README.md"
       }
     </script>
-    <script type="text/javascript">
-        const mode = '<%= process.env.NODE_ENV %>';
-        const mutationObserver = new MutationObserver(piwikInit)
-        window.addEventListener('load', function() {
-            let scrollbar = document.querySelector('.content .scrollbar-track-y');
-            mutationObserver.observe(scrollbar, { attributes: true });
-        });
-        function piwikInit(mutationsList, observer) {
-            mutationsList.forEach(mutation => {
-                if (mutation.attributeName === 'class' && mode === 'production') {
-                    piwikLayer(window, document, 'dataLayer', 'd94cf922-bb27-4a20-ae85-f81c524e7975');
-                }
-                mutationObserver.disconnect();
-            })
-        }
-        function piwikLayer(window, document, dataLayerName, id) {
-            window[dataLayerName]=window[dataLayerName]||[],window[dataLayerName].push({start:(new Date).getTime(),event:"stg.start"});var scripts=document.getElementsByTagName('script')[0],tags=document.createElement('script');
-            function stgCreateCookie(a,b,c){var d="";if(c){var e=new Date;e.setTime(e.getTime()+24*c*60*60*1e3),d="; expires="+e.toUTCString()}document.cookie=a+"="+b+d+"; path=/"}
-            var isStgDebug=(window.location.href.match("stg_debug")||document.cookie.match("stg_debug"))&&!window.location.href.match("stg_disable_debug");stgCreateCookie("stg_debug",isStgDebug?1:"",isStgDebug?14:-1);
-            var qP=[];dataLayerName!=="dataLayer"&&qP.push("data_layer_name="+dataLayerName),isStgDebug&&qP.push("stg_debug");var qPString=qP.length>0?("?"+qP.join("&")):"";
-            tags.async=!0,tags.src="https://jagullo.containers.piwik.pro/"+id+".js"+qPString,scripts.parentNode.insertBefore(tags,scripts);
-            !function(a,n,i){a[n]=a[n]||{};for(var c=0;c<i.length;c++)!function(i){a[n][i]=a[n][i]||{},a[n][i].api=a[n][i].api||function(){var a=[].slice.call(arguments,0);"string"==typeof a[0]&&window[dataLayerName].push({event:n+"."+i+":"+a[0],parameters:[].slice.call(arguments,1)})}}(i[c])}(window,"ppms",["tm","cm"]);
-        }
-    </script><noscript><iframe src="https://jagullo.containers.piwik.pro/d94cf922-bb27-4a20-ae85-f81c524e7975/noscript.html" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </body>
 </html>
