@@ -1,8 +1,3 @@
-User-agent: Googlebot-Image
-Disallow: /img/
-Disallow: /static/
-Disallow: /blog/wp-content/uploads/
-
 User-agent: *
 Disallow:
 
