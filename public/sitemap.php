@@ -2,19 +2,19 @@
 $sitemap = [
     [
         'loc' => 'https://jagullo.fr/curriculum',
-        'lastmod' => '2022-03-22',
+        'lastmod' => '2022-04-11',
     ],
     [
         'loc' => 'https://jagullo.fr/open-source',
-        'lastmod' => '2022-03-22',
+        'lastmod' => '2022-04-11',
     ],
     [
         'loc' => 'https://jagullo.fr/contact',
-        'lastmod' => '2022-03-22',
+        'lastmod' => '2022-04-11',
     ],
     [
         'loc' => 'https://jagullo.fr/',
-        'lastmod' => '2022-04-08',
+        'lastmod' => '2022-04-11',
     ]
 ];
 

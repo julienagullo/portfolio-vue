@@ -13,10 +13,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Open+Sans:wght@400;600&display=swap">
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-JLQLPG8D93');
+      const mode = '<%= process.env.NODE_ENV %>';
+      if (mode === 'production') {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-JLQLPG8D93');
+      }
     </script>
   </head>
   <body>

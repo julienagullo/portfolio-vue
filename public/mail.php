@@ -12,6 +12,7 @@ $email   = $_POST['email'] ?? '';
 $message = $_POST['message'] ?? '';
 
 $to      = 'contact@jagullo.fr';
+$from    = 'noreply@jagullo.fr';
 $subject = 'Demande sur jagullo.fr du ' . date('d/m/Y');
 
 $html = <<<EOD
@@ -44,7 +45,7 @@ EOD;
 
 $headers[] = 'MIME-Version: 1.0';
 $headers[] = 'Content-type: text/html; charset=UTF-8';
-$headers[] = 'From: '.$name.' <'.$email.'>';
+$headers[] = 'From: '.$from;
 
 if (mail($to, $subject, $html, implode("\r\n", $headers))) {
     echo 1;

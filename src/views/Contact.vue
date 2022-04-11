@@ -69,16 +69,33 @@
         </h2>
         <div id="collapsePrivacy" class="accordion-collapse collapse" aria-labelledby="headingPrivacy" data-bs-parent="#accordionPrivacy">
           <div class="accordion-body">
-            <div class="container-fluid" id='ppms_cm_privacy_settings' data-editor-centralize='true' data-main-container='true' data-root='true'>
-              <div class="row" data-disable-select='true'>
+            <div class="container-fluid" id="ppms_cm_privacy_settings" data-editor-centralize="true" data-main-container="true" data-root="true">
+              <div class="row" data-disable-select="true">
                 <div class="col-12">
-                  <p>Ce site Internet utilise des services externes comme <b>Google Analytics</b> et <b>reCAPTCHA</b> pour analyser le trafic généré par les visiteurs, améliorer l'expérience utilisateur et sécuriser le formulaire de contact. En ce sens <b>des cookies sont enregistrés</b> dans le navigateur pouvant être supprimés dans les paramètres de confidentialité. Veuillez noter ci-dessous la liste des cookies utilisés par le site :</p>
+                  <p>
+                    Ce site Internet utilise des services externes comme
+                    <b>Google Analytics</b> et <b>reCAPTCHA</b> pour analyser le
+                    trafic généré par les visiteurs, améliorer l'expérience
+                    utilisateur et sécuriser le formulaire de contact. En ce
+                    sens <b>des cookies sont enregistrés</b> dans le navigateur
+                    pouvant être supprimés dans les paramètres de
+                    confidentialité. Veuillez noter ci-dessous la liste des
+                    cookies utilisés par le site :
+                  </p>
                 </div>
                 <div class="row cookie-list">
-                  <div class="col-12"><b>_ga :</b> <span>Utilisé pour distinguer les utilisateurs (expire au bout de 2 ans)</span></div>
-                  <div class="col-12"><b>_gid :</b> <span>Utilisé pour distinguer les utilisateurs (expire au bout de 24 heures)</span></div>
-                  <div class="col-12"><b>_ga_[ID] :</b> <span>Utilisé pour persister l'état de la session (expire au bout de 2 ans)</span></div>
-                  <div class="col-12"><b>_GRECAPTCHA :</b> <span>Exécuté pour fournir une analyse des risques en sécurisant les formulaires</span></div>
+                  <div class="col-12">
+                    <b>_ga :</b> <span>Utilisé pour distinguer les utilisateurs (expire au bout de 2 ans)</span>
+                  </div>
+                  <div class="col-12">
+                    <b>_gid :</b> <span>Utilisé pour distinguer les utilisateurs (expire au bout de 24 heures)</span>
+                  </div>
+                  <div class="col-12">
+                    <b>_ga_[ID] :</b> <span>Utilisé pour persister l'état de la session (expire au bout de 2 ans)</span>
+                  </div>
+                  <div class="col-12">
+                    <b>_GRECAPTCHA :</b> <span>Exécuté pour fournir une analyse des risques en sécurisant les formulaires</span>
+                  </div>
                 </div>
               </div>
             </div>
@@ -98,12 +115,26 @@
             <p>
               Le site et le nom de domaine <b>jagullo.fr</b> sont la propriété de :<br><br>
               Mr <img src="~@/assets/img/photo-title.png" width="115" height="70" class="img-title"> Agullo<br>
-              10 rue Métairie Foch 31330 Grenade<br>
-              Siret : 52981304000035<br>
-              Tél. : 07.52.63.77.22<br>
-              Email : contact@jagullo.fr<br><br>
-              <span>Le site <b>jagullo.fr</b> est optimisé pour les navigateurs de génération récente desktop et mobile (Firefox, Edge, Chrome, Safari, Opéra). Le site est hébergé chez l'entreprise <b>OVHcloud</b> (SIREN 424 761 419) domiciliée au 2 rue Kellermann 59100 Roubaix.</span><br><br>
-              <span>Le présent site constitue une oeuvre dont <b>Mr Agullo</b> est l’auteur au sens des articles L.111.1 et suivant du Code de la propriété intellectuelle. Tout le code source du site est disponible en <b>licence MIT</b> sur la plateforme Github mis à part les images du site. Les photographies, textes, slogans, dessins, images, séquences animées sonores ou non ainsi que toutes oeuvres intégrées dans le site sont la propriété de l'auteur ou de tiers l’ayant autorisé à les utiliser.</span>
+              <span class="personnal"></span>
+              <button type="button" @click="showInfo" class="btn btn-primary show-info">Voir les informations</button><br>
+              <span>
+                Le site <b>jagullo.fr</b> est optimisé pour les navigateurs de
+                génération récente desktop et mobile (Firefox, Edge, Chrome,
+                Safari, Opéra). Le site est hébergé chez l'entreprise
+                <b>OVHcloud</b> (SIREN 424 761 419) domiciliée au 2 rue
+                Kellermann 59100 Roubaix.
+              </span>
+              <br><br>
+              <span>
+                Le présent site constitue une oeuvre dont <b>Mr Agullo</b> est
+                l’auteur au sens des articles L.111.1 et suivant du Code de la
+                propriété intellectuelle. Tout le code source du site est
+                disponible en <b>licence MIT</b> sur la plateforme Github mis à
+                part les images du site. Les photographies, textes, slogans,
+                dessins, images, séquences animées sonores ou non ainsi que
+                toutes oeuvres intégrées dans le site sont la propriété de
+                l'auteur ou de tiers l’ayant autorisé à les utiliser.
+              </span>
             </p>
           </div>
         </div>
@@ -134,15 +165,29 @@ export default {
     }
   },
   mounted() {
-    Scrollbar.init(document.querySelector('#contact'), {damping: 0.2})
-    anime({targets: '.content', opacity: 1, duration: 200, easing: 'easeInOutCirc'})
+    Scrollbar.init(document.querySelector('#contact'), { damping: 0.2 })
+    anime({
+      targets: '.content',
+      opacity: 1,
+      duration: 200,
+      easing: 'easeInOutCirc',
+    })
     this.initCaptcha()
   },
   methods: {
+    showInfo() {
+      const contact = `
+        10 rue Métairie Foch 31330 Grenade<br>
+        Siret : 52981304000035<br>
+        Tél. : 07.52.63.77.22<br>
+        Email : contact@jagullo.fr`
+      document.querySelector('.personnal').insertAdjacentHTML('beforeend', contact)
+      document.querySelector('.show-info').remove()
+    },
     submit() {
       let inputs = ['name', 'phone', 'email', 'message']
       for (let input of inputs) {
-        let element = window['form-'+input]
+        let element = window['form-' + input]
         if (this.checkInput(input, this[input])) {
           element.classList.add('is-valid')
           element.classList.remove('is-invalid')
@@ -165,15 +210,16 @@ export default {
         }
       }
       if (this.valid) {
-        axios.post('https://jagullo.fr/mail.php', {
+        axios
+          .post('https://jagullo.fr/mail.php', {
             name: this.name,
             society: this.society,
             email: this.email,
             phone: this.phone,
             message: this.message,
-            submit: 1
+            submit: 1,
           })
-          .then(response => {
+          .then((response) => {
             if (response.data == '1') {
               this.send = true
               this.error = false
@@ -194,7 +240,9 @@ export default {
     checkInput(type, value) {
       switch (type) {
         case 'email':
-          return value.match(/^(([^<>()[\]\\.,;:!\s@"']+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/)
+          return value.match(
+            /^(([^<>()[\]\\.,;:!\s@"']+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+          )
         case 'name':
         case 'phone':
         case 'message':
@@ -208,10 +256,11 @@ export default {
       if (document.getElementById('script-recaptcha') == null) {
         let script = document.createElement('script')
         script.id = 'script-recaptcha'
-        script.src = 'https://www.google.com/recaptcha/api.js?onload=onloadCaptcha&render=explicit'
+        script.src =
+          'https://www.google.com/recaptcha/api.js?onload=onloadCaptcha&render=explicit'
         document.getElementById('app').append(script)
         let self = this
-        window.onloadCaptcha = function() {
+        window.onloadCaptcha = function () {
           self.renderCaptcha()
         }
       }
@@ -234,7 +283,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import "src/assets/scss/variables";
+@import 'src/assets/scss/variables';
 .content {
   section.form,
   section.mention,
@@ -320,6 +369,14 @@ export default {
         padding-top: 2px;
         image-rendering: high-quality;
         image-rendering: -webkit-optimize-contrast;
+      }
+      .show-info {
+        margin-bottom: 20px;
+      }
+      .personnal {
+        display: block;
+        padding-left: 5px;
+        border-left: 2px solid $color-blue;
       }
     }
   }
