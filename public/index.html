@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title><%= htmlWebpackPlugin.options.title %></title>
-    <link rel="canonical" href="">
-    <meta name="description" content="">
+    <link rel="canonical" href="<%= htmlWebpackPlugin.options.canonical %>">
+    <meta name="description" content="<%= htmlWebpackPlugin.options.description %>">
     <link rel="icon" href="<%= BASE_URL %>static/favicon.png">
     <link rel="apple-touch-icon" href="<%= BASE_URL %>static/apple-touch-icon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,16 +27,20 @@
       <strong>Désolé mais <%= htmlWebpackPlugin.options.title %> ne fonctionne pas correctement sans Javascript. Veuillez activer le Javascript dans votre navigateur pour continuer.</strong>
     </noscript>
     <div id="app"></div>
-    <script type="application/ld+json">
+    <script id="schema_json" type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "WebSite",
         "name": "jagullo.fr",
         "url": "https://jagullo.fr/",
-        "abstract": "Développeur web freelance et webmaster sur Pau et Tarbes",
-        "keywords": "développeur web, développeur freelance, webmaster, site Internet, application web",
+        "abstract": "<%= htmlWebpackPlugin.options.description %>",
         "license": "https://github.com/julienagullo/portfolio-vue/blob/master/LICENSE.md",
-        "usageInfo": "https://github.com/julienagullo/portfolio-vue/blob/master/README.md"
+        "usageInfo": "https://github.com/julienagullo/portfolio-vue/blob/master/README.md",
+        "author": {
+          "@type": "Organization",
+          "name": "jagullo.fr",
+          "url": "https://jagullo.fr/"
+        }
       }
     </script>
   </body>
