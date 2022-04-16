@@ -579,15 +579,17 @@ export default {
     .post {
       padding: 0 10px 20px;
       .post-content {
+        display: flex;
+        flex-direction: column;
         height: 100%;
         padding: 15px;
         border-radius: 3px;
         border: 1px solid #d7d7d7;
         background-color: #fafafa;
-      }
-      .btn {
-        display: block;
-        margin: 0 auto;
+        .btn {
+          display: block;
+          margin: auto auto 0;
+        }
       }
     }
   }

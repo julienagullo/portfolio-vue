@@ -6,7 +6,7 @@ $sitemap = [
     ],
     [
         'loc' => 'https://jagullo.fr/open-source',
-        'lastmod' => '2022-04-11',
+        'lastmod' => '2022-04-16',
     ],
     [
         'loc' => 'https://jagullo.fr/contact',
@@ -14,7 +14,7 @@ $sitemap = [
     ],
     [
         'loc' => 'https://jagullo.fr/',
-        'lastmod' => '2022-04-15',
+        'lastmod' => '2022-04-16',
     ]
 ];
 

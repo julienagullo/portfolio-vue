@@ -71,7 +71,6 @@ RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
 RewriteRule ^(.*)$ https://jagullo.fr/$1 [QSA,L,R=301]
 RewriteCond %{REQUEST_URI} ^/sitemap.xml
 RewriteRule ^(.*)$ sitemap.php [NC,END]
-RewriteCond %{REQUEST_URI} !^/blog|rwdkit|cookies/
 RewriteCond %{REQUEST_URI} !^/mail.php
 RewriteCond %{REQUEST_URI} !\.(js|css|map|gif|jpg|jpeg|png|ico|cur|svg|swf|txt|xml|pdf|log|eot|woff|woff2|ttf|wmv|mp3|mp4|avi|zip|rar|md)$
 RewriteRule ^(.*)$ index.html [QSA,L]

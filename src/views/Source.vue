@@ -10,12 +10,12 @@
       <a href="https://github.com/julienagullo/portfolio-vue" target="_blank" class="btn btn-primary" title="Projet rwdKit sur Github"><i class="bi bi-github"></i> Voir le projet</a>
     </section>
     <section class="project cookiesconsent">
-      <h2>cookies Consent</h2>
+      <h2>cookieWall</h2>
       <img src="~@/assets/img/source-jquery.png" class="logo" width="102" height="25" alt="jQuery write less, do more">
       <img src="~@/assets/img/source-jquery.dark.png" class="logo dark" width="102" height="25" alt="jQuery write less, do more">
       <p>Librairie jQuery servant à charger ou non Google Analytics par un modal de consentement sur son site Internet.</p>
-      <a href="https://github.com/julienagullo/cookies-consent" target="_blank" class="btn btn-primary" title="Projet cookiesConsent sur Github"><i class="bi bi-github"></i> Voir le projet</a>
-      <a href="https://jagullo.fr/cookies/" target="_blank" class="btn btn-primary" title="Démo de la librairie cookiesConsent"><i class="bi bi-window"></i> Démo</a>
+      <a href="https://github.com/julienagullo/cookies-consent" target="_blank" class="btn btn-primary" title="Projet cookieWall sur Github"><i class="bi bi-github"></i> Voir le projet</a>
+      <a href="https://open-source.jagullo.fr/cookie-wall/" target="_blank" class="btn btn-primary" title="Librairie cookieWall pour développeur web"><i class="bi bi-window"></i> Démo</a>
     </section>
     <section class="project rwdkit">
       <h2>rwdKit</h2>
@@ -23,7 +23,7 @@
       <img src="~@/assets/img/source-jquery.dark.png" class="logo dark" width="102" height="25" alt="jQuery write less, do more">
       <p>Librairie jQuery facilitant le développement d'interface responsive en affichant le nom du breakpoint courant.</p>
       <a href="https://github.com/julienagullo/rwdKit" target="_blank" class="btn btn-primary" title="Projet rwdKit sur Github"><i class="bi bi-github"></i> Voir le projet</a>
-      <a href="https://jagullo.fr/rwdkit/" target="_blank" class="btn btn-primary" title="Démo de la librairie rwdKit"><i class="bi bi-window"></i> Démo</a>
+      <a href="https://open-source.jagullo.fr/rwdkit/" target="_blank" class="btn btn-primary" title="Librairie rwdKit pour développeur web"><i class="bi bi-window"></i> Démo</a>
     </section>
   </div>
 </template>
