@@ -191,49 +191,84 @@
               </div>
               <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="10000">
-                  <img src="~@/assets/img/interface-armoireplus.jpg" width="960" height="600" class="d-block w-100" alt="Boutique e-commerce sur Tarbes avec WordPress et Woocommerce">
+                  <img
+                    src="~@/assets/img/interface-armoireplus.mob.jpg"
+                    srcset="~@/assets/img/interface-armoireplus.mob.jpg 480w, ~@/assets/img/interface-armoireplus.jpg 960w"
+                    sizes="(max-width: 767px) 480px, 960px"
+                    class="d-block w-100"
+                    alt="Boutique e-commerce sur Tarbes avec WordPress et Woocommerce">
                   <div class="carousel-caption">
                     <h3>Amélioration de la charte graphique et des fonctionnalités du site armoireplus.fr</h3>
                     <p>Copyright : DBA</p>
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="10000">
-                  <img src="~@/assets/img/interface-mecajetdeau.jpg" width="960" height="715" class="d-block w-100" alt="Développeur sur Pau de site de qualité avec le framework Bootstrap">
+                  <img
+                    src="~@/assets/img/interface-mecajetdeau.mob.jpg"
+                    srcset="~@/assets/img/interface-mecajetdeau.mob.jpg 480w, ~@/assets/img/interface-mecajetdeau.jpg 960w"
+                    sizes="(max-width: 767px) 480px, 960px"
+                    class="d-block w-100"
+                    alt="Développeur sur Pau de site de qualité avec le framework Bootstrap">
                   <div class="carousel-caption">
                     <h3>Conception et référencement du site Internet vitrine multilingue mecajetdeau.com</h3>
                     <p>Copyright : Méca Jet d'Eau | Design : Gabriel Uribe</p>
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="10000">
-                  <img src="~@/assets/img/interface-toulimmo.jpg" width="960" height="800" class="d-block w-100" alt="Développeur indépendant et webmaster sur Pau en conception de site vitrine">
+                  <img
+                    src="~@/assets/img/interface-toulimmo.mob.jpg"
+                    srcset="~@/assets/img/interface-toulimmo.mob.jpg 480w, ~@/assets/img/interface-toulimmo.jpg 960w"
+                    sizes="(max-width: 767px) 480px, 960px"
+                    class="d-block w-100"
+                    alt="Développeur freelance et webmaster sur Pau en création de site de qualité">
                   <div class="carousel-caption">
                     <h3>Création de la charte graphique de l'entreprise et du site toulimmo-renovation.fr</h3>
                     <p>Copyright : Toul-Immo Réalisation</p>
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="10000">
-                  <img src="~@/assets/img/interface-textbeans.jpg" width="960" height="700" class="d-block w-100" alt="Intégration CSS et développement web sur Tarbes par un webmaster freelance">
+                  <img
+                    src="~@/assets/img/interface-textbeans.mob.jpg"
+                    srcset="~@/assets/img/interface-textbeans.mob.jpg 480w, ~@/assets/img/interface-textbeans.jpg 960w"
+                    sizes="(max-width: 767px) 480px, 960px"
+                    class="d-block w-100"
+                    alt="Intégration CSS et développement web sur Tarbes par un webmaster freelance">
                   <div class="carousel-caption">
                     <h3>Intégration LESS/CSS de la maquette et optimisation de la plateforme TextBeans</h3>
                     <p>Copyright : Lingocentric | Design : Gabriel Uribe</p>
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="10000">
-                  <img src="~@/assets/img/interface-topwings.jpg" width="960" height="540" class="d-block w-100" alt="Développeur d'interface tactile sur-mesure pour les applications de salon">
+                  <img
+                    src="~@/assets/img/interface-topwings.mob.jpg"
+                    srcset="~@/assets/img/interface-topwings.mob.jpg 480w, ~@/assets/img/interface-topwings.jpg 960w"
+                    sizes="(max-width: 767px) 480px, 960px"
+                    class="d-block w-100"
+                    alt="Développeur freelance sur Pau et Tarbes pour application mobile">
                   <div class="carousel-caption">
                     <h3>Conception graphique et développement du menu radial de l'application Topwings</h3>
                     <p>Copyright : Virtual-IT | Client : Thales Aerospace</p>
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="10000">
-                  <img src="~@/assets/img/interface-airbusds.jpg" width="960" height="600" class="d-block w-100" alt="Création d'interface interactive en Material Design et Vuejs">
+                  <img
+                    src="~@/assets/img/interface-airbusds.mob.jpg"
+                    srcset="~@/assets/img/interface-airbusds.mob.jpg 480w, ~@/assets/img/interface-airbusds.jpg 960w"
+                    sizes="(max-width: 767px) 480px, 960px"
+                    class="d-block w-100"
+                    alt="Conception d'interface graphique pour le web et mobile">
                   <div class="carousel-caption">
                     <h3>Réalisation graphique et développement du magazine interactif pour la mission JUICE</h3>
                     <p>Copyright : Virtual-IT | Client : AIRBUS DS</p>
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="10000">
-                  <img src="~@/assets/img/interface-spherea.jpg" width="960" height="540" class="d-block w-100" alt="Développeur d'application tactile et webmaster sur Pau">
+                  <img
+                    src="~@/assets/img/interface-spherea.mob.jpg"
+                    srcset="~@/assets/img/interface-spherea.mob.jpg 480w, ~@/assets/img/interface-spherea.jpg 960w"
+                    sizes="(max-width: 767px) 480px, 960px"
+                    class="d-block w-100"
+                    alt="Développeur d'application web et webmaster freelance sur Pau">
                   <div class="carousel-caption">
                     <h3>Suivi projet et conception de l'application de salon interactive U-TEST ®</h3>
                     <p>Copyright : Virtual-IT | Client : SPHEREA | Design 2D : Gabriel Uribe | Design 3D : Stéphane Agullo</p>
@@ -637,7 +672,7 @@ export default {
     }
   }
 }
-@media (max-width: 1201px) {
+@media (max-width: 1199px) {
   .content {
     section.intro {
       .intro-carousel {

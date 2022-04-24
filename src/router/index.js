@@ -34,7 +34,7 @@ const routes = [
     path: '/contact',
     name: 'Contact',
     meta: {
-      title: 'Renseignement en développement web | jagullo.fr',
+      title: 'Renseignement pour du développement web | jagullo.fr',
       description: 'Contactez-moi pour toute demande de renseignements, de conseils ou de devis en conception de site Internet sur Pau et Tarbes.',
     },
     component: () => import('../views/Contact.vue'),

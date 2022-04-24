@@ -1,8 +1,8 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
-import 'bootstrap-icons/font/bootstrap-icons.scss'
 import '@/assets/scss/app.scss'
+import 'bootstrap-icons/font/bootstrap-icons.scss'
 import VueCookieAcceptDecline from 'vue-cookie-accept-decline'
 import 'vue-cookie-accept-decline/dist/vue-cookie-accept-decline.css'
 
