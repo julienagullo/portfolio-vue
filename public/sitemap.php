@@ -1,31 +1,23 @@
 <?php
-$sitemap = [
-    [
-        'loc' => 'https://jagullo.fr/curriculum',
-        'lastmod' => '2022-04-24',
-    ],
-    [
-        'loc' => 'https://jagullo.fr/open-source',
-        'lastmod' => '2022-04-24',
-    ],
-    [
-        'loc' => 'https://jagullo.fr/contact',
-        'lastmod' => '2022-04-24',
-    ],
-    [
-        'loc' => 'https://jagullo.fr/',
-        'lastmod' => '2022-04-24',
-    ]
-];
-
-$xml = simplexml_load_file('https://jagullo.fr/blog/sitemap.xml');
-
-foreach ($sitemap as $key => $value) {
-    $url = $xml->addChild('url');
-    $url->addChild('loc', $value['loc']);
-    $url->addChild('lastmod', $value['lastmod']);
+ini_set('display_errors', 1);
+$pageUrl = 'https://jagullo.fr/page-sitemap.xml';
+$pageXml = simplexml_load_file($pageUrl);
+$lastDate = new DateTime('2022-01-01T00:00:00+0000');
+foreach ($pageXml as $url) {
+    try {
+        $date = new DateTime($url->lastmod);
+    } catch (Exception $e) {
+        continue;
+    }
+    if ($lastDate < $date) {
+        $lastDate = $date;
+    }
 }
 
+$xml = simplexml_load_file('https://jagullo.fr/blog/sitemap.xml');
+$page = $xml->addChild('sitemap');
+$page->addChild('loc', $pageUrl);
+$page->addChild('lastmod', $lastDate->format('c'));
 
 header("Content-Type:text/xml");
 echo $xml->asXML();

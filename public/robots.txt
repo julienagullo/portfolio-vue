@@ -1,4 +1,5 @@
 User-agent: *
-Disallow:
+Allow: /
+Allow: /blog/
 
 Sitemap: https://jagullo.fr/sitemap.xml
