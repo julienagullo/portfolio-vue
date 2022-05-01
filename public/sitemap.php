@@ -2,7 +2,7 @@
 ini_set('display_errors', 1);
 $pageUrl = 'https://jagullo.fr/page-sitemap.xml';
 $pageXml = simplexml_load_file($pageUrl);
-$lastDate = new DateTime('2022-01-01T00:00:00+0000');
+$lastDate = new DateTime('2022-01-01T00:00:00+00:00');
 foreach ($pageXml as $url) {
     try {
         $date = new DateTime($url->lastmod);
