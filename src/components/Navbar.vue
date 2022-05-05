@@ -7,7 +7,8 @@
       <li @click="navigate($event)" data-name="Source"><i class="bi bi-code-slash"></i> <span>Sources</span></li>
       <li @click="navigate($event)" data-name="Contact"><i class="bi bi-envelope"></i> <span>Contact</span></li>
       <li class="break"></li>
-      <li><a href="https://jagullo.fr/blog/"><i class="bi bi-stickies"></i> <span>Blog</span></a></li>
+      <li><a href="https://jagullo.fr/blog/" target="_blank"><i class="bi bi-stickies"></i> <span>Blog</span></a></li>
+      <li><a href="https://twitter.com/IndustrieDuWeb" target="_blank"><i class="bi bi-twitter"></i> <span>Twitter</span></a></li>
       <li><a href="https://github.com/julienagullo" target="_blank"><i class="bi bi-github"></i> <span>Github</span></a></li>
     </ul>
     <div class="form-check form-control-lg form-switch">

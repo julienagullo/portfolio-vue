@@ -3,3 +3,4 @@ Allow: /
 Allow: /blog/
 
 Sitemap: https://jagullo.fr/sitemap.xml
+Sitemap: https://jagullo.fr/blog/sitemap_index.xml
