@@ -1,9 +1,9 @@
 <template>
-  <div class="col-12 col-sm-12 col-md-6 col-lg-4 item-soft" @mouseover="showTechno" @mouseleave="hideTechno">
+  <div class="col-12 col-sm-12 col-md-6 col-lg-4 item-soft" @mouseover="showTechno" @mouseleave="hideTechno" itemprop="itemListElement" itemscope itemtype="http://schema.org/Offer">
     <img :src="picture" width="100" height="100" :alt="name">
-    <div class="description">
-      <h3>{{ name }}</h3>
-      <p>{{ desc }}</p>
+    <div class="description" itemprop="itemOffered" itemscope itemtype="http://schema.org/Service">
+      <h3 itemprop="name">{{ name }}</h3>
+      <p itemprop="description">{{ desc }}</p>
     </div>
   </div>
 </template>

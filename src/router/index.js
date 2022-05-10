@@ -7,7 +7,7 @@ const routes = [
     path: '/',
     name: 'Home',
     meta: {
-      title: 'Développeur web sur Pau et Tarbes | jagullo.fr',
+      title: 'Développeur web freelance sur Pau et Tarbes | jagullo.fr',
       description: 'Bienvenue sur mon site Internet présentant mes travaux dans le domaine du web, du développement, du graphisme et de la communication sur Pau et Tarbes.',
     },
     component: () => import('../views/Home.vue'),
@@ -34,7 +34,7 @@ const routes = [
     path: '/contact',
     name: 'Contact',
     meta: {
-      title: 'Renseignement pour du développement web | jagullo.fr',
+      title: 'Demande de contact pour du développement web | jagullo.fr',
       description: 'Contactez-moi pour toute demande de renseignements, de conseils ou de devis en conception de site Internet sur Pau et Tarbes.',
     },
     component: () => import('../views/Contact.vue'),

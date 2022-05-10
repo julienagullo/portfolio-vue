@@ -1,6 +1,6 @@
 <template>
   <div id="home" class="content">
-    <h1>Développeur web sur Pau et Tarbes</h1>
+    <h1>Développeur web freelance sur Pau et Tarbes</h1>
     <hr class="hr-gray" />
     <section class="intro">
       <div class="container-fluid">
@@ -77,28 +77,28 @@
           <div class="col-12">
             <h2>Découvrir <span class="color-orange">les services</span> proposés</h2>
           </div>
-          <div class="col-12 col-md-6 col-lg-6 col-xl-3 text-center item-responsive">
-            <img src="~@/assets/img/img-responsive.png" width="320" height="350" class="img-fluid" alt="Design responsive de site sur Pau">
-            <h3>Responsive design</h3>
-            <p class="align-bottom" @click="closeKnowledge('responsive')">La charte graphique de votre site peut se faire en utilisant un template gratuit ou payant afin de réduire le budget final. Si vous souhaitez un design plus original ou un site web très optimisé, je réalise des interfaces graphiques et les intègre au sein de vos pages.</p>
+          <div class="col-12 col-md-6 col-lg-6 col-xl-3 text-center item-responsive" itemscope itemtype="http://schema.org/Service">
+            <img src="~@/assets/img/img-responsive.png" width="320" height="350" class="img-fluid" alt="Design responsive de site sur Pau" itemprop="image" >
+            <h3 itemprop="name">Responsive design</h3>
+            <p class="align-bottom" @click="closeKnowledge('responsive')" itemprop="description">La charte graphique de votre site peut se faire en utilisant un template gratuit ou payant afin de réduire le budget final. Si vous souhaitez un design plus original ou un site web très optimisé, je réalise des interfaces graphiques et les intègre au sein de vos pages.</p>
             <button class="btn btn-primary" @click="openKnowledge('responsive')">Plus d'info</button>
           </div>
-          <div class="col-12 col-md-6 col-lg-6 col-xl-3 text-center item-development">
-            <img src="~@/assets/img/img-development.png" width="350" height="350" class="img-fluid" alt="Développeur professionnel sur Pau">
-            <h3>Développement</h3>
-            <p class="align-bottom" @click="closeKnowledge('development')">Je conçois des sites avec WordPress et Woocommerce afin de disposer d'un site clé en main administrable. Pour un site non administrable ou sur-mesure comme une application web, j'utilise le framework VueJS. Contactez-moi pour déterminer la technologie idéale.</p>
+          <div class="col-12 col-md-6 col-lg-6 col-xl-3 text-center item-development" itemscope itemtype="http://schema.org/Service">
+            <img src="~@/assets/img/img-development.png" width="350" height="350" class="img-fluid" alt="Développeur professionnel sur Pau" itemprop="image" >
+            <h3 itemprop="name">Développement</h3>
+            <p class="align-bottom" @click="closeKnowledge('development')" itemprop="description">Je conçois des sites avec WordPress et Woocommerce afin de disposer d'un site clé en main administrable. Pour un site non administrable ou sur-mesure comme une application web, j'utilise le framework VueJS. Contactez-moi pour déterminer la technologie idéale.</p>
             <button class="btn btn-primary" @click="openKnowledge('development')">Plus d'info</button>
           </div>
-          <div class="col-12 col-md-6 col-lg-6 col-xl-3 text-center item-writing">
-            <img src="~@/assets/img/img-writing.png" width="350" height="350" class="img-fluid" alt="Rédaction de contenu optimisé SEO">
-            <h3>Rédaction web</h3>
-            <p class="align-bottom" @click="closeKnowledge('writing')">Le contenu de votre site est primordial pour apparaître dans les premières pages des moteurs de recherche. Je propose de vous aider dans la rédaction de vos pages et articles de façon optimisée et de vous conseiller pour réaliser le référencement naturel de votre site.</p>
+          <div class="col-12 col-md-6 col-lg-6 col-xl-3 text-center item-writing" itemscope itemtype="http://schema.org/Service">
+            <img src="~@/assets/img/img-writing.png" width="350" height="350" class="img-fluid" alt="Rédaction de contenu optimisé SEO" itemprop="image" >
+            <h3 itemprop="name">Rédaction web</h3>
+            <p class="align-bottom" @click="closeKnowledge('writing')" itemprop="description">Le contenu de votre site est primordial pour apparaître dans les premières pages des moteurs de recherche. Je propose de vous aider dans la rédaction de vos pages et articles de façon optimisée et de vous conseiller pour réaliser le référencement naturel de votre site.</p>
             <button class="btn btn-primary" @click="openKnowledge('writing')">Plus d'info</button>
           </div>
-          <div class="col-12 col-md-6 col-lg-6 col-xl-3 text-center item-optimization">
-            <img src="~@/assets/img/img-optimization.png" width="350" height="350" class="img-fluid" alt="Optimisation technique de site">
-            <h3>Optimisation</h3>
-            <p class="align-bottom" @click="closeKnowledge('optimization')">L'optimisation technique et sémantique consiste à améliorer certains facteurs clés pour augmenter ses positions sur les moteurs de recherche. Vous avez déjà un site ? Utilisez un outil en ligne comme PageSpeed ou GTmetrix pour connaître votre score de performance.</p>
+          <div class="col-12 col-md-6 col-lg-6 col-xl-3 text-center item-optimization" itemscope itemtype="http://schema.org/Service">
+            <img src="~@/assets/img/img-optimization.png" width="350" height="350" class="img-fluid" alt="Optimisation technique de site" itemprop="image" >
+            <h3 itemprop="name">Optimisation</h3>
+            <p class="align-bottom" @click="closeKnowledge('optimization')" itemprop="description">L'optimisation technique et sémantique consiste à améliorer certains facteurs clés pour augmenter ses positions sur les moteurs de recherche. Vous avez déjà un site ? Utilisez un outil en ligne comme PageSpeed ou GTmetrix pour connaître votre score de performance.</p>
             <button class="btn btn-primary" @click="openKnowledge('optimization')">Plus d'info</button>
           </div>
         </div>
@@ -121,8 +121,8 @@
             <h2>Partage de <span class="color-blue">mes connaissances</span> sur Pau et Tarbes</h2>
           </div>
         </div>
-        <div class="row techno-content">
-          <h3><i class="bi bi-brush"></i> Graphisme</h3>
+        <div class="row techno-content" itemscope itemtype="http://schema.org/OfferCatalog">
+          <h3 itemprop="name"><i class="bi bi-brush"></i> Graphisme</h3>
           <Techno name="Adobe Photoshop" logo="logo-adobe_photoshop.png" desc="Logiciel de retouche d'images et de conception graphique" />
           <Techno name="Adobe Illustrator" logo="logo-adobe_illustrator.png" desc="Logiciel d'édition graphique pour un rendu vectoriel" />
           <Techno name="Adobe Animate" logo="logo-adobe_animate.png" desc="Logiciel d'animation vectorielle pour le web et la vidéo" />
@@ -130,8 +130,8 @@
           <Techno name="Affinity Designer" logo="logo-affinity_designer.png" desc="Logiciel d'édition graphique pour un rendu vectoriel" />
           <Techno name="Affinity Publisher" logo="logo-affinity_publisher.png" desc="Logiciel de publication pour l'impression et les documents PDF" />
         </div>
-        <div class="row techno-content">
-          <h3><i class="bi bi-window"></i> Développement</h3>
+        <div class="row techno-content" itemscope itemtype="http://schema.org/OfferCatalog">
+          <h3 itemprop="name"><i class="bi bi-window"></i> Développement</h3>
           <Techno name="PhpStorm" logo="logo-phpstorm.png" desc="Logiciel ou IDE de programmation dédié aux langages du web" />
           <Techno name="PHP" logo="logo-php.png" desc="Langage de programmation côté serveur pour application, site et api" />
           <Techno name="JavaScript" logo="logo-javascript.png" desc="Langage de programmation côté client et serveur pour application, site et api" />
@@ -151,8 +151,8 @@
           <Techno name="Svn" logo="logo-svn.png" desc="Logiciel de gestion de version pour le travail en équipe" />
           <Techno name="Postman" logo="logo-postman.png" desc="Logiciel pour aider les développeurs dans la mise en place d'api" />
         </div>
-        <div class="row techno-content">
-          <h3><i class="bi bi-globe"></i> Référencement / marketing</h3>
+        <div class="row techno-content" itemscope itemtype="http://schema.org/OfferCatalog">
+          <h3 itemprop="name"><i class="bi bi-globe"></i> Référencement / marketing</h3>
           <Techno name="Yourtext Guru" logo="logo-yourtext_guru.png" desc="Outil en ligne pour la rédaction de contenu optimisé au référencement" />
           <Techno name="Screaming Frog" logo="logo-screaming_frog.png" desc="Logiciel d'analyse de code source et d'extraction des données en ligne" />
           <Techno name="Ubersuggest" logo="logo-ubersuggest.png" desc="Outil en ligne pour analyser les mots clés recherchés sur les moteurs" />
@@ -191,84 +191,105 @@
               </div>
               <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="10000">
-                  <img
-                    src="~@/assets/img/interface-armoireplus.mob.jpg"
-                    srcset="~@/assets/img/interface-armoireplus.mob.jpg 480w, ~@/assets/img/interface-armoireplus.jpg 960w"
-                    sizes="(max-width: 767px) 480px, 960px"
-                    class="d-block w-100"
-                    alt="Boutique e-commerce sur Tarbes avec WordPress et Woocommerce">
+                  <picture>
+                    <img
+                      src="~@/assets/img/interface-armoireplus_mob.jpg"
+                      srcset="~@/assets/img/interface-armoireplus_mob.jpg 480w, ~@/assets/img/interface-armoireplus.jpg 960w"
+                      sizes="(max-width: 767px) 480px, 960px"
+                      width="480" height="300"
+                      class="d-block w-100"
+                      alt="Création de boutique e-commerce sur Pau avec WordPress et Woocommerce">
+                  </picture>
                   <div class="carousel-caption">
                     <h3>Amélioration de la charte graphique et des fonctionnalités du site armoireplus.fr</h3>
                     <p>Copyright : DBA</p>
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="10000">
-                  <img
-                    src="~@/assets/img/interface-mecajetdeau.mob.jpg"
-                    srcset="~@/assets/img/interface-mecajetdeau.mob.jpg 480w, ~@/assets/img/interface-mecajetdeau.jpg 960w"
-                    sizes="(max-width: 767px) 480px, 960px"
-                    class="d-block w-100"
-                    alt="Développeur sur Pau de site de qualité avec le framework Bootstrap">
+                  <picture>
+                    <img
+                      src="~@/assets/img/interface-mecajetdeau_mob.jpg"
+                      srcset="~@/assets/img/interface-mecajetdeau_mob.jpg 480w, ~@/assets/img/interface-mecajetdeau.jpg 960w"
+                      sizes="(max-width: 767px) 480px, 960px"
+                      width="480" height="300"
+                      class="d-block w-100"
+                      alt="Développeur sur Pau spécialisé en WordPress et Vuejs">
+                  </picture>
                   <div class="carousel-caption">
                     <h3>Conception et référencement du site Internet vitrine multilingue mecajetdeau.com</h3>
                     <p>Copyright : Méca Jet d'Eau | Design : Gabriel Uribe</p>
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="10000">
-                  <img
-                    src="~@/assets/img/interface-toulimmo.mob.jpg"
-                    srcset="~@/assets/img/interface-toulimmo.mob.jpg 480w, ~@/assets/img/interface-toulimmo.jpg 960w"
-                    sizes="(max-width: 767px) 480px, 960px"
-                    class="d-block w-100"
-                    alt="Développeur freelance et webmaster sur Pau en création de site de qualité">
+                  <picture>
+                    <img
+                      src="~@/assets/img/interface-toulimmo_mob.jpg"
+                      srcset="~@/assets/img/interface-toulimmo_mob.jpg 480w, ~@/assets/img/interface-toulimmo.jpg 960w"
+                      sizes="(max-width: 767px) 480px, 960px"
+                      width="480" height="300"
+                      class="d-block w-100"
+                      alt="Développeur freelance et webmaster sur Pau en création de site Internet de qualité">
+                  </picture>
                   <div class="carousel-caption">
                     <h3>Création de la charte graphique de l'entreprise et du site toulimmo-renovation.fr</h3>
                     <p>Copyright : Toul-Immo Réalisation</p>
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="10000">
-                  <img
-                    src="~@/assets/img/interface-textbeans.mob.jpg"
-                    srcset="~@/assets/img/interface-textbeans.mob.jpg 480w, ~@/assets/img/interface-textbeans.jpg 960w"
-                    sizes="(max-width: 767px) 480px, 960px"
-                    class="d-block w-100"
-                    alt="Intégration CSS et développement web sur Tarbes par un webmaster freelance">
+                  <picture>
+                    <img
+                      src="~@/assets/img/interface-textbeans_mob.jpg"
+                      srcset="~@/assets/img/interface-textbeans_mob.jpg 480w, ~@/assets/img/interface-textbeans.jpg 960w"
+                      sizes="(max-width: 767px) 480px, 960px"
+                      width="480" height="300"
+                      class="d-block w-100"
+                      alt="Webmaster freelance pour de l'intégration CSS et du développement web sur Tarbes">
+                  </picture>
                   <div class="carousel-caption">
                     <h3>Intégration LESS/CSS de la maquette et optimisation de la plateforme TextBeans</h3>
                     <p>Copyright : Lingocentric | Design : Gabriel Uribe</p>
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="10000">
-                  <img
-                    src="~@/assets/img/interface-topwings.mob.jpg"
-                    srcset="~@/assets/img/interface-topwings.mob.jpg 480w, ~@/assets/img/interface-topwings.jpg 960w"
-                    sizes="(max-width: 767px) 480px, 960px"
-                    class="d-block w-100"
-                    alt="Développeur freelance sur Pau et Tarbes pour application mobile">
+                  <picture>
+                    <img
+                      src="~@/assets/img/interface-topwings_mob.jpg"
+                      srcset="~@/assets/img/interface-topwings_mob.jpg 480w, ~@/assets/img/interface-topwings.jpg 960w"
+                      sizes="(max-width: 767px) 480px, 960px"
+                      width="480" height="270"
+                      class="d-block w-100"
+                      alt="Développeur freelance sur Pau et Tarbes pour application mobile">
+                  </picture>
                   <div class="carousel-caption">
                     <h3>Conception graphique et développement du menu radial de l'application Topwings</h3>
                     <p>Copyright : Virtual-IT | Client : Thales Aerospace</p>
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="10000">
-                  <img
-                    src="~@/assets/img/interface-airbusds.mob.jpg"
-                    srcset="~@/assets/img/interface-airbusds.mob.jpg 480w, ~@/assets/img/interface-airbusds.jpg 960w"
-                    sizes="(max-width: 767px) 480px, 960px"
-                    class="d-block w-100"
-                    alt="Conception d'interface graphique pour le web et mobile">
+                  <picture>
+                    <img
+                      src="~@/assets/img/interface-airbusds_mob.jpg"
+                      srcset="~@/assets/img/interface-airbusds_mob.jpg 480w, ~@/assets/img/interface-airbusds.jpg 960w"
+                      sizes="(max-width: 767px) 480px, 960px"
+                      width="480" height="300"
+                      class="d-block w-100"
+                      alt="Conception d'interface graphique pour le web et mobile">
+                  </picture>
                   <div class="carousel-caption">
                     <h3>Réalisation graphique et développement du magazine interactif pour la mission JUICE</h3>
                     <p>Copyright : Virtual-IT | Client : AIRBUS DS</p>
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="10000">
-                  <img
-                    src="~@/assets/img/interface-spherea.mob.jpg"
-                    srcset="~@/assets/img/interface-spherea.mob.jpg 480w, ~@/assets/img/interface-spherea.jpg 960w"
-                    sizes="(max-width: 767px) 480px, 960px"
-                    class="d-block w-100"
-                    alt="Développeur d'application web et webmaster freelance sur Pau">
+                  <picture>
+                    <img
+                      src="~@/assets/img/interface-spherea_mob.jpg"
+                      srcset="~@/assets/img/interface-spherea_mob.jpg 480w, ~@/assets/img/interface-spherea.jpg 960w"
+                      sizes="(max-width: 767px) 480px, 960px"
+                      width="480" height="270"
+                      class="d-block w-100"
+                      alt="Développeur d'application web et webmaster freelance sur Pau">
+                  </picture>
                   <div class="carousel-caption">
                     <h3>Suivi projet et conception de l'application de salon interactive U-TEST ®</h3>
                     <p>Copyright : Virtual-IT | Client : SPHEREA | Design 2D : Gabriel Uribe | Design 3D : Stéphane Agullo</p>
