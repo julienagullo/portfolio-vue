@@ -86,7 +86,7 @@
           <div class="col-12 col-md-6 col-lg-6 col-xl-3 text-center item-development" itemscope itemtype="http://schema.org/Service">
             <img src="~@/assets/img/img-development.png" width="350" height="350" class="img-fluid" alt="Développeur professionnel sur Pau" itemprop="image" >
             <h3 itemprop="name">Développement</h3>
-            <p class="align-bottom" @click="closeKnowledge('development')" itemprop="description">Je conçois des sites avec WordPress et Woocommerce afin de disposer d'un site clé en main administrable. Pour un site non administrable ou sur-mesure comme une application web, j'utilise le framework VueJS. Contactez-moi pour déterminer la technologie idéale.</p>
+            <p class="align-bottom" @click="closeKnowledge('development')" itemprop="description">Je conçois des sites avec WordPress et Woocommerce afin de disposer d'un site clé en main administrable. Pour un site non administrable ou sur-mesure comme une application web, j'utilise le framework Vue.js ou Symfony. Contactez-moi pour déterminer la technologie idéale.</p>
             <button class="btn btn-primary" @click="openKnowledge('development')">Plus d'info</button>
           </div>
           <div class="col-12 col-md-6 col-lg-6 col-xl-3 text-center item-writing" itemscope itemtype="http://schema.org/Service">
@@ -108,7 +108,7 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-12 d-flex flex-column align-items-center">
-            <h2 class="text-center">Pour du conseil, une demande d'information ou un devis pour un site Internet</h2>
+            <h2 class="text-center">Besoin d'un conseil, une demande d'information ou un projet en développement web ?</h2>
             <a href="/contact" class="btn btn-primary" @click.prevent="$emit('navbar-navigate', $event)" data-name="Contact" title="Devis pour la création d'un site Internet">Contactez-moi</a>
           </div>
         </div>
@@ -157,8 +157,8 @@
           <Techno name="Screaming Frog" logo="logo-screaming_frog.png" desc="Logiciel d'analyse de code source et d'extraction des données en ligne" />
           <Techno name="Ubersuggest" logo="logo-ubersuggest.png" desc="Outil en ligne pour analyser les mots clés recherchés sur les moteurs" />
           <Techno name="Google Analytics" logo="logo-google_analytics.png" desc="Outil en ligne d'analyse d'audience pour un site ou une application mobile" />
-          <Techno name="Piwik Pro" logo="logo-piwik_pro.png" desc="Outil en ligne d'analyse d'audience pour un site ou une application mobile" />
-          <Techno name="Sendinblue" logo="logo-sendinblue.png" desc="Plateforme de marketing relationnel pour les campagnes d'emails" />
+          <Techno name="Stripe" logo="logo-stripe.png" desc="Plateforme de paiement en ligne avec une API et des solutions avancées" />
+          <Techno name="Sendinblue" logo="logo-sendinblue.png" desc="Plateforme de marketing relationnel pour l'emailing et les emails transactionnels" />
         </div>
       </div>
     </section>
@@ -330,7 +330,7 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-12 d-flex flex-column align-items-center">
-            <h2 class="text-center">Besoin d'un webmaster sur Pau ou Tarbes ou pour vous aider dans votre projet ?</h2>
+            <h2 class="text-center">Besoin d'un webmaster sur Pau ou Tarbes ou vous aider dans votre projet professionnel ?</h2>
             <a href="/contact" class="btn btn-primary" @click.prevent="$emit('navbar-navigate', $event)" data-name="Contact" title="Demande de renseignement pour un webmaster">Contactez-moi</a>
           </div>
         </div>

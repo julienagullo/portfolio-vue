@@ -32,7 +32,7 @@
       <p class="border-red">
         <span class="title">Langages</span><br>
         HTML, CSS, LESS, SCSS, PHP, JS, SQL<br>
-        Framework : Bootstrap, Slim, jQuery, Vue.js
+        Framework : Bootstrap, Symfony, jQuery, Vue.js
       </p>
       <p class="border-red">
         <span class="title">Langue vivante</span><br>
