@@ -102,18 +102,14 @@ export default {
   }
 }
 /* Responsive */
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .content section.project {
+    background: #fafafa!important;
     .btn {
       display: block;
       width: 100%;
-      margin: 15px 0 0 !important;
+      margin: 15px 0 0!important;
     }
-  }
-}
-@media (max-width: 768px) {
-  .content section.project {
-    background: #fafafa;
   }
 }
 </style>
