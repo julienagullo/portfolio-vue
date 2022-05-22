@@ -1,6 +1,6 @@
 <template>
   <div id="home" class="content">
-    <h1>Développeur web freelance sur Pau et Tarbes</h1>
+    <h1>Webmaster et développeur web sur Pau et Tarbes</h1>
     <hr class="hr-gray" />
     <section class="intro">
       <div class="container-fluid">
@@ -140,7 +140,7 @@
           <Techno name="Less" logo="logo-less.png" desc="Préprocesseur CSS pour faciliter le travail des intégrateurs web" />
           <Techno name="WordPress" logo="logo-wordpress.png" desc="Système de gestion de contenu pour la création de sites Internet" />
           <Techno name="Woocommerce" logo="logo-woocommerce.png" desc="Extension de WordPress pour développer une boutique en ligne" />
-          <Techno name="Slim" logo="logo-slim.png" desc="Framework PHP pour le développement backend et de web API" />
+          <Techno name="Symfony" logo="logo-symfony.png" desc="Framework PHP pour le développement web et d'API RESTful" />
           <Techno name="jQuery" logo="logo-jquery.png" desc="Framework JavaScript pour améliorer l’interactivité d’une page HTML" />
           <Techno name="Vue.js" logo="logo-vuejs.png" desc="Framework JavaScript pour développer des sites et des applications mobiles" />
           <Techno name="Bootstrap" logo="logo-bootstrap.png" desc="Framework CSS pour créer des interfaces HTML tout support" />
@@ -330,12 +330,13 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-12 d-flex flex-column align-items-center">
-            <h2 class="text-center">Besoin d'un webmaster freelance ou sous contrat pour vous aider dans votre projet ?</h2>
+            <h2 class="text-center">Besoin d'un webmaster sur Pau ou Tarbes ou pour vous aider dans votre projet ?</h2>
             <a href="/contact" class="btn btn-primary" @click.prevent="$emit('navbar-navigate', $event)" data-name="Contact" title="Demande de renseignement pour un webmaster">Contactez-moi</a>
           </div>
         </div>
       </div>
     </section>
+    <div class="background-mountain"></div>
   </div>
 </template>
 
