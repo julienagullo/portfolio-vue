@@ -330,7 +330,7 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-12 d-flex flex-column align-items-center">
-            <h2 class="text-center">Besoin d'un webmaster sur Pau ou Tarbes ou vous aider dans votre projet professionnel ?</h2>
+            <h2 class="text-center">Besoin d'un webmaster sur Pau ou Tarbes pour vous aider dans votre projet professionnel ?</h2>
             <a href="/contact" class="btn btn-primary" @click.prevent="$emit('navbar-navigate', $event)" data-name="Contact" title="Demande de renseignement pour un webmaster">Contactez-moi</a>
           </div>
         </div>

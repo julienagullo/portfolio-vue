@@ -122,13 +122,14 @@ body .content .background-mountain {
 
 @media (max-width: 1200px) {
   body .wrapper .content .background-mountain {
-    height: 250px;
+    height: 200px;
+    background-size: cover;
   }
 }
 
 @media (max-width: 992px) {
   body .wrapper .content .background-mountain {
-    height: 200px;
+    height: 160px;
   }
 }
 
