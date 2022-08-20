@@ -115,7 +115,7 @@
             <p>
               Le site et le nom de domaine <b>jagullo.fr</b> sont la propriété de :<br><br>
               Mr <img src="~@/assets/img/photo-title.png" width="115" height="70" class="img-title"> Agullo<br>
-              <span class="personnal"></span>
+              <span class="personal"></span>
               <button type="button" @click="showInfo" class="btn btn-primary show-info">Voir les informations</button><br>
               <span>
                 Le site <b>jagullo.fr</b> est optimisé pour les navigateurs de
@@ -177,11 +177,12 @@ export default {
   methods: {
     showInfo() {
       const contact = `
-        10 rue Métairie Foch 31330 Grenade<br>
-        Siret : 52981304000035<br>
+        Carré Plein Centre<br>
+        2 place au Bois, 65000 Tarbes<br>
+        Siret : 52981304000043<br>
         Tél. : 07.52.63.77.22<br>
         Email : contact@jagullo.fr`
-      document.querySelector('.personnal').insertAdjacentHTML('beforeend', contact)
+      document.querySelector('.personal').insertAdjacentHTML('beforeend', contact)
       document.querySelector('.show-info').remove()
     },
     submit() {
@@ -373,9 +374,9 @@ export default {
       .show-info {
         margin-bottom: 20px;
       }
-      .personnal {
+      .personal {
         display: block;
-        padding-left: 5px;
+        padding-left: 10px;
         border-left: 2px solid $color-blue;
       }
     }
