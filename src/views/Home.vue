@@ -317,7 +317,7 @@
           </div>
           <div v-for="post in this.posts" :key="post.id" class="col-12 col-md-6 col-lg-6 col-xl-3 post">
             <div class="post-content">
-              <h3>{{ post.title.rendered }}</h3>
+              <h3>{{ post.render_title }}</h3>
               <h4 class="color-orange">{{ new Date(post.date).toLocaleDateString('fr-fr') }}</h4>
               <p v-html="post.excerpt.rendered"></p>
               <a class="btn btn-primary" :href="post.link">Voir l'article</a>
@@ -399,6 +399,10 @@ export default {
         })
         .then(response => {
           this.posts = response.data
+          for (const post of this.posts) {
+            let title = new DOMParser().parseFromString(post.title.rendered, "text/html")
+            post.render_title = title.documentElement.textContent
+          }
         })
     },
   },

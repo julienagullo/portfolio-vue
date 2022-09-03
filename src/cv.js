@@ -45,6 +45,11 @@ export default {
         title: 'DBA - Toulouse <span class="attr">[CDI]</span>',
         detail: 'Développement web',
       },
+      {
+        date: '2022',
+        title: 'Foxyz - Tarbes <span class="attr">[CDI]</span>',
+        detail: 'Développement web',
+      },
     ],
   },
   prod: {
@@ -216,6 +221,12 @@ export default {
         date: '2020-2022',
         title: 'Armoire Plus',
         detail: 'Amélioration de la charte graphique de la marque<br>Amélioration du site Woocommerce <a href="https://www.armoireplus.fr" class="title" rel="nofollow noreferrer" target="_blank">armoireplus.fr</a>',
+        images: [],
+      },
+      {
+        date: '2022',
+        title: 'Foxyz',
+        detail: 'Développement PHP d\'API REST pour intégrer des services web et logiciels dans l\'ERP <a href="https://foxyz.fr" class="title" rel="nofollow noreferrer" target="_blank">Foxyz</a>',
         images: [],
       },
     ],
