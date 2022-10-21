@@ -51,6 +51,12 @@
         <span class="title">Sport</span><br>
         Running, Musculation, Tennis
       </p>
+      <h2>Téléchargement</h2>
+      <a href="/static/cv-agullo-2022.pdf"
+         rel="nofollow noreferrer"
+         target="_blank"
+         class="btn btn-primary btn-cv"
+         title="Télécharger le CV en PDF">CV PDF</a>
     </div>
   </div>
 </template>

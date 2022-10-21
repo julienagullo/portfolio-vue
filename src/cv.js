@@ -226,7 +226,7 @@ export default {
       {
         date: '2022',
         title: 'Foxyz',
-        detail: 'Développement PHP d\'API REST pour intégrer des services web et logiciels dans l\'ERP <a href="https://foxyz.fr" class="title" rel="nofollow noreferrer" target="_blank">Foxyz</a>',
+        detail: 'Développement d\'API REST en PHP pour connecter des services web dans l\'ERP <span class="title">Foxyz</span>',
         images: [],
       },
     ],
