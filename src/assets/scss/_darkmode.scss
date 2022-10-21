@@ -135,10 +135,12 @@ body.dark .content#source {
 
 body.dark .content#contact {
   section.accordion {
-    color: $color-dark-font;
     border-color: #343556;
     background-color: #202135;
     transition: color $delay-dark ease-in-out, background-color $delay-dark ease-in-out, border-color $delay-dark ease-in-out;
+    > * {
+      color: $color-dark-font;
+    }
     .info-rgpd i {
       color: $color-dark-font;
     }

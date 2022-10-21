@@ -207,6 +207,17 @@ export default {
         color: $color-gray;
       }
     }
+    .btn {
+      width: 100%;
+      font-size: 1.4rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      background-color: $color-blue;
+      transition: background-color 200ms ease-in-out;
+    }
+    .btn:hover {
+      background-color: $color-blue-hover;
+    }
   }
 }
 /* Responsive */

@@ -117,21 +117,6 @@ h3 {
   }
 }
 
-#sidebar {
-  .btn {
-    width: 100%;
-    font-size: 1.4rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    background-color: $color-gray;
-    transition: background-color 200ms ease-in-out;
-    border: 0;
-  }
-  .btn:hover {
-    background-color: $color-gray-hover;
-  }
-}
-
 /* Responsive */
 
 @media (max-width: 1200px) {

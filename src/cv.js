@@ -220,13 +220,13 @@ export default {
       {
         date: '2020-2022',
         title: 'Armoire Plus',
-        detail: 'Amélioration de la charte graphique de la marque<br>Amélioration du site Woocommerce <a href="https://www.armoireplus.fr" class="title" rel="nofollow noreferrer" target="_blank">armoireplus.fr</a>',
+        detail: 'Amélioration de la charte graphique de la marque<br>Aide au développement du site Woocommerce <a href="https://www.armoireplus.fr" class="title" rel="nofollow noreferrer" target="_blank">armoireplus.fr</a>',
         images: [],
       },
       {
         date: '2022',
         title: 'Foxyz',
-        detail: 'Développement d\'API REST en PHP pour connecter des services web dans l\'ERP <span class="title">Foxyz</span>',
+        detail: 'Développement PHP pour connecter via des API différents services dans l\'ERP <span class="title">Foxyz</span>',
         images: [],
       },
     ],
