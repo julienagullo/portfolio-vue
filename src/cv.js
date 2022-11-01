@@ -43,12 +43,12 @@ export default {
       {
         date: '2019 - 2022',
         title: 'DBA - Toulouse <span class="attr">[CDI]</span>',
-        detail: 'Développement web',
+        detail: 'Développement web et infographie',
       },
       {
         date: '2022',
         title: 'Foxyz - Tarbes <span class="attr">[CDI]</span>',
-        detail: 'Développement web',
+        detail: 'Développement web et communication',
       },
     ],
   },
