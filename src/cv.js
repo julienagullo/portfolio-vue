@@ -43,12 +43,12 @@ export default {
       {
         date: '2019 - 2022',
         title: 'DBA - Toulouse <span class="attr">[CDI]</span>',
-        detail: 'Développement web et infographie',
+        detail: 'Développement web',
       },
       {
         date: '2022',
         title: 'Foxyz - Tarbes <span class="attr">[CDI]</span>',
-        detail: 'Développement web et communication',
+        detail: 'Développement web',
       },
     ],
   },
@@ -226,7 +226,7 @@ export default {
       {
         date: '2022',
         title: 'Foxyz',
-        detail: 'Développement PHP pour connecter via des API différents services dans l\'ERP <span class="title">Foxyz</span>',
+        detail: 'Développement PHP pour relier par le biais d\'API des services externes dans l\'ERP <span class="title">Foxyz</span>',
         images: [],
       },
     ],
