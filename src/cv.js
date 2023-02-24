@@ -46,7 +46,7 @@ export default {
         detail: 'Développement web',
       },
       {
-        date: '2022',
+        date: '2022 - 2023',
         title: 'Foxyz - Tarbes <span class="attr">[CDI]</span>',
         detail: 'Développement web',
       },

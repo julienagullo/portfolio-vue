@@ -7,6 +7,6 @@ import VueCookieAcceptDecline from 'vue-cookie-accept-decline'
 import 'vue-cookie-accept-decline/dist/vue-cookie-accept-decline.css'
 
 createApp(App)
-    .use(router)
-    .component('vue-cookie-accept-decline', VueCookieAcceptDecline)
-    .mount('#app')
+  .use(router)
+  .component('vue-cookie-accept-decline', VueCookieAcceptDecline)
+  .mount('#app')

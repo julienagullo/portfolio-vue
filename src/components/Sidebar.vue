@@ -52,7 +52,7 @@
         Running, Musculation, Tennis
       </p>
       <h2>Téléchargement</h2>
-      <a href="/static/cv-agullo-2022.pdf"
+      <a href="/static/cv-agullo-2023.pdf"
          rel="nofollow noreferrer"
          target="_blank"
          class="btn btn-primary btn-cv"
