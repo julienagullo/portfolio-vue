@@ -224,9 +224,15 @@ export default {
         images: [],
       },
       {
-        date: '2022',
+        date: '2022-2023',
         title: 'Foxyz',
-        detail: 'Développement PHP pour relier par le biais d\'API des services externes dans l\'ERP <span class="title">Foxyz</span>',
+        detail: 'Intégration des services <span class="title">Microsoft</span> et <span class="title">HerculePro</span><br>Aide au développement de l\'ERP et optimisation <span class="title">SQL</span>',
+        images: [],
+      },
+      {
+        date: '2023',
+        title: 'DLF Industrie',
+        detail: 'Développement d\'une plateforme client synchronisant les données de <span class="title">Foxyz</span>',
         images: [],
       },
     ],
