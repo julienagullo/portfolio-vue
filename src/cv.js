@@ -226,7 +226,7 @@ export default {
       {
         date: '2022-2023',
         title: 'Foxyz',
-        detail: 'Intégration des services <span class="title">Microsoft</span> et <span class="title">HerculePro</span><br>Aide au développement et optimisation SQL de <span class="title">l\'ERP Foxyz</span>',
+        detail: 'Intégration dans l\'ERP des services <span class="title">Microsoft</span> et <span class="title">HerculePro</span><br>Aide au développement et optimisation SQL de <span class="title">Foxyz</span>',
         images: [],
       },
       {

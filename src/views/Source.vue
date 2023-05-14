@@ -10,7 +10,7 @@
       <a href="https://github.com/julienagullo/portfolio-vue" target="_blank" class="btn btn-primary" title="Projet rwdKit sur Github"><i class="bi bi-github"></i> Voir le projet</a>
     </section>
     <section class="project cookiesconsent">
-      <h2>cookieWall</h2>
+      <h2>cookieWall</h2> <span class="archived">archivé</span>
       <img src="~@/assets/img/source-jquery.png" class="logo" width="102" height="25" alt="jQuery write less, do more">
       <img src="~@/assets/img/source-jquery.dark.png" class="logo dark" width="102" height="25" alt="jQuery write less, do more">
       <p>Librairie jQuery servant à charger ou non Google Analytics par un modal de consentement sur son site Internet.</p>
@@ -18,7 +18,7 @@
       <a href="https://open-source.jagullo.fr/cookie-wall/" target="_blank" class="btn btn-primary" title="Librairie cookieWall pour développeur web"><i class="bi bi-window"></i> Démo</a>
     </section>
     <section class="project rwdkit">
-      <h2>rwdKit</h2>
+      <h2>rwdKit</h2> <span class="archived">archivé</span>
       <img src="~@/assets/img/source-jquery.png" class="logo" width="102" height="25" alt="jQuery write less, do more">
       <img src="~@/assets/img/source-jquery.dark.png" class="logo dark" width="102" height="25" alt="jQuery write less, do more">
       <p>Librairie jQuery facilitant le développement d'interface responsive en affichant le nom du breakpoint courant.</p>
@@ -65,6 +65,16 @@ export default {
       &.dark {
         display: none;
       }
+    }
+    .archived {
+      font-size: 1.1rem;
+      font-weight: bold;
+      padding: 2px 10px 3px;
+      margin-left: 10px;
+      border-radius: 5px;
+      background-color: $color-blue;
+      color: white;
+      float: right;
     }
     p {
       clear: both;
