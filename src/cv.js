@@ -226,13 +226,13 @@ export default {
       {
         date: '2022-2023',
         title: 'Foxyz',
-        detail: 'Intégration dans l\'ERP des services <span class="title">Microsoft</span> et <span class="title">HerculePro</span><br>Aide au développement et optimisation SQL de <span class="title">Foxyz</span>',
+        detail: 'Gestion et suivi d\'alternants dans l\'entreprise<br>Intégration dans l\'ERP des services <span class="title">Microsoft</span> et <span class="title">HerculePro</span><br>Aide au développement et optimisation SQL de l\'ERP <span class="title">Foxyz</span>',
         images: [],
       },
       {
         date: '2023',
         title: 'DLF Industrie',
-        detail: 'Développement d\'une plateforme client synchronisant les données de <span class="title">Foxyz</span>',
+        detail: 'Développement d\'une plateforme client synchronisant les données de l\'ERP <span class="title">Foxyz</span>',
         images: [],
       },
     ],
