@@ -113,17 +113,21 @@ body.dark .content#source {
         display: block;
       }
     }
-    &.portfolio-vue {
-      background: #202135 url('~@/assets/img/banner-portfoliovue.jpg') no-repeat right center;
+    &.twig-request {
+      background: $color-dark url('~@/assets/img/banner-twigrequest.jpg') no-repeat right center;
     }
-    &.cookiesconsent {
-      background: #202135 url('~@/assets/img/banner-cookiesconsent.jpg') no-repeat right center;
+    &.portfolio-vue {
+      background: $color-dark url('~@/assets/img/banner-portfoliovue.jpg') no-repeat right center;
+    }
+    &.cookie-wall {
+      background: $color-dark url('~@/assets/img/banner-cookiewall.jpg') no-repeat right center;
     }
     &.rwdkit {
-      background: #202135 url('~@/assets/img/banner-rwdkit.jpg') no-repeat right center;
+      background: $color-dark url('~@/assets/img/banner-rwdkit.jpg') no-repeat right center;
     }
+    &.twig-request,
     &.portfolio-vue,
-    &.cookiesconsent,
+    &.cookie-wall,
     &.rwdkit {
       background-blend-mode: multiply;
       transition: background $delay-dark ease-in-out;

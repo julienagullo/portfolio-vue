@@ -2,14 +2,21 @@
   <div id="source" class="content">
     <h1>Projets open source</h1>
     <hr class="hr-gray" />
+    <section class="project twig-request">
+      <h2>Twig Request</h2>
+      <img src="~@/assets/img/source-symfony.png" class="logo" width="100" height="25" alt="Symfony">
+      <img src="~@/assets/img/source-symfony.dark.png" class="logo dark" width="100" height="25" alt="Symfony">
+      <p>Extension Twig pour Symfony ajoutant de nouvelles fonctions sur l'objet requête pour les templates.</p>
+      <a href="https://github.com/julienagullo/twig-request" target="_blank" class="btn btn-primary" title="Twig Request sur Github"><i class="bi bi-github"></i> Voir le projet</a>
+    </section>
     <section class="project portfolio-vue">
-      <h2>portfolio Vue</h2>
+      <h2>Portfolio Vue</h2>
       <img src="~@/assets/img/source-vuejs.png" class="logo" width="65" height="25" alt="Vuejs">
       <img src="~@/assets/img/source-vuejs.dark.png" class="logo dark" width="65" height="25" alt="Vuejs">
       <p>Code source de ce portfolio en ligne réalisé avec Vuejs et Bootstrap pour découvrir ce framework JavaScript.</p>
       <a href="https://github.com/julienagullo/portfolio-vue" target="_blank" class="btn btn-primary" title="Projet rwdKit sur Github"><i class="bi bi-github"></i> Voir le projet</a>
     </section>
-    <section class="project cookiesconsent">
+    <section class="project cookie-wall">
       <h2>cookieWall</h2> <span class="archived">archivé</span>
       <img src="~@/assets/img/source-jquery.png" class="logo" width="102" height="25" alt="jQuery write less, do more">
       <img src="~@/assets/img/source-jquery.dark.png" class="logo dark" width="102" height="25" alt="jQuery write less, do more">
@@ -103,8 +110,14 @@ export default {
         margin-left: 0;
       }
     }
-    &.cookiesconsent {
-      background: #fafafa url('~@/assets/img/banner-cookiesconsent.jpg') no-repeat right center;
+    &.twig-request {
+      background: #fafafa url('~@/assets/img/banner-twigrequest.jpg') no-repeat right center;
+      .btn {
+        margin-left: 0;
+      }
+    }
+    &.cookie-wall {
+      background: #fafafa url('~@/assets/img/banner-cookiewall.jpg') no-repeat right center;
     }
     &.rwdkit {
       background: #fafafa url('~@/assets/img/banner-rwdkit.jpg') no-repeat right center;
