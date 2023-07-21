@@ -7,8 +7,7 @@
     position="bottom-left"
     ref="cookieConsent"
     transitionName="slideFromBottom"
-    type="floating"
-  >
+    type="floating">
     <!-- Optional -->
     <template #message>
       <img src="~@/assets/img/cookie-consent.jpg" width="100" height="100" alt="Consentement des cookies">
