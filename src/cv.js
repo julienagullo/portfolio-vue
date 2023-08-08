@@ -226,7 +226,7 @@ export default {
       {
         date: '2022-2023',
         title: 'Foxyz',
-        detail: 'Refonte du site Internet <a href="https://foxyz.fr" class="title" rel="nofollow noreferrer" target="_blank">foxyz.fr</a><br>Intégration dans l\'ERP des services <span class="title">Microsoft</span> et <span class="title">HerculePro</span><br>Aide au développement de l\'ERP <span class="title">Foxyz</span>',
+        detail: 'Refonte du site Internet <a href="https://foxyz.fr" class="title" rel="nofollow noreferrer" target="_blank">foxyz.fr</a><br>Intégration dans l\'ERP des services <span class="title">Microsoft Exchange</span> et <span class="title">HerculePro</span><br>Aide au développement de l\'ERP <span class="title">Foxyz</span>',
         images: [],
       },
       {
