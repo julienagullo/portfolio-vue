@@ -86,7 +86,7 @@
           <div class="col-12 col-md-6 col-lg-6 col-xl-3 text-center item-development" itemscope itemtype="http://schema.org/Service">
             <img src="~@/assets/img/img-development.png" width="350" height="350" class="img-fluid" alt="Développeur professionnel sur Pau" itemprop="image" >
             <h3 itemprop="name">Développement</h3>
-            <p class="align-bottom" @click="closeKnowledge('development')" itemprop="description">Je conçois des sites avec WordPress et Woocommerce afin de disposer d'un site clé en main administrable. Pour un site non administrable ou sur-mesure comme une application web, j'utilise le framework Vue.js ou Symfony. Contactez-moi pour déterminer la technologie idéale.</p>
+            <p class="align-bottom" @click="closeKnowledge('development')" itemprop="description">Je conçois des sites avec WordPress et Woocommerce afin de disposer d'un site clé en main administrable. Pour un site vitrine ou une application web, j'utilise les frameworks Vue.js ou Symfony selon vos besoins. Contactez-moi pour déterminer la technologie idéale pour votre projet.</p>
             <button class="btn btn-primary" @click="openKnowledge('development')">Plus d'info</button>
           </div>
           <div class="col-12 col-md-6 col-lg-6 col-xl-3 text-center item-writing" itemscope itemtype="http://schema.org/Service">

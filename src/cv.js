@@ -224,9 +224,15 @@ export default {
         images: [],
       },
       {
+        date: '2022',
+        title: 'Brigade Hocaré',
+        detail: 'Création de la charte graphique de la marque<br>Conception des maquettes du site <a href="https://brigade-hocare.com" class="title" rel="nofollow noreferrer" target="_blank">brigade-hocare.com</a>',
+        images: [],
+      },
+      {
         date: '2022-2023',
         title: 'Foxyz',
-        detail: 'Refonte du site Internet <a href="https://foxyz.fr" class="title" rel="nofollow noreferrer" target="_blank">foxyz.fr</a><br>Intégration dans l\'ERP des services <span class="title">Microsoft Exchange</span> et <span class="title">HerculePro</span><br>Aide au développement de l\'ERP <span class="title">Foxyz</span>',
+        detail: 'Refonte du site Internet <a href="https://foxyz.fr" class="title" rel="nofollow noreferrer" target="_blank">foxyz.fr</a><br>Intégration dans l\'ERP de <span class="title">Microsoft Graph</span> et <span class="title">HerculePro</span><br>Aide au développement de l\'ERP <span class="title">Foxyz</span>',
         images: [],
       },
       {
