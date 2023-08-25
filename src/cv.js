@@ -95,13 +95,13 @@ export default {
       {
         date: '2013',
         title: 'Thales Avionics',
-        detail: 'Conception graphique et aide au développement de l\'application de salon <span class="title">TopWings Electronic Flight Bag solution</span>',
+        detail: 'Conception graphique et participation au développement de l\'application de salon <span class="title">TopWings EFB solution</span>',
         images: [],
       },
       {
         date: '2014',
         title: 'DGAC',
-        detail: 'Conception d\'un outil interactif de formation pour <span class="title">le Service Technique de l’Aviation Civile (STAC)</span>',
+        detail: 'Développement d\'un outil interactif de formation pour <span class="title">le Service Technique de l’Aviation Civile (STAC)</span>',
         images: [],
       },
       {
@@ -119,7 +119,7 @@ export default {
       {
         date: '2014 - 2015',
         title: 'CNES',
-        detail: 'Collaboration à la conception de l\'application de salon <span class="title">Charte Internationale Espace et Catastrophes Majeures (Charte-MT)</span>',
+        detail: 'Participation à la conception de l\'application de salon <span class="title">Charte Internationale Espace et Catastrophes Majeures (Charte-MT)</span>',
         images: [],
       },
       {
@@ -137,7 +137,7 @@ export default {
       {
         date: '2016',
         title: 'Toul Immo Rénovation',
-        detail: 'Élaboration de la carte de visite, du flyer et d\'une chemise à rabat<br>Conception du site Internet <a href="https://www.toulimmo-renovation.fr" class="title" rel="nofollow noreferrer" target="_blank">toulimmo-renovation.fr</a>',
+        detail: 'Création d\'outils de communication externe<br>Conception du site Internet <a href="https://www.toulimmo-renovation.fr" class="title" rel="nofollow noreferrer" target="_blank">toulimmo-renovation.fr</a>',
         images: [],
       },
       {
@@ -149,7 +149,7 @@ export default {
       {
         date: '2016',
         title: 'Lingocentric',
-        detail: 'Intégration LESS/CSS de la charte graphique pour la plateforme de traduction <span class="title">TextBeans</span>',
+        detail: 'Intégration CSS de la charte graphique pour la plateforme de traduction <span class="title">TextBeans</span>',
         images: [],
       },
       {
@@ -172,7 +172,7 @@ export default {
       {
         date: '2017 - 2018',
         title: 'Enedis',
-        detail: 'Conception du site servant à la gestion des utilisateurs et de l \'API RESTful pour l\'application <span class="title">eBalisage</span>',
+        detail: 'Conception du site Internet servant à l\'administration de l\'application <span class="title">eBalisage</span>',
         images: [],
       },
       {
@@ -184,13 +184,13 @@ export default {
       {
         date: '2019',
         title: 'Enerbim',
-        detail: 'Aide au développement d\'une solution SaaS pour le métier du BIM <span class="title">CN-BIMES</span>',
+        detail: 'Participation au développement d\'un prototype pour le métier du BIM <span class="title">CN-BIMES</span>',
         images: [],
       },
       {
         date: '2019',
         title: 'Angle Droit Avocats',
-        detail: 'Intégration LESS/CSS de la charte graphique pour un site vitrine',
+        detail: 'Intégration CSS de la charte graphique pour un site vitrine',
         images: [],
       },
       {
@@ -202,7 +202,7 @@ export default {
       {
         date: '2020',
         title: 'Mon Atelier Pro',
-        detail: 'Réalisation de la charte graphique de la marque<br>Conception du site sous Woocommerce <a href="https://www.monatelierpro.fr" class="title" rel="nofollow noreferrer" target="_blank">monatelierpro.fr</a>',
+        detail: 'Réalisation de la charte graphique de la marque<br>Conception du site Internet <a href="https://www.monatelierpro.fr" class="title" rel="nofollow noreferrer" target="_blank">monatelierpro.fr</a>',
         images: [],
       },
       {
@@ -214,25 +214,25 @@ export default {
       {
         date: '2020-2021',
         title: 'DBA Armoires',
-        detail: 'Amélioration de la charte graphique de la marque<br>Refonte du site sous Woocommerce <a href="https://www.dba-armoires.fr" class="title" rel="nofollow noreferrer" target="_blank">dba-armoires.fr</a>',
+        detail: 'Amélioration de la charte graphique de la marque<br>Refonte du site Internet <a href="https://www.dba-armoires.fr" class="title" rel="nofollow noreferrer" target="_blank">dba-armoires.fr</a>',
         images: [],
       },
       {
         date: '2020-2022',
         title: 'Armoire Plus',
-        detail: 'Amélioration de la charte graphique de la marque<br>Aide au développement du site Woocommerce <a href="https://www.armoireplus.fr" class="title" rel="nofollow noreferrer" target="_blank">armoireplus.fr</a>',
+        detail: 'Amélioration de la charte graphique de la marque<br>Aide au développement du site Internet <a href="https://www.armoireplus.fr" class="title" rel="nofollow noreferrer" target="_blank">armoireplus.fr</a>',
         images: [],
       },
       {
         date: '2022',
         title: 'Brigade Hocaré',
-        detail: 'Création de la charte graphique de la marque<br>Conception des maquettes du site <a href="https://brigade-hocare.com" class="title" rel="nofollow noreferrer" target="_blank">brigade-hocare.com</a>',
+        detail: 'Conception de la charte graphique de la marque',
         images: [],
       },
       {
         date: '2022-2023',
         title: 'Foxyz',
-        detail: 'Refonte du site Internet <a href="https://foxyz.fr" class="title" rel="nofollow noreferrer" target="_blank">foxyz.fr</a><br>Intégration dans l\'ERP de <span class="title">Microsoft Graph</span> et <span class="title">HerculePro</span><br>Aide au développement de l\'ERP <span class="title">Foxyz</span>',
+        detail: 'Refonte du site Internet <a href="https://foxyz.fr" class="title" rel="nofollow noreferrer" target="_blank">foxyz.fr</a><br>Aide au développement de la <a href="https://video.foxyz.fr" class="title" rel="nofollow noreferrer" target="_blank">plateforme vidéo</a><br>Intégration dans l\'ERP de <span class="title">Microsoft Graph</span> et <span class="title">HerculePro</span><br>Aide au développement de l\'ERP <span class="title">Foxyz</span>',
         images: [],
       },
       {
