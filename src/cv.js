@@ -232,7 +232,7 @@ export default {
       {
         date: '2022-2023',
         title: 'Foxyz',
-        detail: 'Refonte du site Internet <a href="https://foxyz.fr" class="title" rel="nofollow noreferrer" target="_blank">foxyz.fr</a><br>Aide au développement de la <a href="https://video.foxyz.fr" class="title" rel="nofollow noreferrer" target="_blank">plateforme vidéo</a><br>Intégration dans l\'ERP de <span class="title">Microsoft Graph</span> et <span class="title">HerculePro</span><br>Aide au développement de l\'ERP <span class="title">Foxyz</span>',
+        detail: 'Refonte du site Internet <a href="https://foxyz.fr" class="title" rel="nofollow noreferrer" target="_blank">foxyz.fr</a><br>Intégration dans l\'ERP de <span class="title">Microsoft Graph</span> et <span class="title">HerculePro</span><br>Évolution du PDF des factures au format <span class="title">Factur-X</span><br>Aide au développement de l\'ERP <span class="title">Foxyz</span>',
         images: [],
       },
       {
