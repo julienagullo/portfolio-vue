@@ -17,42 +17,51 @@
       </p>
       <h2>Compétences</h2>
       <p class="border-orange">
-        Gestion projet multimédia<br>
-        Graphisme <span class="attr">[web & print]</span><br>
-        Développement <span class="attr">[web]</span><br>
-        Optimisation <span class="attr">[web]</span><br>
-        Rédaction <span class="attr">[web]</span><br>
-        Veille stratégique
+        Gestion projet <span class="attr">[5/5]</span><br>
+        Développement <span class="attr">[4/5]</span><br>
+        Optimisation SEO <span class="attr">[4/5]</span><br>
+        Design <span class="attr">[4/5]</span><br>
+        Rédaction <span class="attr">[3/5]</span><br>
+        Veille stratégique <span class="attr">[3/5]</span>
       </p>
       <h2>Connaissances</h2>
       <p class="border-red">
-        <span class="title">Logiciels</span><br>
-        Photoshop, Illustrator, Animate, Affinity, PhpStorm, WordPress, WooCommerce, Apache, PhpMyAdmin, Node.js, Git, Svn
+        <span class="title">Outils</span><br>
+        PhpStorm, VS Code, Postman API<br>
+        Apache, Node.js, PhpMyAdmin<br>
+        Git, GitHub, Svn, SSH, Draw.io<br>
+        WordPress, WooCommerce<br>
+        Adobe Photoshop, Illustrator, InDesign<br>
+        Affinity Photo, Designer, Publisher<br>
+        Screaming Frog, Google Lighthouse<br>
+        Microsoft Word, Excel, PowerPoint
       </p>
       <p class="border-red">
         <span class="title">Langages</span><br>
-        HTML, CSS, LESS, SCSS, PHP, JS, SQL<br>
-        Framework : Bootstrap, Symfony, jQuery, Vue.js
+        PHP, JavaScript, MySQL, MariaDB<br>
+        CSS, LESS/SCSS, HTML, Schema.org<br>
+        Framework : Symfony, Bootstrap, jQuery, Vue.js<br>
+        API : Microsoft Graph, Bridge API, SMSFactor
       </p>
       <p class="border-red">
         <span class="title">Langue vivante</span><br>
-        Anglais intermédiaire
+        Anglais élémentaire et technique
       </p>
       <h2>Centres d'intérêt</h2>
       <p class="border-blue">
         <span class="title">Général</span><br>
-        Écologie, Littérature, Cinéma
+        Littérature, Cinéma, Écologie
       </p>
       <p class="border-blue">
         <span class="title">Informatique</span><br>
-        Internet, Programmation, PAO
+        Internet, Vidéoludique, Programmation
       </p>
       <p class="border-blue">
         <span class="title">Sport</span><br>
-        Running, Musculation, Tennis
+        Running, Fitness, Tennis
       </p>
       <h2>Téléchargement</h2>
-      <a href="/static/cv-agullo-2023.pdf"
+      <a href="/static/cv-agullo-2024.pdf"
          rel="nofollow noreferrer"
          target="_blank"
          class="btn btn-primary btn-cv"
@@ -69,12 +78,12 @@ export default {
   data() {
     return {
       open: false,
-      counter: -1,
+      counter: 0,
       scrollBar: Scrollbar,
     }
   },
   mounted() {
-    this.scrollBar = Scrollbar.init(document.querySelector('#sidebar'), {damping: 0.2})
+    this.scrollBar = Scrollbar.init(document.querySelector('#sidebar'), {damping: 0.5})
     this.init()
   },
   methods: {
@@ -92,7 +101,7 @@ export default {
       const sidebar = document.getElementById('sidebar')
       const wrapper = document.getElementsByClassName('wrapper')[0]
       if (this.open) {
-        this.counter = this.counter >= 5 ? 1 : this.counter + 1
+        this.counter = this.counter >= 6 ? 1 : this.counter + 1
         wrapper.classList.add('sidebar')
         sidebar.classList.add('open')
       } else {
@@ -124,7 +133,7 @@ export default {
 @import 'src/assets/scss/variables';
 #sidebar {
   position: absolute;
-  width: 250px;
+  width: 300px;
   top: 0;
   left: 0;
   height: 100vh;

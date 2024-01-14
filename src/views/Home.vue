@@ -158,7 +158,7 @@
           <Techno name="Ubersuggest" logo="logo-ubersuggest.png" desc="Outil en ligne pour analyser les mots clés recherchés sur les moteurs" />
           <Techno name="Google Analytics" logo="logo-google_analytics.png" desc="Outil en ligne d'analyse d'audience pour un site ou une application mobile" />
           <Techno name="Stripe" logo="logo-stripe.png" desc="Plateforme de paiement en ligne avec une API et des solutions avancées" />
-          <Techno name="Sendinblue" logo="logo-sendinblue.png" desc="Plateforme de marketing relationnel pour l'emailing et les emails transactionnels" />
+          <Techno name="MailerLite" logo="logo-mailerlite.png" desc="Plateforme de marketing relationnel pour l'emailing et les newsletters" />
         </div>
       </div>
     </section>
@@ -359,7 +359,7 @@ export default {
     }
   },
   mounted() {
-    this.scrollBar = Scrollbar.init(document.querySelector('#home'), {damping: 0.2})
+    this.scrollBar = Scrollbar.init(document.querySelector('#home'), {damping: 0.5})
     anime({targets: '.content', opacity: 1, duration: 150, easing: 'easeInOutCirc'})
     this.loadPosts()
   },

@@ -165,7 +165,7 @@ export default {
     }
   },
   mounted() {
-    Scrollbar.init(document.querySelector('#contact'), { damping: 0.2 })
+    Scrollbar.init(document.querySelector('#contact'), { damping: 0.5 })
     anime({
       targets: '.content',
       opacity: 1,

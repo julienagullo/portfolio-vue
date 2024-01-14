@@ -46,7 +46,7 @@ export default {
         detail: 'Développement web',
       },
       {
-        date: '2022 - 2023',
+        date: '2022 - 2024',
         title: 'Foxyz - Tarbes <span class="attr">[CDI]</span>',
         detail: 'Développement web',
       },
@@ -77,7 +77,7 @@ export default {
       {
         date: '2010',
         title: 'EDF R&D',
-        detail: 'Réalisation de documentaires et d\'interviews vidéos sur Paris<br>Conception d\'animations Flash sur <span class="title">le compteur Linky</span>',
+        detail: 'Réalisation de documentaires et d\'interviews vidéos sur Paris<br>Conception d\'animations vectorielles sur le compteur <span class="title"> Linky</span>',
         images: [],
       },
       {
@@ -107,13 +107,13 @@ export default {
       {
         date: '2014',
         title: 'Thales Aéroporté',
-        detail: 'Réalisation d\'une application de salon multimédia pour borne tactile',
+        detail: 'Réalisation d\'une application de salon pour borne tactile',
         images: [],
       },
       {
         date: '2014',
         title: 'ERDF',
-        detail: 'Conception d\'une visionneuse vidéo et d\'animations Flash',
+        detail: 'Création d\'animations vectorielles sur le réseau de distribution',
         images: [],
       },
       {
@@ -230,15 +230,15 @@ export default {
         images: [],
       },
       {
-        date: '2022-2023',
-        title: 'Foxyz',
-        detail: 'Refonte du site Internet <a href="https://foxyz.fr" class="title" rel="nofollow noreferrer" target="_blank">foxyz.fr</a><br>Intégration dans l\'ERP de <span class="title">Microsoft Graph</span>, <span class="title">SMSFactor</span> et <span class="title">HerculePro</span><br>Évolution du PDF des factures au format <span class="title">Factur-X</span><br>Aide au développement de l\'ERP <span class="title">Foxyz</span>',
-        images: [],
-      },
-      {
         date: '2023',
         title: 'DLF Industrie',
         detail: 'Développement d\'une plateforme client synchronisant les données de l\'ERP <span class="title">Foxyz</span>',
+        images: [],
+      },
+      {
+        date: '2022-2024',
+        title: 'Foxyz',
+        detail: 'Aide au développement de l\'ERP <span class="title">Foxyz</span><br>Implémentation du standard <span class="title">Factur-X</span><br>Refonte du site Internet <a href="https://foxyz.fr" class="title" rel="nofollow noreferrer" target="_blank">foxyz.fr</a>',
         images: [],
       },
     ],

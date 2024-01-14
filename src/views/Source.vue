@@ -47,7 +47,7 @@ export default {
     }
   },
   mounted() {
-    this.scrollBar = Scrollbar.init(document.querySelector('#source'), {damping: 0.2})
+    this.scrollBar = Scrollbar.init(document.querySelector('#source'), {damping: 0.5})
     anime({targets: '.content', opacity: 1, duration: 150, easing: 'easeInOutCirc'})
   },
 }
