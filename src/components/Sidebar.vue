@@ -34,14 +34,13 @@
         Adobe Photoshop, Illustrator, InDesign<br>
         Affinity Photo, Designer, Publisher<br>
         Screaming Frog, Google Lighthouse<br>
-        Microsoft Word, Excel, PowerPoint
+        Microsoft Word, Excel, Azure
       </p>
       <p class="border-red">
         <span class="title">Langages</span><br>
         PHP, JavaScript, MySQL, MariaDB<br>
         CSS, LESS/SCSS, HTML, Schema.org<br>
-        Framework : Symfony, Bootstrap, jQuery, Vue.js<br>
-        API : Microsoft Graph, Bridge API, SMSFactor
+        Framework : Symfony, Bootstrap, Vue.js, jQuery
       </p>
       <p class="border-red">
         <span class="title">Langue vivante</span><br>
@@ -54,7 +53,7 @@
       </p>
       <p class="border-blue">
         <span class="title">Informatique</span><br>
-        Internet, Vidéoludique, Programmation
+        Internet, Programmation, Vidéoludique
       </p>
       <p class="border-blue">
         <span class="title">Sport</span><br>
@@ -78,7 +77,7 @@ export default {
   data() {
     return {
       open: false,
-      counter: 0,
+      counter: -1,
       scrollBar: Scrollbar,
     }
   },
