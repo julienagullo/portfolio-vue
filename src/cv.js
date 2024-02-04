@@ -230,12 +230,6 @@ export default {
         images: [],
       },
       {
-        date: '2023',
-        title: 'DLF Industrie',
-        detail: 'Développement d\'une plateforme client synchronisant les données de l\'ERP <span class="title">Foxyz</span>',
-        images: [],
-      },
-      {
         date: '2022-2024',
         title: 'Foxyz',
         detail: 'Aide au développement de l\'ERP <span class="title">Foxyz</span><br>Implémentation du standard <span class="title">Factur-X</span><br>Refonte du site Internet <a href="https://foxyz.fr" class="title" rel="nofollow noreferrer" target="_blank">foxyz.fr</a>',
