@@ -49,11 +49,11 @@
       <h2>Centres d'intérêt</h2>
       <p class="border-blue">
         <span class="title">Général</span><br>
-        Littérature, Cinéma, Écologie
+        Littérature, Cinéma, Science, Écologie
       </p>
       <p class="border-blue">
-        <span class="title">Informatique</span><br>
-        Internet, Programmation, Vidéoludique
+        <span class="title">Technologie</span><br>
+        Informatique, Cinématographie, Vidéoludique
       </p>
       <p class="border-blue">
         <span class="title">Sport</span><br>
