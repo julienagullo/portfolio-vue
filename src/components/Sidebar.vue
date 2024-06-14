@@ -27,8 +27,8 @@
       <h2>Connaissances</h2>
       <p class="border-red">
         <span class="title">Outils</span><br>
-        PhpStorm, VS Code, Postman<br>
-        Apache, IIS, Node.js, MySQL, MariaDB<br>
+        PhpStorm, VS Code, Postman, phpMyAdmin<br>
+        Apache, IIS, Node.js, Composer, Npm<br>
         Git, GitKraken, GitHub, Subversion, SSH<br>
         WordPress, WooCommerce, PrestaShop<br>
         Screaming Frog, Ubersuggest, Yourtext.guru<br>
