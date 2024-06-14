@@ -133,7 +133,7 @@ export default {
 @import 'src/assets/scss/variables';
 #sidebar {
   position: absolute;
-  width: 300px;
+  width: 325px;
   top: 0;
   left: 0;
   height: 100vh;
@@ -235,6 +235,11 @@ export default {
     &.open {
       transform: translateX(40px);
     }
+  }
+}
+@media (max-width: 365px) {
+  #sidebar {
+    width: calc(100% - 40px);
   }
 }
 </style>
