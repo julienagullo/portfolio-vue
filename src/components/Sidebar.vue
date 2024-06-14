@@ -21,20 +21,21 @@
         Développement <span class="attr">[4/5]</span><br>
         Optimisation SEO <span class="attr">[4/5]</span><br>
         Design <span class="attr">[4/5]</span><br>
-        Rédaction <span class="attr">[3/5]</span><br>
+        Rédaction <span class="attr">[3,5/5]</span><br>
         Veille stratégique <span class="attr">[3/5]</span>
       </p>
       <h2>Connaissances</h2>
       <p class="border-red">
         <span class="title">Outils</span><br>
-        PhpStorm, VS Code, Postman API<br>
-        Apache, Node.js, PhpMyAdmin<br>
-        Git, GitHub, Svn, SSH, Draw.io<br>
-        WordPress, WooCommerce<br>
+        PhpStorm, VS Code, Postman<br>
+        Apache, IIS, Node.js, MySQL, MariaDB<br>
+        Git, GitKraken, GitHub, Subversion, SSH<br>
+        WordPress, WooCommerce, PrestaShop<br>
+        Screaming Frog, Ubersuggest, Yourtext.guru<br>
         Adobe Photoshop, Illustrator, InDesign<br>
         Affinity Photo, Designer, Publisher<br>
-        Screaming Frog, Google Lighthouse<br>
-        Microsoft Word, Excel, Azure
+        Google Analytics, Search Console, Lighthouse<br>
+        Microsoft Word, Excel, Entra ID
       </p>
       <p class="border-red">
         <span class="title">Langages</span><br>
@@ -53,11 +54,11 @@
       </p>
       <p class="border-blue">
         <span class="title">Technologie</span><br>
-        Informatique, Cinématographie, Vidéoludique
+        Informatique, Information & Communication
       </p>
       <p class="border-blue">
         <span class="title">Sport</span><br>
-        Running, Fitness, Tennis
+        Running, Fitness, Football, Basket, Tennis
       </p>
       <h2>Téléchargement</h2>
       <a href="/static/cv-agullo-2024.pdf"
@@ -183,7 +184,7 @@ export default {
     }
   }
   .sidebar-content {
-    padding: 15px;
+    padding: 10px;
     .img-title {
       width: 38px;
       height: auto;
@@ -200,7 +201,7 @@ export default {
     }
     p {
       width: 100%;
-      font-size: 1.5rem;
+      font-size: 1.4rem;
       text-align: left;
       margin-top: 20px;
       padding-left: 10px;

@@ -95,7 +95,7 @@ export default {
       {
         date: '2013',
         title: 'Thales Avionics',
-        detail: 'Conception graphique et participation au développement de l\'application de salon <span class="title">TopWings EFB solution</span>',
+        detail: 'Conception graphique et aide au développement de l\'application de salon <span class="title">TopWings EFB solution</span>',
         images: [],
       },
       {
@@ -119,7 +119,7 @@ export default {
       {
         date: '2014 - 2015',
         title: 'CNES',
-        detail: 'Participation à la conception de l\'application de salon <span class="title">Charte Internationale Espace et Catastrophes Majeures (Charte-MT)</span>',
+        detail: 'Aide à la conception de l\'application de salon <span class="title">Charte Internationale Espace et Catastrophes Majeures (Charte-MT)</span>',
         images: [],
       },
       {
@@ -184,7 +184,7 @@ export default {
       {
         date: '2019',
         title: 'Enerbim',
-        detail: 'Participation au développement d\'un prototype pour le métier du BIM <span class="title">CN-BIMES</span>',
+        detail: 'Aide au développement d\'un prototype pour le métier du BIM <span class="title">CN-BIMES</span>',
         images: [],
       },
       {
@@ -232,7 +232,7 @@ export default {
       {
         date: '2022-2024',
         title: 'Foxyz',
-        detail: 'Aide au développement de l\'ERP <span class="title">Foxyz</span><br>Implémentation du standard <span class="title">Factur-X</span><br>Refonte du site Internet <a href="https://foxyz.fr" class="title" rel="nofollow noreferrer" target="_blank">foxyz.fr</a>',
+        detail: 'Aide au développement de l\'ERP <span class="title">Foxyz</span><br>Refonte du site Internet <a href="https://foxyz.fr" class="title" rel="nofollow noreferrer" target="_blank">foxyz.fr</a>',
         images: [],
       },
     ],
