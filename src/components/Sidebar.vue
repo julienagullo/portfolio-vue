@@ -35,7 +35,7 @@
         Adobe Photoshop, Illustrator, InDesign<br>
         Affinity Photo, Designer, Publisher<br>
         Google Analytics, Search Console, Lighthouse<br>
-        Microsoft Word, Excel, Entra ID
+        Microsoft Word, Excel, Graph API
       </p>
       <p class="border-red">
         <span class="title">Langages</span><br>
