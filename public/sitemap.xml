@@ -2,18 +2,18 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://jagullo.fr/</loc>
-		<lastmod>2024-09-01</lastmod>
+		<lastmod>2024-10-05</lastmod>
 	</url>
 	<url>
 		<loc>https://jagullo.fr/curriculum</loc>
-		<lastmod>2024-09-01</lastmod>
+		<lastmod>2024-10-05</lastmod>
 	</url>
 	<url>
 		<loc>https://jagullo.fr/open-source</loc>
-		<lastmod>2024-09-01</lastmod>
+		<lastmod>2024-10-05</lastmod>
 	</url>
 	<url>
 		<loc>https://jagullo.fr/contact</loc>
-		<lastmod>2024-09-01</lastmod>
+		<lastmod>2024-10-05</lastmod>
 	</url>
 </urlset>

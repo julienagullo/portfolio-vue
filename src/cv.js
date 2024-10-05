@@ -36,11 +36,6 @@ export default {
         detail: 'Chef de projet multimédia',
       },
       {
-        date: '2011 - 2022',
-        title: 'Microentreprise - Toulouse',
-        detail: 'Développement web et programmation informatique',
-      },
-      {
         date: '2019 - 2022',
         title: 'DBA - Toulouse <span class="attr">[CDI]</span>',
         detail: 'Développement web',
@@ -50,6 +45,11 @@ export default {
         title: 'Foxyz - Tarbes <span class="attr">[CDI]</span>',
         detail: 'Développement web',
       },
+      {
+        date: '2011 - 2024',
+        title: 'Microentreprise',
+        detail: 'Développement web et programmation informatique',
+      }
     ],
   },
   prod: {
@@ -65,7 +65,7 @@ export default {
       {
         date: '2008',
         title: 'Force Ouvrière Airbus',
-        detail: 'Conception du site Internet <span class="title">foairbus.fr</span><br>Réalisation d\'un CD-Rom interactif pour <span class="title">FO Airbus Toulouse</span>',
+        detail: 'Conception du site Internet <span class="title">foairbus.fr</span><br>Réalisation d\'un cd-rom interactif sur l\'organisation syndicale',
         images: [],
       },
       {
@@ -77,55 +77,55 @@ export default {
       {
         date: '2010',
         title: 'EDF R&D',
-        detail: 'Réalisation de documentaires et d\'interviews vidéos sur Paris<br>Conception d\'animations vectorielles sur le compteur <span class="title"> Linky</span>',
+        detail: 'Réalisation de documentaires vidéos sur le pôle R&D<br>Conception d\'animations vectorielles sur le compteur <span class="title"> Linky</span>',
         images: [],
       },
       {
         date: '2011 - 2012',
         title: 'Tigergrip',
-        detail: 'Mise à jour du site Internet <a href="https://www.tigergrip.com" class="title" rel="nofollow noreferrer" target="_blank">tigergrip.com</a>',
+        detail: 'Amélioration du site Internet <span class="title">tigergrip.com</span>',
         images: [],
       },
       {
         date: '2013',
         title: 'ERDF',
-        detail: 'Conception de l\'interface pour l\'application de salon <span class="title">Sogrid</span>',
+        detail: 'Réalisation de l\'interface graphique de l\'application de salon <span class="title">Sogrid</span>',
         images: [],
       },
       {
         date: '2013',
         title: 'Thales Avionics',
-        detail: 'Conception graphique et aide au développement de l\'application de salon <span class="title">TopWings EFB solution</span>',
+        detail: 'Conception graphique et contribution au développement de l\'application de salon <span class="title">TopWings EFB solution</span>',
         images: [],
       },
       {
         date: '2014',
         title: 'DGAC',
-        detail: 'Développement d\'un outil interactif de formation pour <span class="title">le Service Technique de l’Aviation Civile (STAC)</span>',
+        detail: 'Développement d\'un outil interactif de formation interne pour <span class="title">le Service Technique de l’Aviation Civile (STAC)</span>',
         images: [],
       },
       {
         date: '2014',
         title: 'Thales Aéroporté',
-        detail: 'Réalisation d\'une application de salon pour borne tactile',
+        detail: 'Réalisation d\'une application de salon pour support tactile',
         images: [],
       },
       {
         date: '2014',
         title: 'ERDF',
-        detail: 'Création d\'animations vectorielles sur le réseau de distribution',
+        detail: 'Création d\'animations vectorielles sur <span class="title">le réseau de distribution ERDF</span>',
         images: [],
       },
       {
         date: '2014 - 2015',
         title: 'CNES',
-        detail: 'Aide à la conception de l\'application de salon <span class="title">Charte Internationale Espace et Catastrophes Majeures (Charte-MT)</span>',
+        detail: 'Contribution à la conception de l\'application de salon <span class="title">Charte Internationale Espace et Catastrophes Majeures (Charte-MT)</span>',
         images: [],
       },
       {
         date: '2015',
         title: 'Airbus Defence & Space',
-        detail: 'Conception du magazine interactif à usage de communication interne pour la mission <span class="title">JUICE</span>',
+        detail: 'Conception d\'un magazine interactif à usage interne pour la mission <span class="title">JUICE</span>',
         images: [],
       },
       {
@@ -137,7 +137,7 @@ export default {
       {
         date: '2016',
         title: 'Toul Immo Rénovation',
-        detail: 'Création d\'outils de communication externe<br>Conception du site Internet <a href="https://www.toulimmo-renovation.fr" class="title" rel="nofollow noreferrer" target="_blank">toulimmo-renovation.fr</a>',
+        detail: 'Création de supports de communication<br>Conception du site Internet <a href="https://www.toulimmo-renovation.fr" class="title" rel="nofollow noreferrer" target="_blank">toulimmo-renovation.fr</a>',
         images: [],
       },
       {
@@ -149,13 +149,13 @@ export default {
       {
         date: '2016',
         title: 'Lingocentric',
-        detail: 'Intégration CSS de la charte graphique pour la plateforme de traduction <span class="title">TextBeans</span>',
+        detail: 'Intégration graphique d\'une plateforme en ligne de traduction <span class="title">TextBeans</span>',
         images: [],
       },
       {
         date: '2016 - 2017',
         title: 'Spherea Test & Services',
-        detail: 'Conception de l\'application de salon <span class="title">U-TEST ®</span>',
+        detail: 'Réalisation de l\'application de salon <span class="title">U-TEST ®</span>',
         images: [],
       },
       {
@@ -178,61 +178,61 @@ export default {
       {
         date: '2018',
         title: 'Association Transmettre',
-        detail: 'Réalisation des sites Internet de <span class="title">l\'école Transmettre</span> et de <span class="title">l\'Institut ISHES</span>',
+        detail: 'Réalisation des sites Internet de <span class="title">l\'école Transmettre</span> et de <a href="https://www.ishes.fr" class="title" rel="nofollow noreferrer" target="_blank">l\'Institut ISHES</a>',
         images: [],
       },
       {
         date: '2019',
         title: 'Enerbim',
-        detail: 'Aide au développement d\'un prototype pour le métier du BIM <span class="title">CN-BIMES</span>',
+        detail: 'Contribution au développement d\'un prototype d\'une plateforme en ligne pour le métier du BIM <span class="title">CN-BIMES</span>',
         images: [],
       },
       {
         date: '2019',
         title: 'Angle Droit Avocats',
-        detail: 'Intégration CSS de la charte graphique pour un site vitrine',
+        detail: 'Intégration graphique pour un site vitrine',
         images: [],
       },
       {
         date: '2020',
         title: 'LVS',
-        detail: 'Amélioration de la charte graphique de la marque<br>Aide au développement du site Internet <a href="https://www.le-vestiaire-sechant.fr" class="title" rel="nofollow noreferrer" target="_blank">le-vestiaire-sechant.fr</a>',
+        detail: 'Amélioration de la charte graphique de la marque<br>Contribution au développement du site Internet <a href="https://www.le-vestiaire-sechant.fr" class="title" rel="nofollow noreferrer" target="_blank">le-vestiaire-sechant.fr</a>',
         images: [],
       },
       {
         date: '2020',
         title: 'Mon Atelier Pro',
-        detail: 'Réalisation de la charte graphique de la marque<br>Conception du site Internet <a href="https://www.monatelierpro.fr" class="title" rel="nofollow noreferrer" target="_blank">monatelierpro.fr</a>',
+        detail: 'Réalisation de la charte graphique de la marque<br>Conception du site Internet <a href="https://www.monatelierpro.fr" class="title" rel="nofollow noreferrer" target="_blank">monatelierpro.fr</a><br>Contribution au référencement du site Internet',
         images: [],
       },
       {
         date: '2021',
         title: 'Les Jardins de Jordi',
-        detail: 'Aide à la réalisation du site Internet <a href="https://www.lesjardinsdejordi.com" class="title" rel="nofollow noreferrer" target="_blank">lesjardinsdejordi.com</a><br>Formation sur l\'utilisation de WordPress et de Sendinblue',
+        detail: 'Réalisation du site Internet <a href="https://www.lesjardinsdejordi.com" class="title" rel="nofollow noreferrer" target="_blank">lesjardinsdejordi.com</a><br>Formation sur l\'utilisation de <span class="title">WordPress</span> et <span class="title">Sendinblue</span>',
         images: [],
       },
       {
-        date: '2020-2021',
+        date: '2021-2022',
+        title: 'Brigade Hocaré',
+        detail: 'Réalisation de la charte graphique de la marque<br>Conception de la maquette graphique du site Internet',
+        images: [],
+      },
+      {
+        date: '2020-2022',
         title: 'DBA Armoires',
-        detail: 'Amélioration de la charte graphique de la marque<br>Refonte du site Internet <a href="https://www.dba-armoires.fr" class="title" rel="nofollow noreferrer" target="_blank">dba-armoires.fr</a>',
+        detail: 'Amélioration de la charte graphique de la marque<br>Refonte du site Internet <a href="https://www.dba-armoires.fr" class="title" rel="nofollow noreferrer" target="_blank">dba-armoires.fr</a><br>Aide aux campagnes marketing multicanales <span class="title">emailing, publipostage</span><br>Conception de supports de communication<br>Contribution au référencement du site Internet',
         images: [],
       },
       {
         date: '2020-2022',
         title: 'Armoire Plus',
-        detail: 'Amélioration de la charte graphique de la marque<br>Aide au développement du site Internet <a href="https://www.armoireplus.fr" class="title" rel="nofollow noreferrer" target="_blank">armoireplus.fr</a>',
-        images: [],
-      },
-      {
-        date: '2022',
-        title: 'Brigade Hocaré',
-        detail: 'Conception de la charte graphique de la marque',
+        detail: 'Amélioration de la charte graphique de la marque<br>Aide au développement du site Internet <a href="https://www.armoireplus.fr" class="title" rel="nofollow noreferrer" target="_blank">armoireplus.fr</a><br>Assistance à l\'intégration de modules tiers dans le site<br>Développement de modules spécifiques pour améliorer le suivi client<br>Contribution au référencement du site Internet',
         images: [],
       },
       {
         date: '2022-2024',
         title: 'Foxyz',
-        detail: 'Aide au développement de l\'ERP <span class="title">Foxyz</span><br>Refonte du site Internet <a href="https://foxyz.fr" class="title" rel="nofollow noreferrer" target="_blank">foxyz.fr</a>',
+        detail: 'Contribution au développement de l\'ERP <span class="title">Foxyz</span><br>Intégration de services API tiers comme <span class="title">Microsoft Graph, API Gmail, Bridge API, SMS Factor</span><br>Mise à niveau de l\'export PDF des factures sur <span class="title">la norme FacturX</span><br>Refonte du site Internet <a href="https://foxyz.fr" class="title" rel="nofollow noreferrer" target="_blank">foxyz.fr</a><br>Encadrement et accompagnement d\'étudiants en alternance',
         images: [],
       },
     ],
