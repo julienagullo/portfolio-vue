@@ -181,24 +181,40 @@
           <div class="col-12 project-carousel">
             <div id="carouselProject" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselProject" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Armoire Plus"></button>
-                <button type="button" data-bs-target="#carouselProject" data-bs-slide-to="1" aria-label="Méca Jet d'Eau"></button>
-                <button type="button" data-bs-target="#carouselProject" data-bs-slide-to="2" aria-label="Toul-Immo Rénovation"></button>
-                <button type="button" data-bs-target="#carouselProject" data-bs-slide-to="3" aria-label="TextBeans"></button>
-                <button type="button" data-bs-target="#carouselProject" data-bs-slide-to="4" aria-label="Topwings"></button>
-                <button type="button" data-bs-target="#carouselProject" data-bs-slide-to="5" aria-label="JUICE"></button>
-                <button type="button" data-bs-target="#carouselProject" data-bs-slide-to="6" aria-label="U-TEST"></button>
+                <button type="button" data-bs-target="#carouselProject" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Foxyz"></button>
+                <button type="button" data-bs-target="#carouselProject" data-bs-slide-to="1" aria-label="Armoire Plus"></button>
+                <button type="button" data-bs-target="#carouselProject" data-bs-slide-to="2" aria-label="Méca Jet d'Eau"></button>
+                <button type="button" data-bs-target="#carouselProject" data-bs-slide-to="3" aria-label="Toul-Immo Rénovation"></button>
+                <button type="button" data-bs-target="#carouselProject" data-bs-slide-to="4" aria-label="TextBeans"></button>
+                <button type="button" data-bs-target="#carouselProject" data-bs-slide-to="5" aria-label="Topwings"></button>
+                <button type="button" data-bs-target="#carouselProject" data-bs-slide-to="6" aria-label="JUICE"></button>
+                <button type="button" data-bs-target="#carouselProject" data-bs-slide-to="7" aria-label="U-TEST"></button>
               </div>
               <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="10000">
                   <picture>
                     <img
-                      src="~@/assets/img/interface-armoireplus_mob.jpg"
-                      srcset="~@/assets/img/interface-armoireplus_mob.jpg 480w, ~@/assets/img/interface-armoireplus.jpg 960w"
+                      src="~@/assets/img/interface-foxyz_mob.jpg"
+                      srcset="~@/assets/img/interface-foxyz_mob.jpg 480w, ~@/assets/img/interface-foxyz.jpg 960w"
                       sizes="(max-width: 767px) 480px, 960px"
                       width="480" height="300"
                       class="d-block w-100"
-                      alt="Création de boutique e-commerce sur Pau avec WordPress et Woocommerce">
+                      alt="Développement de logiciel full web en PHP et JavaScript">
+                  </picture>
+                  <div class="carousel-caption">
+                    <h3>Aide au développement de l'ERP et refonte du site Internet foxyz.fr</h3>
+                    <p>Copyright : Foxyz</p>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="10000">
+                  <picture>
+                    <img
+                        src="~@/assets/img/interface-armoireplus_mob.jpg"
+                        srcset="~@/assets/img/interface-armoireplus_mob.jpg 480w, ~@/assets/img/interface-armoireplus.jpg 960w"
+                        sizes="(max-width: 767px) 480px, 960px"
+                        width="480" height="300"
+                        class="d-block w-100"
+                        alt="Création de boutique e-commerce sur Pau avec WordPress et Woocommerce">
                   </picture>
                   <div class="carousel-caption">
                     <h3>Amélioration de la charte graphique et des fonctionnalités du site armoireplus.fr</h3>
@@ -213,10 +229,10 @@
                       sizes="(max-width: 767px) 480px, 960px"
                       width="480" height="300"
                       class="d-block w-100"
-                      alt="Développeur sur Pau spécialisé en WordPress et Vuejs">
+                      alt="Développeur sur Pau spécialisé en WordPress et Symfony">
                   </picture>
                   <div class="carousel-caption">
-                    <h3>Conception et référencement du site Internet vitrine multilingue mecajetdeau.com</h3>
+                    <h3>Conception et référencement du site Internet vitrine mecajetdeau.com</h3>
                     <p>Copyright : Méca Jet d'Eau | Design : Gabriel Uribe</p>
                   </div>
                 </div>
@@ -228,10 +244,10 @@
                       sizes="(max-width: 767px) 480px, 960px"
                       width="480" height="300"
                       class="d-block w-100"
-                      alt="Développeur freelance et webmaster sur Pau en création de site Internet de qualité">
+                      alt="Développeur freelance sur Pau pour la création de site Internet de qualité">
                   </picture>
                   <div class="carousel-caption">
-                    <h3>Création de la charte graphique de l'entreprise et du site toulimmo-renovation.fr</h3>
+                    <h3>Création de la charte graphique et du site toulimmo-renovation.fr</h3>
                     <p>Copyright : Toul-Immo Réalisation</p>
                   </div>
                 </div>
@@ -243,10 +259,10 @@
                       sizes="(max-width: 767px) 480px, 960px"
                       width="480" height="300"
                       class="d-block w-100"
-                      alt="Webmaster freelance pour de l'intégration CSS et du développement web sur Tarbes">
+                      alt="Webmaster freelance pour du développement web sur Tarbes">
                   </picture>
                   <div class="carousel-caption">
-                    <h3>Intégration LESS/CSS de la maquette et optimisation de la plateforme TextBeans</h3>
+                    <h3>Intégration LESS/CSS et optimisation de la plateforme TextBeans</h3>
                     <p>Copyright : Lingocentric | Design : Gabriel Uribe</p>
                   </div>
                 </div>
@@ -258,10 +274,10 @@
                       sizes="(max-width: 767px) 480px, 960px"
                       width="480" height="270"
                       class="d-block w-100"
-                      alt="Développeur freelance sur Pau et Tarbes pour application mobile">
+                      alt="Développeur freelance sur Pau et Tarbes pour application web">
                   </picture>
                   <div class="carousel-caption">
-                    <h3>Conception graphique et développement du menu radial de l'application Topwings</h3>
+                    <h3>Conception graphique et aide au développement de l'application de salon Topwings</h3>
                     <p>Copyright : Virtual-IT | Client : Thales Aerospace</p>
                   </div>
                 </div>
@@ -273,7 +289,7 @@
                       sizes="(max-width: 767px) 480px, 960px"
                       width="480" height="300"
                       class="d-block w-100"
-                      alt="Conception d'interface graphique pour le web et mobile">
+                      alt="Conception d'interface graphique pour web et mobile">
                   </picture>
                   <div class="carousel-caption">
                     <h3>Réalisation graphique et développement du magazine interactif pour la mission JUICE</h3>

@@ -214,7 +214,7 @@ export default {
       {
         date: '2021-2022',
         title: 'Brigade Hocaré',
-        detail: 'Réalisation de la charte graphique de la marque<br>Conception de la maquette graphique du site Internet',
+        detail: 'Réalisation de la charte graphique de la marque<br>Conception de la maquette graphique du site Internet<br>Suivi projet du développement du site Internet',
         images: [],
       },
       {
