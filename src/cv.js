@@ -232,7 +232,7 @@ export default {
       {
         date: '2022-2024',
         title: 'Foxyz',
-        detail: 'Contribution au développement de l\'ERP <span class="title">Foxyz</span><br>Intégration de services API tiers comme <span class="title">Microsoft Graph, API Gmail, Bridge API, SMS Factor</span><br>Mise à niveau de l\'export PDF des factures sur <span class="title">la norme FacturX</span><br>Refonte du site Internet <a href="https://foxyz.fr" class="title" rel="nofollow noreferrer" target="_blank">foxyz.fr</a><br>Encadrement et accompagnement d\'étudiants en alternance',
+        detail: 'Contribution au développement de l\'ERP <span class="title">Foxyz</span><br>Intégration d\'API tiers <span class="title">Microsoft Graph, API Gmail, Bridge API, SMS Factor</span><br>Mise à niveau de l\'export PDF des factures avec <span class="title">la norme FacturX</span><br>Refonte du site Internet <a href="https://foxyz.fr" class="title" rel="nofollow noreferrer" target="_blank">foxyz.fr</a><br>Encadrement et accompagnement d\'étudiants en alternance',
         images: [],
       },
     ],
