@@ -77,7 +77,7 @@ export default {
       {
         date: '2010',
         title: 'EDF R&D',
-        detail: 'Réalisation de documentaires vidéos sur le pôle R&D<br>Conception d\'animations vectorielles sur le compteur <span class="title"> Linky</span>',
+        detail: 'Réalisation de documentaires vidéos sur le pôle R&D<br>Conception d\'animations vectorielles expliquant <span class="title">le compteur Linky</span>',
         images: [],
       },
       {
@@ -113,7 +113,7 @@ export default {
       {
         date: '2014',
         title: 'ERDF',
-        detail: 'Création d\'animations vectorielles sur <span class="title">le réseau de distribution ERDF</span>',
+        detail: 'Création d\'animations vectorielles expliquant <span class="title">le réseau de distribution ERDF</span>',
         images: [],
       },
       {
@@ -220,7 +220,7 @@ export default {
       {
         date: '2020-2022',
         title: 'DBA Armoires',
-        detail: 'Amélioration de la charte graphique de la marque<br>Refonte du site Internet <a href="https://www.dba-armoires.fr" class="title" rel="nofollow noreferrer" target="_blank">dba-armoires.fr</a><br>Aide aux campagnes marketing multicanales <span class="title">emailing, publipostage</span><br>Conception de supports de communication<br>Contribution au référencement du site Internet',
+        detail: 'Amélioration de la charte graphique de la marque<br>Refonte du site Internet <a href="https://www.dba-armoires.fr" class="title" rel="nofollow noreferrer" target="_blank">dba-armoires.fr</a><br>Aide aux campagnes marketing multicanales emailing, publipostage<br>Conception de supports de communication<br>Contribution au référencement du site Internet',
         images: [],
       },
       {
@@ -230,9 +230,9 @@ export default {
         images: [],
       },
       {
-        date: '2022-2024',
+        date: '2022-2025',
         title: 'Foxyz',
-        detail: 'Contribution au développement de l\'ERP <span class="title">Foxyz</span><br>Intégration d\'API tiers <span class="title">Microsoft Graph, API Gmail, Bridge API, SMS Factor</span><br>Mise à niveau de l\'export PDF des factures avec <span class="title">la norme FacturX</span><br>Refonte du site Internet <a href="https://foxyz.fr" class="title" rel="nofollow noreferrer" target="_blank">foxyz.fr</a><br>Encadrement et accompagnement d\'étudiants en alternance',
+        detail: 'Contribution au développement de l\'ERP Foxyz<br>Intégration d\'API tiers <span class="title">Microsoft Graph, API Gmail, Yousign, Bridge API, SMS Factor</span><br>Mise à niveau de l\'export PDF des factures avec la norme FacturX<br>Mise en place d\'une pateforme de déploiement des mises à jour<br>Encadrement et accompagnement d\'étudiants en alternance<br>Refonte du site Internet <a href="https://foxyz.fr" class="title" rel="nofollow noreferrer" target="_blank">foxyz.fr</a><br>',
         images: [],
       },
     ],
