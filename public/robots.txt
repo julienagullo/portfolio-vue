@@ -1,6 +1,8 @@
 User-agent: *
 Allow: /
 Allow: /blog/
+Disallow: /img/
+Disallow: /static/cv-jagullo-2025.pdf
 
 Sitemap: https://jagullo.fr/sitemap.xml
 Sitemap: https://jagullo.fr/blog/sitemap_index.xml

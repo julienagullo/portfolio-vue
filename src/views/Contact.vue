@@ -114,7 +114,7 @@
           <div class="accordion-body">
             <p>
               Le site et le nom de domaine <b>jagullo.fr</b> sont la propriété de :<br><br>
-              Mr <img src="~@/assets/img/photo-title.png" width="115" height="70" class="img-title"> Agullo<br>
+              <img src="~@/assets/img/photo-title.png" width="350" height="70" class="img-title"><br>
               <span class="personal"></span>
               <button type="button" @click="showInfo" class="btn btn-primary show-info">Voir les informations</button><br>
               <span>
@@ -180,8 +180,8 @@ export default {
         Carré Plein Centre<br>
         2 place au Bois, 65000 Tarbes<br>
         Siret : 52981304000043<br>
-        Tél. : 07.52.63.77.22<br>
-        Email : contact@jagullo.fr`
+        Tél. : +337.52.63.77.22<br>
+        Email : contact [at] jagullo.fr`
       document.querySelector('.personal').insertAdjacentHTML('beforeend', contact)
       document.querySelector('.show-info').remove()
     },
@@ -365,7 +365,7 @@ export default {
   section.mention {
     .accordion-item {
       .img-title {
-        width: 33px;
+        width: 130px;
         height: auto;
         padding-top: 2px;
         image-rendering: high-quality;
