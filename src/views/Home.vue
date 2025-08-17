@@ -239,21 +239,6 @@
                 <div class="carousel-item" data-bs-interval="10000">
                   <picture>
                     <img
-                      src="~@/assets/img/interface-toulimmo_mob.jpg"
-                      srcset="~@/assets/img/interface-toulimmo_mob.jpg 480w, ~@/assets/img/interface-toulimmo.jpg 960w"
-                      sizes="(max-width: 767px) 480px, 960px"
-                      width="480" height="300"
-                      class="d-block w-100"
-                      alt="Développeur freelance sur Pau pour la création de site Internet de qualité">
-                  </picture>
-                  <div class="carousel-caption">
-                    <h3>Création de la charte graphique et du site toulimmo-renovation.fr</h3>
-                    <p>Copyright : Toul-Immo Réalisation</p>
-                  </div>
-                </div>
-                <div class="carousel-item" data-bs-interval="10000">
-                  <picture>
-                    <img
                       src="~@/assets/img/interface-textbeans_mob.jpg"
                       srcset="~@/assets/img/interface-textbeans_mob.jpg 480w, ~@/assets/img/interface-textbeans.jpg 960w"
                       sizes="(max-width: 767px) 480px, 960px"
