@@ -129,15 +129,9 @@ export default {
         images: [],
       },
       {
-        date: '2015',
+        date: '2015-2016',
         title: 'Toul Immo Réalisation',
-        detail: 'Réalisation de la charte graphique de l\'entreprise<br>Conception du site Internet <a href="https://www.toulimmo-realisation.fr" class="title" rel="nofollow noreferrer" target="_blank">toulimmo-realisation.fr</a>',
-        images: [],
-      },
-      {
-        date: '2016',
-        title: 'Toul Immo Rénovation',
-        detail: 'Création de supports de communication<br>Conception du site Internet <a href="https://www.toulimmo-renovation.fr" class="title" rel="nofollow noreferrer" target="_blank">toulimmo-renovation.fr</a>',
+        detail: 'Réalisation de la charte graphique de l\'entreprise<br>Création de supports de communication<br>Conception du site Internet <a href="https://www.toulimmo-realisation.fr" class="title" rel="nofollow noreferrer" target="_blank">toulimmo-realisation.fr</a>',
         images: [],
       },
       {
@@ -189,8 +183,8 @@ export default {
       },
       {
         date: '2019',
-        title: 'Angle Droit Avocats',
-        detail: 'Intégration graphique pour un site vitrine',
+        title: 'Euré-k',
+        detail: 'Intégration graphique pour un site vitrine d\'Angle Droit Avocats',
         images: [],
       },
       {
@@ -220,19 +214,19 @@ export default {
       {
         date: '2020-2022',
         title: 'DBA Armoires',
-        detail: 'Amélioration de la charte graphique de la marque<br>Refonte du site Internet <a href="https://www.dba-armoires.fr" class="title" rel="nofollow noreferrer" target="_blank">dba-armoires.fr</a><br>Aide aux campagnes marketing multicanales emailing, publipostage<br>Conception de supports de communication<br>Contribution au référencement du site Internet',
+        detail: 'Amélioration de la charte graphique de la marque<br>Aide aux campagnes marketing multicanales emailing, publipostage et supports de communication<br>Développement et suivi référencement du site Internet <a href="https://www.dba-armoires.fr" class="title" rel="nofollow noreferrer" target="_blank">dba-armoires.fr</a>',
         images: [],
       },
       {
         date: '2020-2022',
         title: 'Armoire Plus',
-        detail: 'Amélioration de la charte graphique de la marque<br>Aide au développement du site Internet <a href="https://www.armoireplus.fr" class="title" rel="nofollow noreferrer" target="_blank">armoireplus.fr</a><br>Assistance à l\'intégration de modules tiers dans le site<br>Développement de modules spécifiques pour améliorer le suivi client<br>Contribution au référencement du site Internet',
+        detail: 'Amélioration de la charte graphique de la marque<br>Développement et intégration de plugins Wordpress et Woocommerce<br>Développement et suivi référencement du site Internet <a href="https://www.armoireplus.fr" class="title" rel="nofollow noreferrer" target="_blank">armoireplus.fr</a>',
         images: [],
       },
       {
         date: '2022-2025',
         title: 'Foxyz',
-        detail: 'Contribution au développement de l\'ERP Foxyz<br>Intégration d\'API tiers <span class="title">Microsoft Graph, API Gmail, Yousign, Bridge API, SMS Factor</span><br>Mise à niveau de l\'export PDF des factures avec la norme FacturX<br>Mise en place d\'une pateforme de déploiement des mises à jour<br>Encadrement et accompagnement d\'étudiants en alternance<br>Refonte du site Internet <a href="https://foxyz.fr" class="title" rel="nofollow noreferrer" target="_blank">foxyz.fr</a><br>',
+        detail: 'Aide au développement de l\'ERP (boîte mail, virement bancaire, support facturX, mises à jour, etc.)<br>Intégration d\'API tiers <span class="title">Microsoft Graph, API Gmail, Yousign, Bridge API, SMS Factor</span><br>Encadrement et accompagnement d\'étudiants en alternance<br>Refonte et référencement du site Internet <a href="https://foxyz.fr" class="title" rel="nofollow noreferrer" target="_blank">foxyz.fr</a><br>',
         images: [],
       },
     ],
