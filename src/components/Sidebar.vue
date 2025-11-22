@@ -16,35 +16,25 @@
       </p>
       <h2>Compétences</h2>
       <p class="border-orange">
-        Gestion projet <span class="attr">[5/5]</span><br>
-        Développement <span class="attr">[4/5]</span><br>
-        Optimisation SEO <span class="attr">[4/5]</span><br>
-        Design <span class="attr">[4/5]</span><br>
-        Rédaction <span class="attr">[3,5/5]</span><br>
-        Veille stratégique <span class="attr">[3/5]</span>
+        Gestion projet <span class="attr red">*****</span><br>
+        Développement <span class="attr orange">****</span><br>
+        Optimisation SEO <span class="attr orange">****</span><br>
+        Design <span class="attr blue">***</span><br>
+        Rédaction <span class="attr blue">***</span><br>
+        Veille stratégique <span class="attr green">**</span>
       </p>
       <h2>Connaissances</h2>
       <p class="border-red">
-        <span class="title">Outils</span><br>
-        PhpStorm, VS Code, Postman, phpMyAdmin<br>
-        Apache, IIS, Node.js, Composer, Npm<br>
-        Git, GitKraken, GitHub, Subversion, SSH<br>
-        WordPress, WooCommerce, PrestaShop<br>
-        Screaming Frog, Ubersuggest, Yourtext.guru<br>
-        Adobe Photoshop, Illustrator, InDesign<br>
-        Affinity Photo, Designer, Publisher<br>
-        Google Analytics, Search Console, Lighthouse<br>
-        Microsoft Word, Excel, Graph API
+        <span class="title">Langages</span><br>
+        PHP, JS, MySQL/MariaDB, Sass/Less
       </p>
       <p class="border-red">
-        <span class="title">Langages</span><br>
-        PHP, JavaScript, MySQL, MariaDB<br>
-        CSS, LESS/SCSS, HTML, Schema.org<br>
-        Framework : Symfony, Bootstrap, Vue.js, jQuery
+        <span class="title">Framework</span><br>
+        Symfony, Angular, Vue, jQuery, Bootstrap
       </p>
       <p class="border-red">
         <span class="title">Langue vivante</span><br>
-        Anglais élémentaire et technique
+        Anglais technique
       </p>
       <h2>Centres d'intérêt</h2>
       <p class="border-blue">
@@ -53,7 +43,7 @@
       </p>
       <p class="border-blue">
         <span class="title">Technologie</span><br>
-        Informatique, Information & Communication
+        Informatique, SFX, Communication
       </p>
       <p class="border-blue">
         <span class="title">Sport</span><br>
@@ -64,7 +54,7 @@
          rel="nofollow noreferrer"
          target="_blank"
          class="btn btn-primary btn-cv"
-         title="Télécharger le CV en PDF">CV PDF</a>
+         title="Télécharger mon CV PDF">CV PDF</a>
     </div>
   </div>
 </template>
@@ -212,7 +202,18 @@ export default {
       }
       .attr {
         font-size: 1.3rem;
-        color: $color-gray;
+        &.green {
+          color: $color-green;
+        }
+        &.blue {
+          color: $color-blue;
+        }
+        &.orange {
+          color: $color-orange;
+        }
+        &.red {
+          color: $color-red;
+        }
       }
     }
     .btn {

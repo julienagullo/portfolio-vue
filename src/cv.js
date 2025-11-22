@@ -226,7 +226,7 @@ export default {
       {
         date: '2022-2025',
         title: 'Foxyz',
-        detail: 'Aide au développement de l\'ERP (boîte mail, virement bancaire, support facturX, mises à jour, etc.)<br>Intégration d\'API tiers <span class="title">Microsoft Graph, API Gmail, Yousign, Bridge API, SMS Factor</span><br>Encadrement et accompagnement d\'étudiants en alternance<br>Refonte et référencement du site Internet <a href="https://foxyz.fr" class="title" rel="nofollow noreferrer" target="_blank">foxyz.fr</a><br>',
+        detail: 'Aide au développement de l\'ERP <span class="title">Foxyz</span> (facturX, mise à jour, infrastucture, etc.)<br>Intégration d\'API tiers <span class="title">Microsoft Graph, API Gmail, Yousign, Bridge API, SMS Factor</span><br>Mise en place d\'une plateforme de support (suivi prestations, GED, notes de mise à jour, etc.)<br>Création de la documentation technique et de guides<br>Encadrement et accompagnement d\'étudiants en alternance<br>Refonte et référencement du site Internet <a href="https://foxyz.fr" class="title" rel="nofollow noreferrer" target="_blank">foxyz.fr</a><br>',
         images: [],
       },
     ],
