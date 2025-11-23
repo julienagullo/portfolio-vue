@@ -1,6 +1,6 @@
 <template>
   <div id="home" class="content">
-    <h1>Webmaster et développeur web sur Pau et Tarbes</h1>
+    <h1>Web Manager et Webmaster sur Pau et Tarbes</h1>
     <hr class="hr-gray" />
     <section class="intro">
       <div class="container-fluid">
@@ -122,15 +122,6 @@
           </div>
         </div>
         <div class="row techno-content" itemscope itemtype="http://schema.org/OfferCatalog">
-          <h3 itemprop="name"><i class="bi bi-brush"></i> Graphisme</h3>
-          <Techno name="Adobe Photoshop" logo="logo-adobe_photoshop.png" desc="Logiciel de retouche d'images et de conception graphique" />
-          <Techno name="Adobe Illustrator" logo="logo-adobe_illustrator.png" desc="Logiciel d'édition graphique pour un rendu vectoriel" />
-          <Techno name="Adobe Animate" logo="logo-adobe_animate.png" desc="Logiciel d'animation vectorielle pour le web et la vidéo" />
-          <Techno name="Affinity Photo" logo="logo-affinity_photo.png" desc="Logiciel de retouche d'images et de conception graphique" />
-          <Techno name="Affinity Designer" logo="logo-affinity_designer.png" desc="Logiciel d'édition graphique pour un rendu vectoriel" />
-          <Techno name="Affinity Publisher" logo="logo-affinity_publisher.png" desc="Logiciel de publication pour l'impression et les documents PDF" />
-        </div>
-        <div class="row techno-content" itemscope itemtype="http://schema.org/OfferCatalog">
           <h3 itemprop="name"><i class="bi bi-window"></i> Développement</h3>
           <Techno name="PhpStorm" logo="logo-phpstorm.png" desc="Logiciel ou IDE de programmation dédié aux langages du web" />
           <Techno name="PHP" logo="logo-php.png" desc="Langage de programmation côté serveur pour application, site et api" />
@@ -150,6 +141,15 @@
           <Techno name="Git" logo="logo-git.png" desc="Logiciel de versioning pour le travail collaboratif" />
           <Techno name="Svn" logo="logo-svn.png" desc="Logiciel de gestion de version pour le travail en équipe" />
           <Techno name="Postman" logo="logo-postman.png" desc="Logiciel pour aider les développeurs dans la mise en place d'api" />
+        </div>
+        <div class="row techno-content" itemscope itemtype="http://schema.org/OfferCatalog">
+          <h3 itemprop="name"><i class="bi bi-brush"></i> Graphisme</h3>
+          <Techno name="Adobe Photoshop" logo="logo-adobe_photoshop.png" desc="Logiciel de retouche d'images et de conception graphique" />
+          <Techno name="Adobe Illustrator" logo="logo-adobe_illustrator.png" desc="Logiciel d'édition graphique pour un rendu vectoriel" />
+          <Techno name="Adobe Animate" logo="logo-adobe_animate.png" desc="Logiciel d'animation vectorielle pour le web et la vidéo" />
+          <Techno name="Affinity Photo" logo="logo-affinity_photo.png" desc="Logiciel de retouche d'images et de conception graphique" />
+          <Techno name="Affinity Designer" logo="logo-affinity_designer.png" desc="Logiciel d'édition graphique pour un rendu vectoriel" />
+          <Techno name="Affinity Publisher" logo="logo-affinity_publisher.png" desc="Logiciel de publication pour l'impression et les documents PDF" />
         </div>
         <div class="row techno-content" itemscope itemtype="http://schema.org/OfferCatalog">
           <h3 itemprop="name"><i class="bi bi-globe"></i> Référencement / marketing</h3>
@@ -181,10 +181,10 @@
           <div class="col-12 project-carousel">
             <div id="carouselProject" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselProject" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Foxyz"></button>
-                <button type="button" data-bs-target="#carouselProject" data-bs-slide-to="1" aria-label="Armoire Plus"></button>
-                <button type="button" data-bs-target="#carouselProject" data-bs-slide-to="2" aria-label="Méca Jet d'Eau"></button>
-                <button type="button" data-bs-target="#carouselProject" data-bs-slide-to="3" aria-label="Toul-Immo Rénovation"></button>
+                <button type="button" data-bs-target="#carouselProject" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Toul Immo Réalisation"></button>
+                <button type="button" data-bs-target="#carouselProject" data-bs-slide-to="1" aria-label="Foxyz"></button>
+                <button type="button" data-bs-target="#carouselProject" data-bs-slide-to="2" aria-label="Armoire Plus"></button>
+                <button type="button" data-bs-target="#carouselProject" data-bs-slide-to="3" aria-label="Méca Jet d'Eau"></button>
                 <button type="button" data-bs-target="#carouselProject" data-bs-slide-to="4" aria-label="TextBeans"></button>
                 <button type="button" data-bs-target="#carouselProject" data-bs-slide-to="5" aria-label="Topwings"></button>
                 <button type="button" data-bs-target="#carouselProject" data-bs-slide-to="6" aria-label="JUICE"></button>
@@ -194,12 +194,27 @@
                 <div class="carousel-item active" data-bs-interval="10000">
                   <picture>
                     <img
-                      src="~@/assets/img/interface-foxyz_mob.jpg"
-                      srcset="~@/assets/img/interface-foxyz_mob.jpg 480w, ~@/assets/img/interface-foxyz.jpg 960w"
+                      src="~@/assets/img/interface-toulimmo_mob.jpg"
+                      srcset="~@/assets/img/interface-toulimmo_mob.jpg 480w, ~@/assets/img/interface-toulimmo.jpg 960w"
                       sizes="(max-width: 767px) 480px, 960px"
                       width="480" height="300"
                       class="d-block w-100"
-                      alt="Développement de logiciel full web en PHP et JavaScript">
+                      alt="Refonte du site Internet Toul-Immo Réalisation">
+                  </picture>
+                  <div class="carousel-caption">
+                    <h3>Refonte du site Internet toulimmo-realisation.fr</h3>
+                    <p>Copyright : Toul-Immo Réalisation</p>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="10000">
+                  <picture>
+                    <img
+                        src="~@/assets/img/interface-foxyz_mob.jpg"
+                        srcset="~@/assets/img/interface-foxyz_mob.jpg 480w, ~@/assets/img/interface-foxyz.jpg 960w"
+                        sizes="(max-width: 767px) 480px, 960px"
+                        width="480" height="300"
+                        class="d-block w-100"
+                        alt="Développement de logiciel full web en PHP et JavaScript">
                   </picture>
                   <div class="carousel-caption">
                     <h3>Aide au développement de l'ERP et refonte du site Internet foxyz.fr</h3>

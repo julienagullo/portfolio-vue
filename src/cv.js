@@ -130,8 +130,8 @@ export default {
       },
       {
         date: '2015-2016',
-        title: 'Toul Immo Réalisation',
-        detail: 'Réalisation de la charte graphique de l\'entreprise<br>Création de supports de communication<br>Conception du site Internet <a href="https://www.toulimmo-realisation.fr" class="title" rel="nofollow noreferrer" target="_blank">toulimmo-realisation.fr</a>',
+        title: 'Toul-Immo Rénovation',
+        detail: 'Réalisation de la charte graphique de la marque<br>Création de supports de communication<br>Création du site Internet <span class="title">toulimmo-renovation.fr</a>',
         images: [],
       },
       {
@@ -214,19 +214,25 @@ export default {
       {
         date: '2020-2022',
         title: 'DBA Armoires',
-        detail: 'Amélioration de la charte graphique de la marque<br>Aide aux campagnes marketing multicanales emailing, publipostage et supports de communication<br>Développement et suivi référencement du site Internet <a href="https://www.dba-armoires.fr" class="title" rel="nofollow noreferrer" target="_blank">dba-armoires.fr</a>',
+        detail: 'Amélioration de la charte graphique de la marque<br>Aide aux campagnes marketing multicanales emailing, publipostage et supports de communication<br>Refonte du site Internet sous WooCommerce <a href="https://www.dba-armoires.fr" class="title" rel="nofollow noreferrer" target="_blank">dba-armoires.fr</a>',
         images: [],
       },
       {
         date: '2020-2022',
         title: 'Armoire Plus',
-        detail: 'Amélioration de la charte graphique de la marque<br>Développement et intégration de plugins Wordpress et Woocommerce<br>Développement et suivi référencement du site Internet <a href="https://www.armoireplus.fr" class="title" rel="nofollow noreferrer" target="_blank">armoireplus.fr</a>',
+        detail: 'Amélioration de la charte graphique de la marque<br>Intégration de plugins WordPress et WooCommerce<br>Aide au développement du site Internet <a href="https://www.armoireplus.fr" class="title" rel="nofollow noreferrer" target="_blank">armoireplus.fr</a>',
         images: [],
       },
       {
         date: '2022-2025',
         title: 'Foxyz',
-        detail: 'Aide au développement de l\'ERP <span class="title">Foxyz</span> (facturX, mise à jour, infrastucture, etc.)<br>Intégration d\'API tiers <span class="title">Microsoft Graph, API Gmail, Yousign, Bridge API, SMS Factor</span><br>Mise en place d\'une plateforme de support (suivi prestations, GED, notes de mise à jour, etc.)<br>Création de la documentation technique et de guides<br>Encadrement et accompagnement d\'étudiants en alternance<br>Refonte et référencement du site Internet <a href="https://foxyz.fr" class="title" rel="nofollow noreferrer" target="_blank">foxyz.fr</a><br>',
+        detail: 'Aide au développement de l\'ERP <span class="title">Foxyz</span> (facturX, maj, plateforme de support, infrastucture, etc.)<br>Intégration d\'API tiers <span class="title">Microsoft Graph, API Gmail, Yousign, Bridge API, SMS Factor</span><br>Rédaction de la documentation technique et de guides<br>Encadrement et accompagnement d\'étudiants en alternance<br>Refonte et référencement du site Internet <a href="https://foxyz.fr" class="title" rel="nofollow noreferrer" target="_blank">foxyz.fr</a><br>',
+        images: [],
+      },
+      {
+        date: '2025',
+        title: 'Toul-Immo Réalisation',
+        detail: 'Refonte du site Internet <a href="https://www.toulimmo-realisation.fr" class="title" rel="nofollow noreferrer" target="_blank">toulimmo-realisation.fr</a>',
         images: [],
       },
     ],

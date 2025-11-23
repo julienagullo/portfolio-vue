@@ -9,7 +9,7 @@
       </div>
     </div>
     <div class="sidebar-content">
-      <h2>Informations</h2>
+      <h2>Web Manager</h2>
       <p class="border-blue">
         <img src="~@/assets/img/photo-sidebar.png" width="280" height="70" class="img-title"><br>
         contact [at] jagullo.fr
@@ -19,9 +19,9 @@
         Gestion projet <span class="attr red">*****</span><br>
         Développement <span class="attr orange">****</span><br>
         Optimisation SEO <span class="attr orange">****</span><br>
-        Design <span class="attr blue">***</span><br>
+        Design UX/UI <span class="attr blue">***</span><br>
         Rédaction <span class="attr blue">***</span><br>
-        Veille stratégique <span class="attr green">**</span>
+        Infrastructure <span class="attr green">**</span>
       </p>
       <h2>Connaissances</h2>
       <p class="border-red">
@@ -31,6 +31,14 @@
       <p class="border-red">
         <span class="title">Framework</span><br>
         Symfony, Angular, Vue, jQuery, Bootstrap
+      </p>
+      <p class="border-red">
+        <span class="title">Système</span><br>
+        WordPress, WooCommerce, Git, GitHub
+      </p>
+      <p class="border-red">
+        <span class="title">Infrastructure</span><br>
+        Linux/Apache, Windows/IIS
       </p>
       <p class="border-red">
         <span class="title">Langue vivante</span><br>
@@ -43,7 +51,7 @@
       </p>
       <p class="border-blue">
         <span class="title">Technologie</span><br>
-        Informatique, SFX, Communication
+        Informatique, Programmation, SFX
       </p>
       <p class="border-blue">
         <span class="title">Sport</span><br>
