@@ -26,19 +26,23 @@
       <h2>Connaissances</h2>
       <p class="border-red">
         <span class="title">Langages</span><br>
-        PHP, JS, MySQL/MariaDB, Sass/Less
+        PHP, JavaScript, SQL, CSS, Sass/Less
       </p>
       <p class="border-red">
-        <span class="title">Framework</span><br>
+        <span class="title">Frameworks</span><br>
         Symfony, Angular, Vue, jQuery, Bootstrap
       </p>
       <p class="border-red">
-        <span class="title">Système</span><br>
-        WordPress, WooCommerce, Git, GitHub
+        <span class="title">CMS</span><br>
+        WordPress, WooCommerce
       </p>
       <p class="border-red">
-        <span class="title">Infrastructure</span><br>
-        Linux/Apache, Windows/IIS
+        <span class="title">Outils</span><br>
+        Git, GitHub, Svn, Composer, Npm
+      </p>
+      <p class="border-red">
+        <span class="title">Systèmes</span><br>
+        Apache, IIS, Node, MySQL/MariaDB
       </p>
       <p class="border-red">
         <span class="title">Langue vivante</span><br>

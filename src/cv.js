@@ -32,17 +32,17 @@ export default {
     datas: [
       {
         date: '2007 - 2010',
-        title: 'Virtual-IT - Toulouse <span class="attr">[CDI]</span>',
+        title: 'Virtual-IT - Toulouse',
         detail: 'Chef de projet multimédia',
       },
       {
         date: '2019 - 2022',
-        title: 'DBA - Toulouse <span class="attr">[CDI]</span>',
+        title: 'DBA - Toulouse',
         detail: 'Développement web',
       },
       {
         date: '2022 - 2025',
-        title: 'Foxyz - Tarbes <span class="attr">[CDI]</span>',
+        title: 'Foxyz - Tarbes',
         detail: 'Développement web',
       },
       {
@@ -226,7 +226,7 @@ export default {
       {
         date: '2022-2025',
         title: 'Foxyz',
-        detail: 'Aide au développement de l\'ERP <span class="title">Foxyz</span> (facturX, maj, plateforme de support, infrastucture, etc.)<br>Intégration d\'API tiers <span class="title">Microsoft Graph, API Gmail, Yousign, Bridge API, SMS Factor</span><br>Rédaction de la documentation technique et de guides<br>Encadrement et accompagnement d\'étudiants en alternance<br>Refonte et référencement du site Internet <a href="https://foxyz.fr" class="title" rel="nofollow noreferrer" target="_blank">foxyz.fr</a><br>',
+        detail: 'Contribution au développement de l\'ERP <span class="title">Foxyz</span> (facturX, maj, support, infrastucture, etc.)<br>Intégration d\'API tiers <span class="title">Microsoft Graph, API Gmail, Yousign, Bridge API, SMS Factor</span><br>Rédaction de la documentation technique et de guides<br>Encadrement et accompagnement d\'étudiants en alternance<br>Refonte et référencement du site Internet <a href="https://foxyz.fr" class="title" rel="nofollow noreferrer" target="_blank">foxyz.fr</a><br>',
         images: [],
       },
       {

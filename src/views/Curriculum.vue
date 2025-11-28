@@ -84,10 +84,6 @@ export default {
         }
       }
       :deep(li) {
-        .attr {
-          font-size: 1.4rem;
-          color: $color-gray;
-        }
         a::after {
           content: '';
           display: inline-block;
