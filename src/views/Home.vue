@@ -137,9 +137,9 @@
           <Techno name="Bootstrap" logo="logo-bootstrap.png" desc="Framework CSS pour créer des interfaces HTML tout support" />
           <Techno name="MySql" logo="logo-mysql.png" desc="Serveur de bases de données pour gérer le contenu dynamique" />
           <Techno name="MariaDB" logo="logo-mariadb.png" desc="Serveur de bases de données pour gérer le contenu dynamique" />
-          <Techno name="Github" logo="logo-github.png" desc="Plateforme en ligne d'hébergement et de partage de code source" />
+          <Techno name="PhpMyAdmin" logo="logo-phpmyadmin.png" desc="Outil de gestion de bases de données MySQL et MariaDB" />
           <Techno name="Git" logo="logo-git.png" desc="Logiciel de versioning pour le travail collaboratif" />
-          <Techno name="Svn" logo="logo-svn.png" desc="Logiciel de gestion de version pour le travail en équipe" />
+          <Techno name="GitHub" logo="logo-github.png" desc="Plateforme collaborative d'hébergement de projet GIT" />
           <Techno name="Postman" logo="logo-postman.png" desc="Logiciel pour aider les développeurs dans la mise en place d'api" />
         </div>
         <div class="row techno-content" itemscope itemtype="http://schema.org/OfferCatalog">

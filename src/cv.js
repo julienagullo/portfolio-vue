@@ -41,12 +41,12 @@ export default {
         detail: 'Développement web',
       },
       {
-        date: '2022 - 2025',
+        date: '2022 - 2026',
         title: 'Foxyz - Tarbes',
         detail: 'Développement web',
       },
       {
-        date: '2011 - 2025',
+        date: '2011 - 2026',
         title: 'Microentreprise',
         detail: 'Développement web et programmation informatique',
       }
@@ -224,7 +224,7 @@ export default {
         images: [],
       },
       {
-        date: '2022-2025',
+        date: '2022-2026',
         title: 'Foxyz',
         detail: 'Contribution au développement de l\'ERP <span class="title">Foxyz</span> (facturX, maj, support, infrastucture, etc.)<br>Intégration d\'API tiers <span class="title">Microsoft Graph, API Gmail, Yousign, Bridge API, SMS Factor</span><br>Rédaction de la documentation technique et de guides<br>Encadrement et accompagnement d\'étudiants en alternance<br>Refonte et référencement du site Internet <a href="https://foxyz.fr" class="title" rel="nofollow noreferrer" target="_blank">foxyz.fr</a><br>',
         images: [],
