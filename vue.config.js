@@ -9,5 +9,6 @@ module.exports = {
         args[0].mode = process.env.NODE_ENV
         return args;
       })
+    config.module.rule('mjs').include.add(/node_modules/).end().type('javascript/auto')
   },
 }

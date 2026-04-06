@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar">
     <ul id="nav-list">
-      <li @click="$emit('toogle-sidebar')"><i class="bi bi-person-bounding-box"></i> <span>Profil</span></li>
+      <li @click="$emit('toggle-sidebar')"><i class="bi bi-person-bounding-box"></i> <span>Profil</span></li>
       <li @click="navigate($event)" data-name="Home"><i class="bi bi-house"></i> <span>Accueil</span></li>
       <li @click="navigate($event)" data-name="Curriculum"><i class="bi bi-ui-checks"></i> <span>Curriculum</span></li>
       <li @click="navigate($event)" data-name="Source"><i class="bi bi-code-slash"></i> <span>Sources</span></li>
@@ -22,7 +22,7 @@
 import anime from 'animejs/lib/anime.es.js'
 
 export default {
-  name: 'Navebar',
+  name: 'Navbar',
   mounted() {
     this.$router.isReady().then(() => {
       this.highlight(this.$route.name)

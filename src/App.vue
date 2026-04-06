@@ -20,7 +20,7 @@
     <template #acceptContent>Accepter</template>
   </vue-cookie-accept-decline>
   <div class="wrapper">
-    <Navbar ref="navbar" @toogle-sidebar="toogleSidebar" @toggle-darkmode="toogleDarkmode" />
+    <Navbar ref="navbar" @toggle-sidebar="toggleSidebar" @toggle-darkmode="toggleDarkmode" />
     <Sidebar ref="sidebar" @open-sidebar="sidebarIcon" />
     <router-view ref="content" @navbar-navigate="navigate" />
   </div>
@@ -50,7 +50,7 @@ export default {
       script.src = 'https://www.googletagmanager.com/gtag/js?id=G-JLQLPG8D93'
       document.head.append(script)
     },
-    toogleDarkmode() {
+    toggleDarkmode() {
       this.darkmode = !this.darkmode
       if (this.darkmode) {
         document.body.classList.add('dark')
@@ -58,8 +58,8 @@ export default {
         document.body.classList.remove('dark')
       }
     },
-    toogleSidebar() {
-      this.$refs.sidebar.toogle()
+    toggleSidebar() {
+      this.$refs.sidebar.toggle()
     },
     sidebarIcon(open) {
       this.$refs.navbar.sidebarIcon(open)

@@ -97,7 +97,7 @@ export default {
       document.getElementsByClassName('wrapper')[0].classList.remove('sidebar')
       this.$emit('open-sidebar', false)
     },
-    toogle() {
+    toggle() {
       this.open = !this.open
       const sidebar = document.getElementById('sidebar')
       const wrapper = document.getElementsByClassName('wrapper')[0]
