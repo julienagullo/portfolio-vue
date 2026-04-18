@@ -62,7 +62,7 @@
         Running, Fitness, Basket, Tennis
       </p>
       <h2>Téléchargement</h2>
-      <a href="/static/cv-jagullo-2025.pdf"
+      <a href="/static/cv-jagullo-2026.pdf"
          rel="nofollow noreferrer"
          target="_blank"
          class="btn btn-primary btn-cv"
