@@ -2,6 +2,11 @@
   <div id="source" class="content">
     <h1>Projets open source</h1>
     <hr class="hr-gray" />
+    <section class="project direct-llm">
+      <h2>Direct LLM</h2>
+      <p>Cadre de configuration de prompt pour réduire la verbosité et maximiser la densité d'information.</p>
+      <a href="https://github.com/julienagullo/direct-llm" target="_blank" class="btn btn-primary" title="Direct LLM sur Github"><i class="bi bi-github"></i> Voir le projet</a>
+    </section>
     <section class="project twig-request">
       <h2>Twig Request</h2>
       <img src="~@/assets/img/source-symfony.png" class="logo" width="100" height="25" alt="Symfony">
@@ -102,6 +107,12 @@ export default {
       }
       &:last-child {
         margin-left: 20px;
+      }
+    }
+    &.direct-llm {
+      background: #fafafa url('~@/assets/img/banner-directllm.jpg') no-repeat right center;
+      .btn {
+        margin-left: 0;
       }
     }
     &.portfolio-vue {
